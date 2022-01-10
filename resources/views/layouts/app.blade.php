@@ -123,35 +123,35 @@
 								<div class="col-4">
 									<ul>
 										<li>
-											<a href="#">About Us</a>
-											<a class="d-block underlineFooter ms-4">Overview</a>
-											<a class="d-block underlineFooter ms-4">Message</a>
-											<a class="d-block underlineFooter ms-4">Members</a>
-											<a class="d-block underlineFooter ms-4">Executive Team</a>
+											<a href="javascript:void(0)">About Us</a>
+											<a href="{{ route('about-us.overview') }}" class="d-block underlineFooter ms-4">Overview</a>
+											<a href="{{ route('about-us.message') }}" class="d-block underlineFooter ms-4">Message</a>
+											<a href="{{ route('about-us.member') }}" class="d-block underlineFooter ms-4">Members</a>
+											<a href="{{ route('about-us.team') }}" class="d-block underlineFooter ms-4">Executive Team</a>
 										</li>
-										<li><a href="#">Projects</a></li>
-										<li><a href="#">Our Partners</a></li>
+										<li><a href="{{ route('project') }}">Projects</a></li>
+										<li><a href="{{ route('partner') }}">Our Partners</a></li>
 									</ul>
 								</div>
 								<div class="col-4">
 									<ul>
 										<li>
-											<a href="#">Investors</a>
-											<a class="d-block underlineFooter ms-4">Announcement</a>
-											<a class="d-block underlineFooter ms-4">Investment news</a>
-											<a class="d-block underlineFooter ms-4">Annual financial reports</a>
+											<a href="{{ route('investor') }}">Investors</a>
+											<a href="javascript:void(0)" class="d-block underlineFooter ms-4">Announcement</a>
+											<a href="javascript:void(0)" class="d-block underlineFooter ms-4">Investment news</a>
+											<a href="javascript:void(0)" class="d-block underlineFooter ms-4">Annual financial reports</a>
 
 										</li>
 										<li>
-											<a href="#">Media</a>
-											<a class="d-block underlineFooter ms-4">Internal reports</a>
-											<a class="d-block underlineFooter ms-4">Press release</a>
+											<a href="{{ route('media.overview') }}">Media</a>
+											<a href="{{ route('media.report') }}" class="d-block underlineFooter ms-4">Internal reports</a>
+											<a href="{{ route('media.press') }}" class="d-block underlineFooter ms-4">Press release</a>
 										</li>
 									</ul>
 								</div>
 								<div class="col-4">
 									<ul>
-										<li> <a href="#">Contact</a> </li>
+										<li> <a href="{{ route('contact') }}">Contact</a> </li>
 										<li> <a href="#">Legal Statement</a> </li>
 										<li> <a href="#">Privacy Policy</a> </li>
 										<li> <a href="#">Cookies Preferences</a> </li>
