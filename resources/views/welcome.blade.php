@@ -145,7 +145,7 @@
 						<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry's standard dummy text ever since the
 							1500s...</p>
-						<p class="text-center"><a href="" class="readmore">READ MORE</a></p>
+						<p class="text-center"><a target="_blank" href="#" class="readmore">READ MORE</a></p>
 					</div>
 				</div>
 			</div>
@@ -157,7 +157,7 @@
 						<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry's standard dummy text ever since the
 							1500s...</p>
-						<p class="text-center"><a href="" class="readmore">READ MORE</a></p>
+						<p class="text-center"><a target="_blank" href="https://diasplat.com/" class="readmore">READ MORE</a></p>
 					</div>
 				</div>
 			</div>
@@ -169,7 +169,7 @@
 						<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry's standard dummy text ever since the
 							1500s...</p>
-						<p class="text-center"><a href="" class="readmore">READ MORE</a></p>
+						<p class="text-center"><a target="_blank" href="https://paygate.global/" class="readmore">READ MORE</a></p>
 					</div>
 				</div>
 			</div>
@@ -195,7 +195,7 @@
 							has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
 							old... <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
 							looked up one of the more obscure Latin words, consectetur</p>
-						<p class="text-center"><a href="" class="readmore">READ MORE</a></p>
+						<p class="text-center"><a target="_blank" href="https://dev.cmcchain.network/" class="readmore">READ MORE</a></p>
 					</div>
 				</div>
 			</div>
@@ -208,7 +208,7 @@
 							has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
 							old... <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
 							looked up one of the more obscure Latin words, consectetur</p>
-						<p class="text-center"><a href="" class="readmore">READ MORE</a></p>
+						<p class="text-center"><a target="_blank" href="https://onstora.com/" class="readmore">READ MORE</a></p>
 					</div>
 				</div>
 			</div>
@@ -221,7 +221,7 @@
 							has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
 							old... <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
 							looked up one of the more obscure Latin words, consectetur</p>
-						<p class="text-center"><a href="" class="readmore">READ MORE</a></p>
+						<p class="text-center"><a target="_blank" href="https://diasplat.com/" class="readmore">READ MORE</a></p>
 					</div>
 				</div>
 			</div>
@@ -234,7 +234,7 @@
 							has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
 							old... <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
 							looked up one of the more obscure Latin words, consectetur</p>
-						<p class="text-center"><a href="" class="readmore">READ MORE</a></p>
+						<p class="text-center"><a target="_blank" href="https://paygate.global/" class="readmore">READ MORE</a></p>
 					</div>
 				</div>
 			</div>
