@@ -76,12 +76,12 @@
 				<li class="nav-item">
 					<a class="nav-link {{ str_contains(Route::currentRouteName(), 'contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact</a>
 				</li>
-				<li class="nav-item">
+				{{-- <li class="nav-item">
 					<a class="nav-link" href="#">English</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#"><i class="fas fa-search"></i></a>
-				</li>
+				</li> --}}
 			</ul>
 		</nav>
 	</header>
