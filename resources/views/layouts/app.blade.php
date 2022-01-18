@@ -35,64 +35,69 @@
 <body>
 
 	<!-- Header -->
-	<header class="fw-medium col-auto">
-		<div class="roadmapText">CMC Holdings Roadmap 2022-2027 IPO $300 billion</div>
-		<nav class="navbar navbar-expand-lg">
-			<div class="icon-menu">
-				<a href="{{ route('home') }}"><img src="{{ asset('img/logoHomepage.png') }}" alt=""></a>
+	<header>
+		<div class="top">CMC Holdings Roadmap 2022-2027 IPO $300 billion</div>
+		<nav class="navbar navbar-expand-lg bg-light">
+			<a href="{{ route('home') }}" class="navbar-brand">
+				<img src="{{ asset('img/logo.png') }}" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars" aria-hidden="true"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'home') ? 'active' : '' }}" aria-current="page" href="{{ route('home') }}">Home Page</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'about-us') ? 'active' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							About us
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="{{ route('about-us.overview') }}">Overview</a></li>
+							<li><a class="dropdown-item" href="{{ route('about-us.message') }}">Message</a></li>
+							<li><a class="dropdown-item" href="{{ route('about-us.member') }}">Members</a></li>
+							<li><a class="dropdown-item" href="{{ route('about-us.team') }}">Executive Team</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'project') ? 'active' : '' }}" href="{{ route('project') }}">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'partner') ? 'active' : '' }}" href="{{ route('partner') }}">Our Partners</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'investor') ? 'active' : '' }}" href="{{ route('investor') }}">Investors</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'media') ? 'active' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="{{ route('media.overview') }}">Overview</a></li>
+							<li><a class="dropdown-item" href="{{ route('media.report') }}">Internal reports</a></li>
+							<li><a class="dropdown-item" href="{{ route('media.press') }}">Press release</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">English</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+					</li>
+				</ul>
 			</div>
-			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-				<li class="nav-item">
-					<a class="nav-link {{ str_contains(Route::currentRouteName(), 'home') ? 'active' : '' }}" aria-current="page" href="{{ route('home') }}">Home Page</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'about-us') ? 'active' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						About us
-					</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<li><a class="dropdown-item" href="{{ route('about-us.overview') }}">Overview</a></li>
-						<li><a class="dropdown-item" href="{{ route('about-us.message') }}">Message</a></li>
-						<li><a class="dropdown-item" href="{{ route('about-us.member') }}">Members</a></li>
-						<li><a class="dropdown-item" href="{{ route('about-us.team') }}">Executive Team</a></li>
-					</ul>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link {{ str_contains(Route::currentRouteName(), 'project') ? 'active' : '' }}" href="{{ route('project') }}">Projects</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link {{ str_contains(Route::currentRouteName(), 'partner') ? 'active' : '' }}" href="{{ route('partner') }}">Our Partners</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link {{ str_contains(Route::currentRouteName(), 'investor') ? 'active' : '' }}" href="{{ route('investor') }}">Investors</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'media') ? 'active' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<li><a class="dropdown-item" href="{{ route('media.overview') }}">Overview</a></li>
-						<li><a class="dropdown-item" href="{{ route('media.report') }}">Internal reports</a></li>
-						<li><a class="dropdown-item" href="{{ route('media.press') }}">Press release</a></li>
-					</ul>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link {{ str_contains(Route::currentRouteName(), 'contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact</a>
-				</li>
-				{{-- <li class="nav-item">
-					<a class="nav-link" href="#">English</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fas fa-search"></i></a>
-				</li> --}}
-			</ul>
 		</nav>
 	</header>
 
 	@yield('content')
 
 	<!-- newsletter -->
-	<section class="newsletter bgletter">
+	<section id="newsletter">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-auto text-end">
+				<div class="col-md-auto col-sm text-end">
 					<h6 class="mb-0">Stay ahead</h6>
 					<div>weekly insights straight to your inbox</div>
 				</div>
@@ -109,109 +114,96 @@
 	</section>
 
 	<!-- Footer -->
-	<footer>
+	<footer class="pb-0">
 		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-4">
+			<div class="row">
+				<div class="col-lg-auto col-12">
 					<img src="{{ asset('img/logo-footer.png') }}" class="footerLogo">
 				</div>
-				<div class="col-md-8">
+				<div class="col-lg col-12">
+					<h6 class="title text-red"><span>Home Page</span></h6>
 					<div class="row menuFooter">
-						<div class="col">
-							<h6 class="title"><span>Home Page</span></h6>
-							<div class="row">
-								<div class="col-4">
-									<ul>
-										<li>
-											<a href="javascript:void(0)">About Us</a>
-											<a href="{{ route('about-us.overview') }}" class="d-block underlineFooter ms-4">Overview</a>
-											<a href="{{ route('about-us.message') }}" class="d-block underlineFooter ms-4">Message</a>
-											<a href="{{ route('about-us.member') }}" class="d-block underlineFooter ms-4">Members</a>
-											<a href="{{ route('about-us.team') }}" class="d-block underlineFooter ms-4">Executive Team</a>
-										</li>
-										<li><a href="{{ route('project') }}">Projects</a></li>
-										<li><a href="{{ route('partner') }}">Our Partners</a></li>
+						<div class="col-md-4">
+							<ul>
+								<li class="parent">
+									<span>About Us</span>
+									<ul class="list-unstyled">
+										<li><a href="{{ route('about-us.overview') }}">Overview</a></li>
+										<li><a href="{{ route('about-us.message') }}">Message</a></li>
+										<li><a href="{{ route('about-us.member') }}">Members</a></li>
+										<li><a href="{{ route('about-us.team') }}">Executive Team</a></li>
 									</ul>
-								</div>
-								<div class="col-4">
-									<ul>
-										<li>
-											<a href="{{ route('investor') }}">Investors</a>
-											<a href="javascript:void(0)" class="d-block underlineFooter ms-4">Announcement</a>
-											<a href="javascript:void(0)" class="d-block underlineFooter ms-4">Investment news</a>
-											<a href="javascript:void(0)" class="d-block underlineFooter ms-4">Annual financial reports</a>
-
-										</li>
-										<li>
-											<a href="{{ route('media.overview') }}">Media</a>
-											<a href="{{ route('media.report') }}" class="d-block underlineFooter ms-4">Internal reports</a>
-											<a href="{{ route('media.press') }}" class="d-block underlineFooter ms-4">Press release</a>
-										</li>
+								</li>
+								<li><a href="{{ route('project') }}">Projects</a></li>
+								<li><a href="{{ route('partner') }}">Our Partners</a></li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul>
+								<li class="parent">
+									<span>Investors</span>
+									<ul class="list-unstyled">
+										<li><a href="javascript:void(0)">Announcement</a></li>
+										<li><a href="javascript:void(0)">Investment news</a></li>
+										<li><a href="javascript:void(0)">Annual financial reports</a></li>
 									</ul>
-								</div>
-								<div class="col-4">
-									<ul>
-										<li> <a href="{{ route('contact') }}">Contact</a> </li>
-										<li> <a href="#">Legal Statement</a> </li>
-										<li> <a href="#">Privacy Policy</a> </li>
-										<li> <a href="#">Cookies Preferences</a> </li>
+								</li>
+								<li class="parent">
+									<span>Media</span>
+									<ul class="list-unstyled">
+										<li><a href="{{ route('media.report') }}">Internal reports</a></li>
+										<li><a href="{{ route('media.press') }}">Press release</a></li>
 									</ul>
-								</div>
-							</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul>
+								<li><a href="{{ route('contact') }}">Contact</a> </li>
+								<li><a href="#">Legal Statement</a> </li>
+								<li><a href="#">Privacy Policy</a> </li>
+								<li><a href="#">Cookies Preferences</a> </li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row align-items-end">
-				<div class="col">
-					<div class="row">
-						<div class="col social">
-							<h6 class="title"><span>Social media</span></h6>
-							<div class="row">
-								<div class="col">
-									<p>
-										<strong class="redText">A</strong> <span>30 N Gould St Ste R Sheridan, Wyoming
-											82801, USA</span>
-									</p>
-									<p>
-										<strong class="redText">E</strong> <span>info@cmcholdings.com</span>
-									</p>
-									<p>
-										<strong class="redText">W</strong> <span>www.cmcholdings.com</span>
-									</p>
-								</div>
-								<div class="col-md-1">
-									<a href="" class="item"><i class="fa fa-instagram"></i></a>
-								</div>
-								<div class="col-md-1">
-									<a href="" class="item"><i class="fa fa-facebook-f"></i></a>
-								</div>
-								<div class="col-md-1">
-									<a href="" class="item"><i class="fa fa-youtube"></i></a>
-								</div>
-								<div class="col-md-1">
-									<a href="" class="item"><i class="fa fa-linkedin"></i></a>
-								</div>
-								<div class="col-md-1">
-									<a href="" class="item"><i class="fa fa-twitter"></i></a>
-								</div>
-								<div class="col-md-1">
-									<a href="" class="item"><i class="fas fa-plus"></i></a>
-								</div>
-							</div>
+			<div class="companyInfo">
+				<h6 class="title"><span>CMC HOLDINGS INC (USA)</span></h6>
+				<div class="row">
+					<div class="col-md-8">
+						<ul class="list-unstyled">
+							<li>
+								<span>A</span> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA
+							</li>
+							<li>
+								<span>E</span> info@cmcholdings.com
+							</li>
+							<li>
+								<span>W</span> www.cmcholdings.com
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<div class="row social">
+							<div class="col-auto"><a href="" class="item"><i class="fa fa-instagram"></i></a></div>
+							<div class="col-auto"><a href="" class="item"><i class="fa fa-facebook-f"></i></a></div>
+							<div class="col-auto"><a href="" class="item"><i class="fa fa-youtube"></i></a></div>
+							<div class="col-auto"><a href="" class="item"><i class="fa fa-linkedin"></i></a></div>
+							<div class="col-auto"><a href="" class="item"><i class="fa fa-twitter"></i></a></div>
+							<div class="col-auto"><a href="" class="item"><i class="fas fa-plus"></i></a></div>
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div>CMCholdings.com is a proud part of CMC holdings Inc., a leading business services company.</div>
+				<div>CMCholdings.com is a Registered Trademark. © 2020 - 2021 All Rights Reserved</div>
 			</div>
 		</div>
 	</footer>
-
-	<section class="bgGray">
-		<div class="container">
-			<div>CMCholdings.com is a proud part of CMC holdings Inc., a leading business services company.</div>
-			<div>CMCholdings.com is a Registered Trademark. © 2020 - 2021 All Rights Reserved</div>
-		</div>
-	</section>
 
 	<!-- Js File -->
 	<script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
