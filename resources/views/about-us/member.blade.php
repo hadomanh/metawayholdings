@@ -4,7 +4,7 @@
 <div id="memberPage">
     <!-- Banner -->
     <section class="p-0">
-        <img src="{{ asset('img/banner-members.jpg') }}">
+        <img src="{{ asset('img/banner-members.jpg') }}" class="w-100">
     </section>
 
     <section class="bgGrey bgArrow">

@@ -3,7 +3,7 @@
 @section('content')
 <div id="mediaPage">
     <!-- Banner -->
-    <section class="p-0"><img src="{{ asset('img/banner-media-internal.jpg') }}"></section>
+    <section class="p-0"><img src="{{ asset('img/banner-media-internal.jpg') }}" class="w-100"></section>
 
     <!-- INTERNAL REPORTS -->
     <section class="bgWhite">

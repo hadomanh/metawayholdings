@@ -4,7 +4,7 @@
 <div id="messagePage">
 
     <!-- Banner -->
-    <section class="p-0"><img src="{{ asset('img/banner-message.jpg') }}"></section>
+    <section class="p-0"><img src="{{ asset('img/banner-message.jpg') }}" class="w-100"></section>
 
     <!-- MESSAGE -->
     <section class="bgGrey bgArrow">

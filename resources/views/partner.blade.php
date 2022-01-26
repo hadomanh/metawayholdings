@@ -4,7 +4,7 @@
 
 <div id="partnerPage">
     <!-- Banner -->
-    <section class="p-0"><img src="{{ asset('img/banner-project.jpg') }}"></section>
+    <section class="p-0"><img src="{{ asset('img/banner-project.jpg') }}" class="w-100"></section>
 
     <!-- Our PartnerS -->
     <section class="bgWhite">

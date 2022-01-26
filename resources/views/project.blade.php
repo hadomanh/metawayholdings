@@ -3,7 +3,7 @@
 @section('content')
 <div id="projectPage">
     <!-- Banner -->
-    <section class="p-0"><img src="{{ asset('img/banner-project.jpg') }}"></section>
+    <section class="p-0"><img src="{{ asset('img/banner-project.jpg') }}" class="w-100"></section>
 
     <!-- PROJECTS CMC HOLDINGS -->
     <section class="projects">

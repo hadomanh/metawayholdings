@@ -4,7 +4,7 @@
 <div id="overviewPage">
 
     <!-- Banner -->
-    <section class="p-0"><img src="{{ asset('img/banner-overview.jpg') }}"></section>
+    <section class="p-0"><img src="{{ asset('img/banner-overview.jpg') }}" class="w-100"></section>
 
     <!-- OVERVIEW -->
     <section class="bgWhite bgArrow">

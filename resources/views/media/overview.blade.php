@@ -4,7 +4,7 @@
 <div id="mediaPage">
 
     <!-- Banner -->
-    <section class="p-0"><img src="{{ asset('img/banner-media.jpg') }}"></section>
+    <section class="p-0"><img src="{{ asset('img/banner-media.jpg') }}" class="w-100"></section>
 
     <!-- INTERNAL REPORTS -->
     <section class="bgWhite bgArrow">

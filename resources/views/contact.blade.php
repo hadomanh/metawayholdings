@@ -3,7 +3,7 @@
 @section('content')
 <div id="contactPage">
     <!-- Banner -->
-    <section class="p-0"><img src="{{ asset('img/banner-contact.jpg') }}"></section>
+    <section class="p-0"><img src="{{ asset('img/banner-contact.jpg') }}" class="w-100"></section>
 
     <section class="contactForm">
         <div class="container">
