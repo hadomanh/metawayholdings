@@ -12,7 +12,7 @@
             <h2 class="sectionHeading">MEMBERS</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <p>CMC Holdings INC builds a business foundation with plans: M&A, establishment of new member
+                    <p>METAWAY Holdings INC builds a business foundation with plans: M&A, establishment of new member
                         companies in other regions, ensuring coverage to countries around the world. We allocate
                         affiliates in different sectors to take advantage of local advantages and increase ownership
                         opportunities of strategic partners interested in our business.</p>
@@ -25,20 +25,20 @@
     <!-- Tech Mahindra -->
     <section class="bgWhite tech">
         <div class="container">
-            <p class="text-center">CMC Holdings would not exist without the support of the member organizations listed below. <br> Learn
+            <p class="text-center">METAWAY Holdings would not exist without the support of the member organizations listed below. <br> Learn
                 more about how your company or organization can participate.</p>
             <h3 class="sectionHeading centered">Tech Mahindra</h3>
             <div class="mw-600 text-center">
                 <div id="memberTextCarouselControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            “Tech Mahindra has demonstrated strong product development capabilities using CMC Holdings projects by developing 25+ Blockchain platforms and also implemented one of the world’s largest Blockchain networks covering 400 million+ subscribers in India to fight spam calls and text. By joining CMC Holdings, Tech Mahindra would like to play a strong role in architecting the future of CMC Holdings technologies by architecting cutting-edge solutions to solve tough business problems for enterprises globally.”
+                            “Tech Mahindra has demonstrated strong product development capabilities using METAWAY Holdings projects by developing 25+ Blockchain platforms and also implemented one of the world’s largest Blockchain networks covering 400 million+ subscribers in India to fight spam calls and text. By joining METAWAY Holdings, Tech Mahindra would like to play a strong role in architecting the future of METAWAY Holdings technologies by architecting cutting-edge solutions to solve tough business problems for enterprises globally.”
                         </div>
                         <div class="carousel-item">
-                            “Tech Mahindra has demonstrated strong product development capabilities using CMC Holdings projects by developing 25+ Blockchain platforms and also implemented one of the world’s largest Blockchain networks covering 400 million+ subscribers in India to fight spam calls and text. By joining CMC Holdings, Tech Mahindra would like to play a strong role in architecting the future of CMC Holdings technologies by architecting cutting-edge solutions to solve tough business problems for enterprises globally.”
+                            “Tech Mahindra has demonstrated strong product development capabilities using METAWAY Holdings projects by developing 25+ Blockchain platforms and also implemented one of the world’s largest Blockchain networks covering 400 million+ subscribers in India to fight spam calls and text. By joining METAWAY Holdings, Tech Mahindra would like to play a strong role in architecting the future of METAWAY Holdings technologies by architecting cutting-edge solutions to solve tough business problems for enterprises globally.”
                         </div>
                         <div class="carousel-item">
-                            “Tech Mahindra has demonstrated strong product development capabilities using CMC Holdings projects by developing 25+ Blockchain platforms and also implemented one of the world’s largest Blockchain networks covering 400 million+ subscribers in India to fight spam calls and text. By joining CMC Holdings, Tech Mahindra would like to play a strong role in architecting the future of CMC Holdings technologies by architecting cutting-edge solutions to solve tough business problems for enterprises globally.”
+                            “Tech Mahindra has demonstrated strong product development capabilities using METAWAY Holdings projects by developing 25+ Blockchain platforms and also implemented one of the world’s largest Blockchain networks covering 400 million+ subscribers in India to fight spam calls and text. By joining METAWAY Holdings, Tech Mahindra would like to play a strong role in architecting the future of METAWAY Holdings technologies by architecting cutting-edge solutions to solve tough business problems for enterprises globally.”
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#memberTextCarouselControls" data-bs-slide="prev">
@@ -61,7 +61,7 @@
     <!-- List Members -->
     <section class="bgWhite pt-0 listMembers text-center">
         <div class="container">
-            <h2 class="sectionHeading centered">CMC Holdings Members - Premier</h2>
+            <h2 class="sectionHeading centered">METAWAY Holdings Members - Premier</h2>
             <div class="row align-items-center">
                 <div class="col-md-2 col-6 item">
                     <a href="#"><img src="{{ asset('img/cmc-member-1.jpg') }}"></a>

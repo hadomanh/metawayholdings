@@ -7,7 +7,7 @@
 
     <section class="contactForm">
         <div class="container">
-            <h2 class="sectionHeading"> CONTACT <span>CMC HOLDINGS</span></h2>
+            <h2 class="sectionHeading"> CONTACT <span>METAWAY HOLDINGS</span></h2>
             <h5>How can we help you?</h5>
             <form action="">
                 <div class="row">

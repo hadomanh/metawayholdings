@@ -12,13 +12,13 @@
             <h2 class="sectionHeading">OVERVIEW</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="titleUnderline">Overview about CMC Holdings INC</h4>
-                    <p>CMC Holdings was founded based on the global business ambition of the Founders who have many
+                    <h4 class="titleUnderline">Overview about METAWAY Holdings INC</h4>
+                    <p>METAWAY Holdings was founded based on the global business ambition of the Founders who have many
                     years experience in the field of investing, restructuring and developing cross-border
-                    projects. CMC was inspired by connecting a community of competent entrepreneurs in the new
-                    economic field of the millennium CMC Holdings attaches great importance to social values and
+                    projects. METAWAY was inspired by connecting a community of competent entrepreneurs in the new
+                    economic field of the millennium METAWAY Holdings attaches great importance to social values and
                     focuses on the vital core areas of this world. The Founders team are from all over the world
-                    for a lasting business goal. CMC Holdings defines a bold direction for a successful business
+                    for a lasting business goal. METAWAY Holdings defines a bold direction for a successful business
                     community in the 21st century.</p>
                 </div>
                 <div class="col-lg-8 col-md-6">
@@ -41,7 +41,7 @@
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title titleUnderline">DEVELOPMENT HISTORY</h5>
-                            <p class="card-text">The newly established CMC Holdings INC aims to conduct M&A with the
+                            <p class="card-text">The newly established METAWAY Holdings INC aims to conduct M&A with the
                                 Company that has listed its shares on Nasdaq. Its goal is restructuring in the direction
                                 of financial technology enterprises and holding its member companies.</p>
                         </div>

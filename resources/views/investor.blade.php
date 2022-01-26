@@ -29,7 +29,7 @@
                         <div class="col-md-6">
                             <a href="#" class="item">
                                 <img src="{{ asset('img/investor-announce-1.jpg') }}" alt="">
-                                <span>CMCH REPORT <br> 1 JANUARY-31 MARCH 2021</span>
+                                <span>METAWAYH REPORT <br> 1 JANUARY-31 MARCH 2021</span>
                             </a>
                         </div>
                         <div class="col-md-6">
@@ -56,10 +56,10 @@
         </div>
     </section>
 
-    <!-- INVESTORS CMC HOLDINGS -->
+    <!-- INVESTORS METAWAY HOLDINGS -->
     <section class="investor-2">
         <div class="container">
-            <h2 class="sectionHeading">INVESTORS <span>CMC HOLDINGS</span></h2>
+            <h2 class="sectionHeading">INVESTORS <span>METAWAY HOLDINGS</span></h2>
             <div class="row g-0 list">
                 <div class="col-md-6 item">
                     <h4 class="mb-1">Total Sales</h4>

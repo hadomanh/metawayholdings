@@ -5,12 +5,12 @@
     <!-- Banner -->
     <section class="p-0"><img src="{{ asset('img/banner-project.jpg') }}" class="w-100"></section>
 
-    <!-- PROJECTS CMC HOLDINGS -->
+    <!-- PROJECTS METAWAY HOLDINGS -->
     <section class="projects">
         <div class="container">
-            <h2 class="sectionHeading centered">PROJECTS <span>CMC HOLDINGS</span></h2>
+            <h2 class="sectionHeading centered">PROJECTS <span>METAWAY HOLDINGS</span></h2>
             <div class="text-center mw-600 desc">
-                CMC Holdings INC focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Renewable Energy, Financial Technology, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.
+                METAWAY Holdings INC focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Renewable Energy, Financial Technology, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.
             </div>
             <div class="row newsHighlights">
 				<div class="col-md-4">

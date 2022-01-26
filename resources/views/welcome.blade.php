@@ -30,7 +30,7 @@
 		<div class="container">
 			<h2 class="sectionHeading centered">BUSINESS HIGHLIGHTS</h2>
 			<div class="text-center">
-				<p class="mb-2">At CMC Holdings, we partner with our customers. We listen first and only then
+				<p class="mb-2">At METAWAY Holdings, we partner with our customers. We listen first and only then
 				create solutions.</p>
 				<p>And it is from the understanding of our customers with which we create the products
 				and services that <br> are changing how the world works, lives, and plays.</p>
@@ -41,7 +41,7 @@
 						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-reliable.png"></a>
 						<div class="card-body col">
 							<h5 class="card-title titleUnderline"><a href="#">Reliable</a></h5>
-							<p class="card-text">CMC Holdings attaches great importance to the trust of customers for its business activities. And set it as a pioneering core value in every action.</p>
+							<p class="card-text">METAWAY Holdings attaches great importance to the trust of customers for its business activities. And set it as a pioneering core value in every action.</p>
 						</div>
 					</div>
 				</div>
@@ -50,7 +50,7 @@
 						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-companion.png"></a>
 						<div class="card-body col">
 							<h5 class="card-title titleUnderline"><a href="#">Companion</a></h5>
-							<p class="card-text">CMC holdings vows to accompany its partners and customers to the end of the path chosen by the mission.</p>
+							<p class="card-text">METAWAY holdings vows to accompany its partners and customers to the end of the path chosen by the mission.</p>
 						</div>
 					</div>
 				</div>
@@ -59,7 +59,7 @@
 						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-commitment.png"></a>
 						<div class="card-body col">
 							<h5 class="card-title titleUnderline"><a href="#">Commitment</a></h5>
-							<p class="card-text">CMC Holdings is always committed to serving customers and partners with the best products and services.</p>
+							<p class="card-text">METAWAY Holdings is always committed to serving customers and partners with the best products and services.</p>
 						</div>
 					</div>
 				</div>
@@ -70,16 +70,16 @@
 	<!-- ABOUT -->
 	<section class="about bgWhite bgArrow">
 		<div class="container">
-			<h2 class="sectionHeading">ABOUT <span>CMC HOLDINGS</span></h2>
+			<h2 class="sectionHeading">ABOUT <span>METAWAY HOLDINGS</span></h2>
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
-					<h5 class="titleUnderline">CMC Holdings INC Overview</h5>
+					<h5 class="titleUnderline">METAWAY Holdings INC Overview</h5>
 					<ul class="style-1">
-						<li>CMC Holdings was founded based on the global business ambition of the Founders who have many years experience in the field of investing, restructuring and developing cross-border projects.</li>
-						<li>CMC was inspired by connecting a community of competent entrepreneurs in the new economic field of the millennium.</li>
-						<li>CMC Holdings attaches great importance to social values and focuses on the vital core areas of this world.</li>
+						<li>METAWAY Holdings was founded based on the global business ambition of the Founders who have many years experience in the field of investing, restructuring and developing cross-border projects.</li>
+						<li>METAWAY was inspired by connecting a community of competent entrepreneurs in the new economic field of the millennium.</li>
+						<li>METAWAY Holdings attaches great importance to social values and focuses on the vital core areas of this world.</li>
 						<li>The Founders team are from all over the world for a lasting business goal.</li>
-						<li>CMC Holdings defines a bold direction for a successful business community in the 21st century.</li>
+						<li>METAWAY Holdings defines a bold direction for a successful business community in the 21st century.</li>
 					</ul>
 				</div>
 				<div class="col-lg-8 col-md-6">
@@ -94,7 +94,7 @@
 	<!-- PROJECTS -->
 	<section class="projects bgDark bgArrow">
 		<div class="container">
-			<h2 class="sectionHeading centered text-white">PROJECTS <span>CMC HOLDINGS</span></h2>
+			<h2 class="sectionHeading centered text-white">PROJECTS <span>METAWAY HOLDINGS</span></h2>
 			<div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
 					<button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -103,13 +103,13 @@
 				</div>
 				<div class="carousel-inner text-center mw-600 text-white">
 					<div class="carousel-item active">
-						<p>CMC Holdings INC focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Renewable Energy, Financial Technology, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.</p>
+						<p>METAWAY Holdings INC focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Renewable Energy, Financial Technology, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.</p>
 					</div>
 					<div class="carousel-item">
-						<p>CMC Holdings INC focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Renewable Energy, Financial Technology, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.</p>
+						<p>METAWAY Holdings INC focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Renewable Energy, Financial Technology, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.</p>
 					</div>
 					<div class="carousel-item">
-						<p>CMC Holdings INC focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Renewable Energy, Financial Technology, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.</p>
+						<p>METAWAY Holdings INC focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Renewable Energy, Financial Technology, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.</p>
 					</div>
 				</div>
 			</div>
@@ -160,7 +160,7 @@
 					<div class="card">
 						<img class="card-img-top" src="img/Investors-cmctechnology.png">
 						<div class="card-body">
-							<h5 class="card-title titleUnderline centered">CMC TECHNOGLY SOLUSION INC</h5>
+							<h5 class="card-title titleUnderline centered">METAWAY TECHNOGLY SOLUSION INC</h5>
 							<p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It
 								has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
 								old... <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
@@ -215,7 +215,7 @@
 	<!-- PARTNERS -->
 	<section class="partners bgWhite bgArrow">
 		<div class="container">
-			<h2 class="sectionHeading">PARTNERS <span>CMC HOLDINGS</span></h2>
+			<h2 class="sectionHeading">PARTNERS <span>METAWAY HOLDINGS</span></h2>
 			<p class="fw-normal fs-6">“We work with major service providers to blockchainise conventional business models”
 			</p>
 		</div>

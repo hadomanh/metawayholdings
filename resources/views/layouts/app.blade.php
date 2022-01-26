@@ -4,8 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<!-- Main Tag -->
-	<title>CMC HOLDING</title>
-	<meta id="PagKeywords" name="keywords" content="CMC HOLDING" />
+	<title>METAWAY HOLDING</title>
+	<meta id="PagKeywords" name="keywords" content="METAWAY HOLDING" />
 	<meta id="PagDescription" name="description" content="" />
 	<link id="LinkIcon" href="" type="image/x-icon" rel="shortcut icon" />
 	<link rel="icon" href="{{ asset('img/favicon.png') }}" type="image/ico" />
@@ -16,10 +16,10 @@
 	<!-- Facebook Tag -->
 	<meta property="og:url" content="" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="CMC HOLDING" />
-	<meta property="og:description" content="CMC HOLDING" />
+	<meta property="og:title" content="METAWAY HOLDING" />
+	<meta property="og:description" content="METAWAY HOLDING" />
 	<meta property="og:image" content="" />
-	<meta property="og:site_name" content="CMC HOLDING" />
+	<meta property="og:site_name" content="METAWAY HOLDING" />
 
 	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/fa881189ef.js" crossorigin="anonymous"></script>
@@ -36,7 +36,7 @@
 
 	<!-- Header -->
 	<header>
-		<div class="top">CMC Holdings Roadmap 2022-2027 IPO $300 billion</div>
+		<div class="top">METAWAY Holdings Roadmap 2022-2027 IPO $300 billion</div>
 		<nav class="navbar navbar-expand-lg bg-light">
 			<a href="{{ route('home') }}" class="navbar-brand">
 				<img src="{{ asset('img/logo.png') }}" alt="">
@@ -83,10 +83,10 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Hyperas Chain</a></li>
+							<li><a class="dropdown-item" href="https://hyperaschain.com/" target="_blank">Hyperas Chain</a></li>
 							<li><a class="dropdown-item" href="#">Pindias</a></li>
-							<li><a class="dropdown-item" href="#">Divega</a></li>
-							<li><a class="dropdown-item" href="#">Rapital Bank</a></li>
+							<li><a class="dropdown-item" href="https://divega.com/" target="_blank">Divega</a></li>
+							<li><a class="dropdown-item" href="https://www.rapitalbank.com/" target="_blank">Rapital Bank</a></li>
 						</ul>
 					</li>
 					<li class="nav-item dropdown">
@@ -208,7 +208,7 @@
 				</div>
 			</div>
 			<div class="companyInfo">
-				<h6 class="title"><span>CMC HOLDINGS INC (USA)</span></h6>
+				<h6 class="title"><span>METAWAY HOLDINGS INC (USA)</span></h6>
 				<div class="row">
 					<div class="col-md-8">
 						<ul class="list-unstyled">
@@ -238,8 +238,8 @@
 		</div>
 		<div class="copyright">
 			<div class="container">
-				<div>CMCholdings.com is a proud part of CMC holdings Inc., a leading business services company.</div>
-				<div>CMCholdings.com is a Registered Trademark. © 2020 - 2021 All Rights Reserved</div>
+				<div>METAWAYholdings.com is a proud part of METAWAY holdings Inc., a leading business services company.</div>
+				<div>METAWAYholdings.com is a Registered Trademark. © 2020 - 2021 All Rights Reserved</div>
 			</div>
 		</div>
 	</footer>

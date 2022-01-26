@@ -9,12 +9,12 @@
     <!-- Our PartnerS -->
     <section class="bgWhite">
         <div class="container">
-            <h2 class="sectionHeading centered">OUR PARTNERS <span>CMC HOLDINGS</span></h2>
-            <p class="text-center">CMC Holdings invites participants that are building on CMC Holdings blockchain
+            <h2 class="sectionHeading centered">OUR PARTNERS <span>METAWAY HOLDINGS</span></h2>
+            <p class="text-center">METAWAY Holdings invites participants that are building on METAWAY Holdings blockchain
                 platform, access to additional resources to help speed up your build out of your blockchain initiatives.
-                Using CMC Holdings qualified partners, tap into established and knowledgeable consulting firms,
+                Using METAWAY Holdings qualified partners, tap into established and knowledgeable consulting firms,
                 implementation partners, system integrators and developer firms. From small to massive blockchain
-                projects across a variety of sectors and geos, CMC Holdings Partner Program is created to help you along
+                projects across a variety of sectors and geos, METAWAY Holdings Partner Program is created to help you along
                 your path to blockchain adoption.</p>
             <div class="row g-0 listPartner">
                 <div class="col-md-2 col-4 item" data-bs-toggle="modal" data-bs-target="#partnerModal">

@@ -175,10 +175,10 @@
         </div>
     </section>
 
-    <!-- PRESS RELEASE CMC HOLDINGS -->
+    <!-- PRESS RELEASE METAWAY HOLDINGS -->
     <section class="bgGrey newsHighlights">
         <div class="container">
-            <h2 class="sectionHeading">PRESS RELEASE <span>CMC HOLDINGS</span></h2>
+            <h2 class="sectionHeading">PRESS RELEASE <span>METAWAY HOLDINGS</span></h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6 item">
                     <div class="card">
