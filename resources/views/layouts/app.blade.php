@@ -46,34 +46,62 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'home') ? 'active' : '' }}" aria-current="page" href="{{ route('home') }}">Home Page</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">Business Highlights</a></li>
+							<li><a class="dropdown-item" href="#">About Metaway Holdings</a></li>
+							<li><a class="dropdown-item" href="#">Business Category</a></li>
+							<li><a class="dropdown-item" href="#">Project Metaway</a></li>
+							<li><a class="dropdown-item {{ str_contains(Route::currentRouteName(), 'partner') ? 'active' : '' }}" href="{{ route('partner') }}">Our Partners</a></li>
+							<li><a class="dropdown-item" href="#">News</a></li>
+						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'about-us') ? 'active' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'about-us') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							About us
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<li><a class="dropdown-item" href="{{ route('about-us.overview') }}">Overview</a></li>
-							<li><a class="dropdown-item" href="{{ route('about-us.message') }}">Message</a></li>
-							<li><a class="dropdown-item" href="{{ route('about-us.member') }}">Members</a></li>
-							<li><a class="dropdown-item" href="{{ route('about-us.team') }}">Executive Team</a></li>
+							<li><a class="dropdown-item" href="#">Brand Story</a></li>
+							<li><a class="dropdown-item" href="{{ route('about-us.member') }}">Members (Map Members )</a></li>
+							<li><a class="dropdown-item" href="{{ route('about-us.team') }}">Our Executive Team</a></li>
+							<li><a class="dropdown-item {{ str_contains(Route::currentRouteName(), 'partner') ? 'active' : '' }}" href="{{ route('partner') }}">Our Partners</a></li>
+							<li><a class="dropdown-item" href="#">Technology</a></li>
+							<!-- <li><a class="dropdown-item" href="{{ route('about-us.message') }}">Message</a></li> -->
 						</ul>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'project') ? 'active' : '' }}" href="{{ route('project') }}">Projects</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'partner') ? 'active' : '' }}" href="{{ route('partner') }}">Our Partners</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'investor') ? 'active' : '' }}" href="{{ route('investor') }}">Investors</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Business</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">Business Category</a></li>
+							<li><a class="dropdown-item" href="#">Business Model</a></li>
+							<li><a class="dropdown-item" href="#">Ecosystem</a></li>
+							<li><a class="dropdown-item" href="#">Product/Services</a></li>
+						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'media') ? 'active' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="{{ route('media.overview') }}">Overview</a></li>
+							<li><a class="dropdown-item" href="#">Hyperas Chain</a></li>
+							<li><a class="dropdown-item" href="#">Pindias</a></li>
+							<li><a class="dropdown-item" href="#">Divega</a></li>
+							<li><a class="dropdown-item" href="#">Rapital Bank</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Investors</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">Investment News</a></li>
 							<li><a class="dropdown-item" href="{{ route('media.report') }}">Internal reports</a></li>
+							<li><a class="dropdown-item" href="#">Annual Finance Reports</a></li>
+							<li><a class="dropdown-item" href="#">Sec Filing</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">News</a></li>
 							<li><a class="dropdown-item" href="{{ route('media.press') }}">Press release</a></li>
 						</ul>
 					</li>
@@ -81,11 +109,22 @@
 						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">English</a>
+						<a class="nav-link" href="#">Language</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fas fa-search"></i></a>
-					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'project') ? 'active' : '' }}" href="{{ route('project') }}">Projects</a>
+					</li> -->
+					<!-- <li class="nav-item">
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'investor') ? 'active' : '' }}" href="{{ route('investor') }}">Investors</a>
+					</li> -->
+					<!-- <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'media') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="{{ route('media.overview') }}">Overview</a></li>
+							<li><a class="dropdown-item" href="{{ route('media.report') }}">Internal reports</a></li>
+							<li><a class="dropdown-item" href="{{ route('media.press') }}">Press release</a></li>
+						</ul>
+					</li> -->
 				</ul>
 			</div>
 		</nav>

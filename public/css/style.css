@@ -265,7 +265,8 @@ header .navbar.navbar-expand-lg .nav-link:before {
 	display: none;
 }
 header .navbar.navbar-expand-lg .nav-link:hover,
-header .navbar.navbar-expand-lg .nav-link.active {
+header .navbar.navbar-expand-lg .nav-link.active,
+header .navbar.navbar-expand-lg .nav-link.show {
 	background: #cf0020;
 	color: #fff;
 }
