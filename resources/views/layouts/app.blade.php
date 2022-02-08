@@ -207,24 +207,24 @@
 					<div class="col-md-8">
 						<ul class="list-unstyled">
 							<li>
-								<span>A</span> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA
+								<span>A</span> 30 N GOULD STREET STE R SHERIDAN, WYOMING (WY) 81801
 							</li>
 							<li>
-								<span>E</span> info@cmcholdings.com
+								<span>E</span> info@metawayholdings.com
 							</li>
 							<li>
-								<span>W</span> www.cmcholdings.com
+								<span>W</span> www.metawayholdings.com
 							</li>
 						</ul>
 					</div>
 					<div class="col-md-4">
 						<div class="row social">
-							<div class="col-auto"><a href="" class="item"><i class="fa fa-instagram"></i></a></div>
-							<div class="col-auto"><a href="" class="item"><i class="fa fa-facebook-f"></i></a></div>
-							<div class="col-auto"><a href="" class="item"><i class="fa fa-youtube"></i></a></div>
-							<div class="col-auto"><a href="" class="item"><i class="fa fa-linkedin"></i></a></div>
-							<div class="col-auto"><a href="" class="item"><i class="fa fa-twitter"></i></a></div>
-							<div class="col-auto"><a href="" class="item"><i class="fas fa-plus"></i></a></div>
+							{{-- <div class="col-auto"><a href="" class="item"><i class="fa fa-instagram"></i></a></div> --}}
+							<div class="col-auto"><a target="_blank" href="https://www.facebook.com/Metaway-Holdings-109209504990418" class="item"><i class="fa fa-facebook-f"></i></a></div>
+							<div class="col-auto"><a target="_blank" href="https://www.youtube.com/channel/UCpIg6-XEcZnofCZD5z8OLVw" class="item"><i class="fa fa-youtube"></i></a></div>
+							<div class="col-auto"><a target="_blank" href="https://linkedin.com/company/metawayglobal" class="item"><i class="fa fa-linkedin"></i></a></div>
+							<div class="col-auto"><a target="_blank" href="https://twitter.com/metawayglobal" class="item"><i class="fa fa-twitter"></i></a></div>
+							{{-- <div class="col-auto"><a href="" class="item"><i class="fas fa-plus"></i></a></div> --}}
 						</div>
 					</div>
 				</div>

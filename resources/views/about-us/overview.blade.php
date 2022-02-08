@@ -43,7 +43,7 @@
                     </div>
                         <div class="col-md-6">
                             <ul>
-                                <li><b>Country of Origin: </b>Metaway Holdings was founded in Vietnam, a country with people who are passionate about learning, clever, and proud of their country, and which is currently recognized for having numerous startups in innovation and high-tech industries.</li>
+                                <li><b>Global Based Company: </b>Metaway Holdings is headquartered in the US and has offices in many countries around the world, of which a large part of its personnel is in Vietnam, a country with people who are studious, clever, tech savvy and which is currently recognized for having numerous startups in innovation and high-tech industries.</li>
                                 <li><b>Inspiration: </b>Metaway Holdings was founded on the aim of bringing together a community of competent entrepreneurs in the new era of emerging economies.</li>
                                 <li><b>Human Power: </b>The founders and Executive Team of Metaway Holdings have vast experience in investing, corporate management, restructuring, and executing cross-border initiatives, which contributes to the company's strength.</li>
                                 <li><b>Ambition: </b>The big vision of Metaway Holdings always closely connects with the big dreams of solving the major challenges of the global and social market with huge user needs.</li>
@@ -76,8 +76,8 @@
                         </div>
                         <div class="col-md-6">
                             <ul>
-                                <li>Vietnam's first and most advanced digital ecosystem.</li>
-                                <li>Set an ambitious IPO target of at least US$50 billion on Nasdaq by 2027.</li>
+                                <li>The pioneering and most advanced digital ecosystem in the world.</li>
+                                <li>Set a goal IPO target of US$300 billion by 2027.</li>
                                 <li>Stay connected with the entry and companionship of worldwide partners in order to become a gigantic player in global business for mutual prosperity.</li>
                                 <li>Creating a legacy for future generations.</li>
                             </ul>
@@ -196,7 +196,7 @@
             <p class="text-center">We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models. </p>
             <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-technical-tab" data-bs-toggle="pill" data-bs-target="#pills-technical" type="button" role="tab" aria-controls="pills-technical" aria-selected="true">BOD</button>
+                    <button class="nav-link active" id="pills-technical-tab" data-bs-toggle="pill" data-bs-target="#pills-technical" type="button" role="tab" aria-controls="pills-technical" aria-selected="true">BOM</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-governing-tab" data-bs-toggle="pill" data-bs-target="#pills-governing" type="button" role="tab" aria-controls="pills-governing" aria-selected="false">Advisors</button>
@@ -205,100 +205,295 @@
                     <button class="nav-link" id="pills-staff-tab" data-bs-toggle="pill" data-bs-target="#pills-staff" type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Techical steering commitee</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-asia-tab" data-bs-toggle="pill" data-bs-target="#pills-asia" type="button" role="tab" aria-controls="pills-asia" aria-selected="false">Staff</button>
+                    <button class="nav-link" id="pills-asia-tab" data-bs-toggle="pill" data-bs-target="#pills-asia" type="button" role="tab" aria-controls="pills-asia" aria-selected="false">Core team</button>
                 </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-technical" role="tabpanel" aria-labelledby="pills-technical-tab">
-                    <div class="row">
+                    <div class="row d-flex justify-content-center">
                         <div class="col-xl-2 col-lg-4 col-md-6">
                             <div class="item">
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
-                                    <span class="thumbWrap circle">
-                                        <span class="inner">
-                                            <img src="https://dev.cmcchain.network/img/avtnd-2.jpg" style="border-radius: 50%">
-                                        </span>
-                                    </span>
-                                    <h5 class="name text-center">CTO</h5>
-                                    <h5 class="name text-center">Andre Fuetsch</h5>
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/bom-1.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Chairman</h5>
+                                    <h5 class="name text-center">Mr. Tran Nam Chung</h5>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-4 col-md-6">
                             <div class="item">
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
-                                    <span class="thumbWrap circle">
-                                        <span class="inner">
-                                            <img src="https://dev.cmcchain.network/img/avtrd.jpg" style="border-radius: 50%">
-                                        </span>
-                                    </span>
-                                    <h5 class="name text-center">CTO</h5>
-                                    <h5 class="name text-center">Andre Fuetsch</h5>
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/bom-2.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Vice President CMC, Chairman & CEO Phi Group</h5>
+                                    <h5 class="name text-center">Mr.Henry D. Fahman</h5>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-4 col-md-6">
                             <div class="item">
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
-                                    <span class="thumbWrap circle">
-                                        <span class="inner">
-                                            <img src="https://dev.cmcchain.network/img/avtst.jpg" style="border-radius: 50%">
-                                        </span>
-                                    </span>
-                                    <h5 class="name text-center">CTO</h5>
-                                    <h5 class="name text-center">Andre Fuetsch</h5>
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/bom-3.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Member of BOM</h5>
+                                    <h5 class="name text-center">Mr.Dau Minh Nhat</h5>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-4 col-md-6">
                             <div class="item">
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
-                                    <span class="thumbWrap circle">
-                                        <span class="inner">
-                                            <img src="https://dev.cmcchain.network/img/avtth-4.jpg" style="border-radius: 50%">
-                                        </span>
-                                    </span>
-                                    <h5 class="name text-center">CTO</h5>
-                                    <h5 class="name text-center">Andre Fuetsch</h5>
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/bom-4.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Member of BOM</h5>
+                                    <h5 class="name text-center">Mr.Hoang Quoc Tuan</h5>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-4 col-md-6">
                             <div class="item">
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
-                                    <span class="thumbWrap circle">
-                                        <span class="inner">
-                                            <img src="https://dev.cmcchain.network/img/avtth-5.jpg" style="border-radius: 50%">
-                                        </span>
-                                    </span>
-                                    <h5 class="name text-center">CTO</h5>
-                                    <h5 class="name text-center">Andre Fuetsch</h5>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-4 col-md-6">
-                            <div class="item">
-                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
-                                    <span class="thumbWrap circle">
-                                        <span class="inner">
-                                            <img src="https://dev.cmcchain.network/img/avtth-6.jpg" style="border-radius: 50%">
-                                        </span>
-                                    </span>
-                                    <h5 class="name text-center">CTO</h5>
-                                    <h5 class="name text-center">Andre Fuetsch</h5>
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/bom-5.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Member of BOM</h5>
+                                    <h5 class="name text-center">Ms.Vu Thi Tuyet Thanh</h5>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="pills-governing" role="tabpanel" aria-labelledby="pills-governing-tab">
-                    Governing Board
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-1.jpg') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Strategy Advisor</h5>
+                                    <h5 class="name text-center">Mr. Tran Quang Trung</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-2.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Managing Director PHI Group Advisor</h5>
+                                    <h5 class="name text-center">Mr. Steve Truong</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-3.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Finance Advisor</h5>
+                                    <h5 class="name text-center">Mr. Frank N. Hawkins</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-4.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Investment Partnership Advisor</h5>
+                                    <h5 class="name text-center">Mr. Michael Bennett</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-5.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Chief Operating Officer PHI Group Operation Advisor</h5>
+                                    <h5 class="name text-center">Mr.Tam T. Bui</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-6.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Technology Advisor</h5>
+                                    <h5 class="name text-center">Mr. Guido K</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="pills-staff-tab">
-                    Staff
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/tsc-1.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">CTO Blockchain</h5>
+                                    <h5 class="name text-center">Mr. Bui Dinh Ngoc</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/tsc-2.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">CTO</h5>
+                                    <h5 class="name text-center">Mr. Francesso Dell'Agata</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-6.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Technology Advisor</h5>
+                                    <h5 class="name text-center">Mr. Guido K</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="pills-asia" role="tabpanel" aria-labelledby="pills-asia-tab">
-                    Asia Pacific
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/ct-1.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">CMO</h5>
+                                    <h5 class="name text-center">Mr. Andy Vu</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/ct-2.jpg') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Legal Director</h5>
+                                    <h5 class="name text-center">Mr. Le Van Duong</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/ct-3.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Business & Partnership Director</h5>
+                                    <h5 class="name text-center">Ms.Anna Nguyen</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                          <div class="circle__wrapper">
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/ct-4.png') }})"></div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Brand Director</h5>
+                                    <h5 class="name text-center">Ms.Tracy Vu</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -352,23 +547,23 @@
                 </div>
                 <div class="col-xl-2 col-lg-4 col-md-6">
                     <img src="{{ asset('img/overview-technology-2.png') }}">
-                    <h5 class="name text-center mt-3">Metaverse</h5>
+                    <h5 class="name text-center mt-3">Artificial Intelligent (AI)</h5>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-md-6">
                     <img src="{{ asset('img/overview-technology-3.png') }}">
-                    <h5 class="name text-center mt-3">AI</h5>
+                    <h5 class="name text-center mt-3">Augmented Reality (AR)</h5>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-md-6">
                     <img src="{{ asset('img/overview-technology-4.png') }}">
-                    <h5 class="name text-center mt-3">AR</h5>
+                    <h5 class="name text-center mt-3">Virtual Reality (VR)</h5>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-md-6">
                     <img src="{{ asset('img/overview-technology-5.png') }}">
-                    <h5 class="name text-center mt-3">VR</h5>
+                    <h5 class="name text-center mt-3">Web 3.0</h5>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-md-6">
                     <img src="{{ asset('img/overview-technology-5.png') }}">
-                    <h5 class="name text-center mt-3">NFT</h5>
+                    <h5 class="name text-center mt-3">Data Mining</h5>
                 </div>
             </div>
         </div>

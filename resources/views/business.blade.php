@@ -48,7 +48,7 @@
                                     <a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-commitment.png"></a>
                                     <div class="card-body col">
                                         <h5 class="card-title titleUnderline"><a href="#">BaaS</a></h5>
-                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll">Metaway Holdings is a worldwide network of the most talented blockchain developers, engineers, and consultants. We have a roadmap is to build our own ecosystem and blockchain-related products and services then help companies and startups with ideas to launch ICOs, write smart contracts, create Dapps, and more.</p>
+                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll">Metaway Holdings is a global network of the most talented blockchain developers, engineers and consultants. We have a roadmap for developing our own ecosystem of blockchain related goods and services targeting government regulators, digitized global businesses, and the management of blockchain-driven assets such as securities, real estate, etc.</p>
                                         <div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
                                     </div>
                                 </div>

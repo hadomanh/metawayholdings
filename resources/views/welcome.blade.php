@@ -32,7 +32,8 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-6">
 					<div class="videoWrapper">
-						<iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500"></iframe>
+						{{-- <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
 					</div>					
 				</div>
 				<div class="col-lg-4 col-md-6">
@@ -96,10 +97,8 @@
 		<div class="container">
 			<h2 class="sectionHeading centered">BUSINESS CATEGORY</h2>
 			<div class="text-center">
-				<p class="mb-2">At METAWAY Holdings, we partner with our customers. We listen first and only then
-				create solutions.</p>
-				<p>And it is from the understanding of our customers with which we create the products
-				and services that <br> are changing how the world works, lives, and plays.</p>
+				<p class="mb-2">The business of Metaway Holdings focuses on technology-related categories, especially financial technology, and blockchain-driven.</p>
+				
 			</div>
 			<div class="row">
 				<div class="col-md-4">
@@ -157,7 +156,7 @@
 				</div>
 				<div class="col-md-3">
 					<div class="card">
-						<img class="card-img-top" src="img/project-2.png">
+						<img class="card-img-top" src="img/project-3.png">
 						<div class="card-body">
 							<h5 class="card-title titleUnderline">Divega</h5>
 							<p class="card-text" style="height: 120px; overflow-y: scroll;">E-Auction is an effective ecommerce system that allows bidders and sellers to interact through online platforms with the world's first reverse auction method.</p>
@@ -167,7 +166,7 @@
 				</div>
 				<div class="col-md-3">
 					<div class="card">
-						<img class="card-img-top" src="img/project-3.png">
+						<img class="card-img-top" src="img/project-2.png">
 						<div class="card-body">
 							<h5 class="card-title titleUnderline">Pindias</h5>
 							<p class="card-text" style="height: 120px; overflow-y: scroll;">Pindias' goal is to become a leading platform, top of mind for digital asset management. </p>
