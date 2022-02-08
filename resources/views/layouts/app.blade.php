@@ -47,21 +47,21 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'home') ? 'active' : '' }}" href="{{ route('home') }}" role="button" aria-expanded="false">Home</a>
+						{{-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<li><a class="dropdown-item" href="#">Business Highlights</a></li>
 							<li><a class="dropdown-item" href="#">About Metaway Holdings</a></li>
 							<li><a class="dropdown-item" href="#">Business Category</a></li>
 							<li><a class="dropdown-item" href="#">Project Metaway</a></li>
 							<li><a class="dropdown-item {{ str_contains(Route::currentRouteName(), 'partner') ? 'active' : '' }}" href="{{ route('partner') }}">Our Partners</a></li>
 							<li><a class="dropdown-item" href="#">News</a></li>
-						</ul>
+						</ul> --}}
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'about-us') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'about-us') ? 'active' : '' }}" href="{{ route('about-us.overview') }}" role="button" aria-expanded="false">
 							About us
 						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						{{-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<li><a class="dropdown-item" href="{{ route('about-us.overview') }}">Overview</a></li>
 							<li><a class="dropdown-item" href="#">Brand Story</a></li>
 							<li><a class="dropdown-item" href="{{ route('about-us.member') }}">Members (Map Members )</a></li>
@@ -69,16 +69,10 @@
 							<li><a class="dropdown-item {{ str_contains(Route::currentRouteName(), 'partner') ? 'active' : '' }}" href="{{ route('partner') }}">Our Partners</a></li>
 							<li><a class="dropdown-item" href="#">Technology</a></li>
 							<!-- <li><a class="dropdown-item" href="{{ route('about-us.message') }}">Message</a></li> -->
-						</ul>
+						</ul> --}}
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Business</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Business Category</a></li>
-							<li><a class="dropdown-item" href="#">Business Model</a></li>
-							<li><a class="dropdown-item" href="#">Ecosystem</a></li>
-							<li><a class="dropdown-item" href="#">Product/Services</a></li>
-						</ul>
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'business') ? 'active' : '' }}" href="{{ route('business') }}" role="button">Business</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
@@ -90,18 +84,18 @@
 						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Investors</a>
+						<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'investor') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Investors</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Investment News</a></li>
-							<li><a class="dropdown-item" href="{{ route('media.report') }}">Internal reports</a></li>
-							<li><a class="dropdown-item" href="#">Annual Finance Reports</a></li>
+							<li><a class="dropdown-item" href="{{ route('investor.news') }}">Investor News</a></li>
+							<li><a class="dropdown-item" href="{{ route('investor.report') }}">Internal reports</a></li>
+							<li><a class="dropdown-item" href="{{ route('investor.annual') }}">Annual Finance Reports</a></li>
 							<li><a class="dropdown-item" href="#">Sec Filing</a></li>
 						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
+						<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'media') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">News</a></li>
+							<li><a class="dropdown-item" href="{{ route('media.news') }}">News</a></li>
 							<li><a class="dropdown-item" href="{{ route('media.press') }}">Press release</a></li>
 						</ul>
 					</li>
@@ -246,6 +240,11 @@
 
 	<!-- Js File -->
 	<script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+	{{-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> --}}
+	<script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
+	<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
 </body>
 
 </html>

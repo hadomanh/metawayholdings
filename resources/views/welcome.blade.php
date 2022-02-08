@@ -25,10 +25,76 @@
 		</div>
 	</section>
 
+	<!-- ABOUT -->
+	<section class="about bgWhite bgArrow">
+		<div class="container">
+			<h2 class="sectionHeading centered">ABOUT <span>METAWAY HOLDINGS</span></h2>
+			<div class="row">
+				<div class="col-lg-8 col-md-6">
+					<div class="videoWrapper">
+						<iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>					
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<h5 class="titleUnderline">METAWAY Holdings INC Overview</h5>
+					<ul class="style-1">
+						<li><b>MOMENT</b>: Metaway Holdings was founded at a time when digital transformation is inevitable, and many emerging technologies, such as blockchain, NFT, Metaverse, Cryptocurrency, and primarily Digital Banking, are on the rise.</li>
+						<li><b>ECONOMY</b>: Metaway Holdings enters the market with the obvious intention of actively engaging in and developing new economies such as Platform Economy, DeFi, BaaS, tokenomics, and borderless economies.</li>
+						<li><b>TECHNOLOGY</b>: We place priority on technology development and digitization of all business activities, but always put technology in mind for the sake of humanity.</li>
+						<li><b>AMBITION</b>: Metaway Holdings brings together individuals with ambitious goals to build an incredible power designed to resolve unprecedented challenges in a new era of the surreal universe like the birth of Metaverse.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<!-- Business Highlights -->
 	<section class="newsHighlights bgGrey bgArrow">
 		<div class="container">
 			<h2 class="sectionHeading centered">BUSINESS HIGHLIGHTS</h2>
+			<div class="text-center">
+				<p class="mb-2">Metaway Holdings specializes in Global Digitalization Investment and Large Needs Search, addressing consumer concerns as well as social impacts.</p>
+
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card">
+						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-reliable.png"></a>
+						<div class="card-body col">
+							<h5 class="card-title titleUnderline"><a href="#">Vision</a></h5>
+							<p class="card-text" style="height: 80px; overflow-y: scroll;">We aim to be the gigantic player in global business for mutual prosperity and plan to be listed on Nasdaq by 2027. </p>
+
+							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-companion.png"></a>
+						<div class="card-body col">
+							<h5 class="card-title titleUnderline"><a href="#">Mission</a></h5>
+							<p class="card-text" style="height: 80px; overflow-y: scroll;">Pioneering technological innovation and knowledge, our goal is to make use of technology for delivering significant values and positive impacts on society and the globe.</p>
+							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-commitment.png"></a>
+						<div class="card-body col">
+							<h5 class="card-title titleUnderline"><a href="#">Core Values</a></h5>
+							<p class="card-text" style="height: 80px; overflow-y: scroll;">Our positioning is global, digital, but our core values are centered on people and the unifying of intelligence including human intelligence, artificial intelligence, and business intelligence.</p>
+							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="newsHighlights bgWhite bgArrow">
+		<div class="container">
+			<h2 class="sectionHeading centered">BUSINESS CATEGORY</h2>
 			<div class="text-center">
 				<p class="mb-2">At METAWAY Holdings, we partner with our customers. We listen first and only then
 				create solutions.</p>
@@ -40,8 +106,9 @@
 					<div class="card">
 						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-reliable.png"></a>
 						<div class="card-body col">
-							<h5 class="card-title titleUnderline"><a href="#">Reliable</a></h5>
-							<p class="card-text">METAWAY Holdings attaches great importance to the trust of customers for its business activities. And set it as a pioneering core value in every action.</p>
+							<h5 class="card-title titleUnderline"><a href="#">Consumer Tech</a></h5>
+							<p class="card-text" style="height: 100px; overflow-y: scroll;">With the rapid advancement of technology, essential human desires have grown to include the evolving needs of tech-driven consumption, and Metaway Holdings' commercial growth aim is to improve living standards with powerful technology.</p>
+							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
 				</div>
@@ -49,8 +116,9 @@
 					<div class="card">
 						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-companion.png"></a>
 						<div class="card-body col">
-							<h5 class="card-title titleUnderline"><a href="#">Companion</a></h5>
-							<p class="card-text">METAWAY holdings vows to accompany its partners and customers to the end of the path chosen by the mission.</p>
+							<h5 class="card-title titleUnderline"><a href="#">Social Tech</a></h5>
+							<p class="card-text" style="height: 100px; overflow-y: scroll;">Our endeavor is to be pioneering and continuously innovating in technology but our ultimate mission is to create human-oriented technology and product development goals towards social impact, creating great value for people.</p>
+							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
 				</div>
@@ -58,34 +126,11 @@
 					<div class="card">
 						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-commitment.png"></a>
 						<div class="card-body col">
-							<h5 class="card-title titleUnderline"><a href="#">Commitment</a></h5>
-							<p class="card-text">METAWAY Holdings is always committed to serving customers and partners with the best products and services.</p>
+							<h5 class="card-title titleUnderline"><a href="#">BaaS</a></h5>
+							<p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Holdings is a worldwide network of the most talented blockchain developers, engineers, and consultants. We have a roadmap is to build our own ecosystem and blockchain-related products and services then help companies and startups with ideas to launch ICOs, write smart contracts, create Dapps, and more.</p>
+							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- ABOUT -->
-	<section class="about bgWhite bgArrow">
-		<div class="container">
-			<h2 class="sectionHeading">ABOUT <span>METAWAY HOLDINGS</span></h2>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<h5 class="titleUnderline">METAWAY Holdings INC Overview</h5>
-					<ul class="style-1">
-						<li>METAWAY Holdings was founded based on the global business ambition of the Founders who have many years experience in the field of investing, restructuring and developing cross-border projects.</li>
-						<li>METAWAY was inspired by connecting a community of competent entrepreneurs in the new economic field of the millennium.</li>
-						<li>METAWAY Holdings attaches great importance to social values and focuses on the vital core areas of this world.</li>
-						<li>The Founders team are from all over the world for a lasting business goal.</li>
-						<li>METAWAY Holdings defines a bold direction for a successful business community in the 21st century.</li>
-					</ul>
-				</div>
-				<div class="col-lg-8 col-md-6">
-					<div class="videoWrapper">
-						<iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>					
 				</div>
 			</div>
 		</div>
@@ -94,175 +139,106 @@
 	<!-- PROJECTS -->
 	<section class="projects bgDark bgArrow">
 		<div class="container">
-			<h2 class="sectionHeading centered text-white">PROJECTS <span>METAWAY HOLDINGS</span></h2>
-			<div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-indicators">
-					<button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-					<button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-					<button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-				</div>
-				<div class="carousel-inner text-center mw-600 text-white">
-					<div class="carousel-item active">
-						<p>METAWAY Holdings INC focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Renewable Energy, Financial Technology, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.</p>
-					</div>
-					<div class="carousel-item">
-						<p>METAWAY Holdings INC focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Renewable Energy, Financial Technology, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.</p>
-					</div>
-					<div class="carousel-item">
-						<p>METAWAY Holdings INC focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Renewable Energy, Financial Technology, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.</p>
-					</div>
-				</div>
+			<h2 class="sectionHeading centered text-white">OUR PROJECTS</h2>
+			<div class="text-center text-white">
+				<p class="">Metaways Holdings  focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Consumer Tech, Social Tech, Financial Tech, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.</p>
 			</div>
+			
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<div class="card">
-						<a href="#"><img class="card-img-top" src="img/project-one.png"></a>
+						<a href="#"><img class="card-img-top" src="img/project-1.png"></a>
 						<div class="card-body">
-							<h5 class="card-title titleUnderline">CLEAN ENERGY</h5>
-							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
-							<div class="text-center"><a target="_blank" href="#" class="btn btnWhite">READ MORE</a></div>
+							<h5 class="card-title titleUnderline">Hyperas Chain</h5>
+							<p class="card-text" style="height: 120px; overflow-y: scroll;">Hyperas Chain is a blockchain infrastructure that connects other blockchains with the noble mission of providing super security, super privacy, and super efficiency.</p>
+							<div class="text-center"><a target="_blank" href="https://hyperaschain.com/" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<div class="card">
-						<img class="card-img-top" src="img/project-two.png">
+						<img class="card-img-top" src="img/project-2.png">
 						<div class="card-body">
-							<h5 class="card-title titleUnderline">REAL ESTATE</h5>
-							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
-							<div class="text-center"><a target="_blank" href="https://diasplat.com/" class="btn btnWhite">READ MORE</a></div>
+							<h5 class="card-title titleUnderline">Divega</h5>
+							<p class="card-text" style="height: 120px; overflow-y: scroll;">E-Auction is an effective ecommerce system that allows bidders and sellers to interact through online platforms with the world's first reverse auction method.</p>
+							<div class="text-center"><a target="_blank" href="https://divega.com/" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
+					<div class="card">
+						<img class="card-img-top" src="img/project-3.png">
+						<div class="card-body">
+							<h5 class="card-title titleUnderline">Pindias</h5>
+							<p class="card-text" style="height: 120px; overflow-y: scroll;">Pindias' goal is to become a leading platform, top of mind for digital asset management. </p>
+							<div class="text-center"><a target="_blank" href="" class="btn btnWhite">READ MORE</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card">
+						<img class="card-img-top" src="img/project-4.png">
+						<div class="card-body">
+							<h5 class="card-title titleUnderline">Rapital Bank</h5>
+							<p class="card-text" style="height: 120px; overflow-y: scroll;"> It provides the foundation for digital transformation, the capabilities for exceptional omni-channel experiences, and the technology to leverage open banking at its best. </p>
+							<div class="text-center"><a target="_blank" href="https://www.rapitalbank.com/" class="btn btnWhite">READ MORE</a></div>
+						</div>
+					</div>
+				</div>
+				{{-- <div class="col-md-4">
 					<div class="card">
 						<img class="card-img-top" src="img/project-three.png">
 						<div class="card-body">
-							<h5 class="card-title titleUnderline">FINANCE AND TECHNOLOGY</h5>
-							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+							<h5 class="card-title titleUnderline">Our Partners</h5>
+							<p class="card-text">We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models. </p>
 							<div class="text-center"><a target="_blank" href="https://paygate.global/" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Investors -->
-	<section class="investors bgGrey bgArrow">
-		<div class="container">
-			<h2 class="sectionHeading centered">INVESTORS</h2>
-			<div class="text-center mw-600">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-			</div>
-			<div class="row listInvestors">
-				<div class="col-md-6">
-					<div class="card">
-						<img class="card-img-top" src="img/Investors-cmctechnology.png">
-						<div class="card-body">
-							<h5 class="card-title titleUnderline centered">METAWAY TECHNOGLY SOLUSION INC</h5>
-							<p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It
-								has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
-								old... <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-								looked up one of the more obscure Latin words, consectetur</p>
-							<div class="text-center"><a target="_blank" href="https://dev.cmcchain.network/" class="btn btnWhite">READ MORE</a></div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="card">
-						<img class="card-img-top" src="img/Investors-software.png">
-						<div class="card-body">
-							<h5 class="card-title titleUnderline centered">SOFT WARE EMPOWER COOPERATION PTE.LTD</h5>
-							<p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It
-								has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
-								old... <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-								looked up one of the more obscure Latin words, consectetur</p>
-							<div class="text-center"><a target="_blank" href="https://onstora.com/" class="btn btnWhite">READ MORE</a></div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="card">
-						<img class="card-img-top" src="img/Investors-globalAsset.png">
-						<div class="card-body">
-							<h5 class="card-title titleUnderline centered">GLOBAL ASSET MANAGEMENT.JSC</h5>
-							<p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It
-								has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
-								old... <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-								looked up one of the more obscure Latin words, consectetur</p>
-							<div class="text-center"><a target="_blank" href="https://diasplat.com/" class="btn btnWhite">READ MORE</a></div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="card">
-						<img class="card-img-top" src="img/Investors-paygate.png">
-						<div class="card-body">
-							<h5 class="card-title titleUnderline centered">PAYGATE CANADA INC</h5>
-							<p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It
-								has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
-								old... <br> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-								looked up one of the more obscure Latin words, consectetur</p>
-							<div class="text-center"><a target="_blank" href="https://paygate.global/" class="btn btnWhite">READ MORE</a></div>
-						</div>
-					</div>
-				</div>
+				</div> --}}
 			</div>
 		</div>
 	</section>
 
 	<!-- PARTNERS -->
-	<section class="partners bgWhite bgArrow">
+	<section class="partners bgWhite">
 		<div class="container">
-			<h2 class="sectionHeading">PARTNERS <span>METAWAY HOLDINGS</span></h2>
-			<p class="fw-normal fs-6">“We work with major service providers to blockchainise conventional business models”
-			</p>
+			<h2 class="sectionHeading centered">OUR PARTNERS</h2>
+			<p class="fw-normal fs-6 text-center">We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models.</p>
 		</div>
-		<div class="container-fluid">
-			<div class="row align-items-center justify-content-center listPartners text-center">
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-1.jpg" alt=""></a>
-				</div>
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-2.jpg" alt=""></a>
-				</div>
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-3.jpg" alt=""></a>
-				</div>
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-4.jpg" alt=""></a>
-				</div>
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-5.jpg" alt=""></a>
-				</div>
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-6.jpg" alt=""></a>
-				</div>
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-7.jpg" alt=""></a>
-				</div>
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-8.jpg" alt=""></a>
-				</div>
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-1.jpg" alt=""></a>
-				</div>
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-2.jpg" alt=""></a>
-				</div>
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-3.jpg" alt=""></a>
-				</div>
-				<div class="col-md-1 col-4">
-					<a href="#"><img src="img/partner-4.jpg" alt=""></a>
-				</div>
-			</div>
+		<div class="container">
+			<div class="row">
+                <div class="col-md-3">
+                    <img src="{{ asset('img/overview-partner-1.png') }}">
+                </div>
+                <div class="col-md-3">
+                    <img src="{{ asset('img/overview-partner-2.png') }}">
+                </div>
+                <div class="col-md-3">
+                    <img src="{{ asset('img/overview-partner-3.png') }}">
+                </div>
+                <div class="col-md-3">
+                    <img src="{{ asset('img/overview-partner-4.png') }}">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <img src="{{ asset('img/overview-partner-5.png') }}">
+                </div>
+                <div class="col-md-3">
+                    <img src="{{ asset('img/overview-partner-6.png') }}">
+                </div>
+                <div class="col-md-3">
+                    <img src="{{ asset('img/overview-partner-7.png') }}">
+                </div>
+                <div class="col-md-3">
+                    <img src="{{ asset('img/overview-partner-8.png') }}">
+                </div>
+            </div>
 		</div>
 	</section>
 
 	<!-- Insider news -->
-	<section class="newsHighlights bgGray">
+	{{-- <section class="newsHighlights bgGray">
 		<div class="container">
 			<h2 class="sectionHeading">INSIDER NEWS</h2>
 			<div class="row">
@@ -295,6 +271,6 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 </div>
 @endsection

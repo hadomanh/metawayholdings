@@ -3,7 +3,7 @@
 @section('content')
 <div id="mediaPage">
     <!-- Banner -->
-    <section class="p-0"><img src="{{ asset('img/banner-media-press.jpg') }}" class="w-100"></section>
+    <section class="p-0"><img src="{{ asset('img/media-press-banner.png') }}" class="w-100"></section>
 
     <!-- PRESS RELEASE METAWAY HOLDINGS -->
     <section class="bgGrey newsHighlights">

@@ -37,6 +37,10 @@ Route::prefix('about-us')->group(function () {
     })->name('about-us.team');
 });
 
+Route::get('/business', function () {
+    return view('business');
+})->name('business');
+
 Route::get('/project', function () {
     return view('project');
 })->name('project');
@@ -45,9 +49,20 @@ Route::get('/our-partners', function () {
     return view('partner');
 })->name('partner');
 
-Route::get('/investors', function () {
-    return view('investor');
-})->name('investor');
+Route::prefix('investor')->group(function () {
+    Route::get('/investor-news', function () {
+        return view('investor.news');
+    })->name('investor.news');
+    Route::get('/internal-reports', function () {
+        return view('investor.report');
+    })->name('investor.report');
+    Route::get('/annual-finance-reports', function () {
+        return view('investor.annual');
+    })->name('investor.annual');
+    Route::get('/investors', function () {
+        return view('investor');
+    })->name('investor');
+});
 
 Route::prefix('media')->group(function () {
     Route::get('/overview', function () {
@@ -57,6 +72,10 @@ Route::prefix('media')->group(function () {
     Route::get('/internal-reports', function () {
         return view('media.report');
     })->name('media.report');
+
+    Route::get('/news', function () {
+        return view('media.news');
+    })->name('media.news');
 
     Route::get('/press-release', function () {
         return view('media.press');
