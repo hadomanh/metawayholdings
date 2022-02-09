@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap');
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Sarabun', sans-serif;
 	font-size: 14px;
 	color: #464646;
 	background: #f3f3f3;
@@ -28,8 +28,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 a.more {
 	display: inline-block;
-	color: #e3007a;
-	border: 1px solid #e3007a;
+	color: #ce0020;
+	border: 1px solid #ce0020;
 	padding: 10px 20px;
 	text-transform: uppercase;
 	border-radius: 5px;
@@ -37,7 +37,7 @@ a.more {
 	line-height: 100%;
 }
 a.more:hover {
-	background: #e3007a;
+	background: #ce0020;
 	color: #fff;
 }
 section {
@@ -74,7 +74,7 @@ section .sectionHeading:before,
 	position: absolute;
 	width: 50px;
 	height: 2px;
-	background: #e3007a;
+	background: #ce0020;
 	left: 0;
 	bottom: 0;
 }
@@ -174,7 +174,7 @@ table.v-align-middle th {
 }
 .nav-tabs .nav-item .nav-link.active {
 	background: #f3f3f3;
-	color: #e3007a;
+	color: #ce0020;
 }
 .carousel-dark .carousel-indicators button.active,
 .carousel-indicators button.active {
@@ -258,7 +258,7 @@ header .navbar.navbar-expand-lg .nav-link:before {
 	position: absolute;
 	width: 100%;
 	height: 2px;
-	background: #e3007a;
+	background: #ce0020;
 	left: 0;
 	bottom: 0;
 	opacity: 0;
@@ -563,7 +563,7 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 /*========================== PAGINATE ==========================*/
 .pagination {
 	margin: 30px 0;
-	border: 1px solid #e3007a;
+	border: 1px solid #ce0020;
 	border-radius: 5px;
 }
 .pagination a,
@@ -572,13 +572,13 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	padding: 10px;
 }
 .pagination a {
-	color: #e3007a;
+	color: #ce0020;
 }
 .pagination .p-pre {
-	border-right: 1px solid #e3007a;
+	border-right: 1px solid #ce0020;
 }
 .pagination .p-next {
-	border-left: 1px solid #e3007a;
+	border-left: 1px solid #ce0020;
 }
 /*========================== FOOTER ==========================*/
 footer {
