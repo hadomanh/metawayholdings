@@ -21,6 +21,8 @@
 	<meta property="og:image" content="" />
 	<meta property="og:site_name" content="METAWAY HOLDING" />
 
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+
 	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/fa881189ef.js" crossorigin="anonymous"></script>
 
