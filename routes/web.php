@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\NewsController;
+use App\Models\News;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -74,7 +75,8 @@ Route::prefix('media')->group(function () {
     })->name('media.report');
 
     Route::get('/news', function () {
-        return view('media.news');
+        $news = News::where('active', true)->get();
+        return view('media.news')->with(compact('news'));
     })->name('media.news');
 
     Route::get('/press-release', function () {
