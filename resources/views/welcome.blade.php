@@ -177,7 +177,7 @@
 						<img class="card-img-top" src="img/project-2.png">
 						<div class="card-body">
 							<h5 class="card-title titleUnderline">Pindias</h5>
-							<p class="card-text" style="height: 120px; overflow-y: scroll;">Pindias' goal is to become a leading platform, top of mind for digital asset management. </p>
+							<p class="card-text" style="height: 120px; overflow-y: scroll;">Pindias' goal is to become a leading platform, top of mind brand for digital asset management.</p>
 							<div class="text-center"><a target="_blank" href="" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
