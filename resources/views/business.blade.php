@@ -143,7 +143,7 @@
     <section class="bgDark bgArrow">
         <div class="container">
             <h2 class="sectionHeading centered text-white">ECOSYSTEM</h2>
-            <p class="text-center text-white">Metayway Holdings is Vietnam's first and most advanced digital ecosystem. We develop self-contained and growing ecosystems to fulfill the ever-increasing demands of our global consumers.</p>
+            <p class="text-center text-white">Metayway Holdings has built the pioneering and the most advanced digital ecosystem. We develop self-contained and growing ecosystems to fulfill the ever-increasing demands of our global consumers.</p>
             <p class="text-center text-white">The digital ecosystem of Metaway Holdings will feature Hyperas Chain, a specialized platform for coding assets, Pindias, a transaction management platform for digital asset logs, Divega, an auction e-commerce platform, and Rapital Bank, a digital banking service available at any time.</p>
             <img class="centered" src="{{ asset('img/business-ecosystem.png') }}" alt="">
         </div>
@@ -153,27 +153,49 @@
     <section class="bgGrey newsHighlights pb-5">
         <div class="container">
 
-            <h2 class="sectionHeading centered">PRODUCT / SERVICE</h2>
+            <h2 class="sectionHeading centered">PRODUCTS / SERVICES</h2>
             <p class="text-center">Metaway Holdings' goods and services revolve around answering the essential needs of global consumers on digital platforms, thanks to a self-contained digital ecosystem.</p>
             
-            <div class="row">
+            <div class="row d-flex justify-content-center">
                 <div class="col-2">
-                    <img src="{{ asset('img/business-product-1.png') }}" alt="">
+                    <div class="card bgGrey">
+                        <img src="{{ asset('img/business-product-1.png') }}" alt="">
+                        <div class="card-body col">
+                            <h5 class="card-title text-center">Asset tokenization platform</h5>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-2">
+                {{-- <div class="col-2">
                     <img src="{{ asset('img/business-product-2.png') }}" alt="">
                 </div>
                 <div class="col-2">
                     <img src="{{ asset('img/business-product-3.png') }}" alt="">
+                </div> --}}
+
+
+                <div class="col-2">
+                    <div class="card bgGrey">
+                        <img src="{{ asset('img/business-product-4.png') }}" alt="">
+                        <div class="card-body col">
+                            <h5 class="card-title text-center">Digital Banking</h5>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-2">
-                    <img src="{{ asset('img/business-product-4.png') }}" alt="">
+                    <div class="card bgGrey">
+                        <img src="{{ asset('img/business-product-5.png') }}" alt="">
+                        <div class="card-body col">
+                            <h5 class="card-title text-center">E-commerce reverse auction</h5>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-2">
-                    <img src="{{ asset('img/business-product-5.png') }}" alt="">
-                </div>
-                <div class="col-2">
-                    <img src="{{ asset('img/business-product-6.png') }}" alt="">
+                    <div class="card bgGrey">
+                        <img src="{{ asset('img/business-product-6.png') }}" alt="">
+                        <div class="card-body col">
+                            <h5 class="card-title text-center">Digital asset transaction management system</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
 

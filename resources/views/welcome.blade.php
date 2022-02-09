@@ -42,7 +42,7 @@
 						<li><b>MOMENT</b>: Metaway Holdings was founded at a time when digital transformation is inevitable, and many emerging technologies, such as blockchain, NFT, Metaverse, Cryptocurrency, and primarily Digital Banking, are on the rise.</li>
 						<li><b>ECONOMY</b>: Metaway Holdings enters the market with the obvious intention of actively engaging in and developing new economies such as Platform Economy, DeFi, BaaS, tokenomics, and borderless economies.</li>
 						<li><b>TECHNOLOGY</b>: We place priority on technology development and digitization of all business activities, but always put technology in mind for the sake of humanity.</li>
-						<li><b>AMBITION</b>: Metaway Holdings brings together individuals with ambitious goals to build an incredible power designed to resolve unprecedented challenges in a new era of the surreal universe like the birth of Metaverse.</li>
+						<li><b>ASPIRATION</b>: Metaway Holdings brings together individuals with big goals to build an incredible power designed to resolve unprecedented challenges in a new era of the surreal universe like the birth of Metaverse.</li>
 					</ul>
 				</div>
 			</div>
@@ -140,7 +140,7 @@
 		<div class="container">
 			<h2 class="sectionHeading centered text-white">OUR PROJECTS</h2>
 			<div class="text-center text-white">
-				<p class="">Metaways Holdings  focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products services related to: Consumer Tech, Social Tech, Financial Tech, Crypto Real Estate and development needs other. Each of our projects responds to and serves the key aspects and trends of the times.</p>
+				<p class="">Metaways Holdings focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products & services related to Consumer Tech, Social Tech, Financial Tech, Crypto Real Estate, and development needs others. Each of our projects responds to and serves the key aspects and trends of the times.</p>
 			</div>
 			
 			<div class="row">

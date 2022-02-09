@@ -38,7 +38,8 @@
                    <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="videoWrapper">
-                            <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe>
+                            {{-- <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
                         </div>	
                     </div>
                         <div class="col-md-6">
@@ -46,7 +47,7 @@
                                 <li><b>Global Based Company: </b>Metaway Holdings is headquartered in the US and has offices in many countries around the world, of which a large part of its personnel is in Vietnam, a country with people who are studious, clever, tech savvy and which is currently recognized for having numerous startups in innovation and high-tech industries.</li>
                                 <li><b>Inspiration: </b>Metaway Holdings was founded on the aim of bringing together a community of competent entrepreneurs in the new era of emerging economies.</li>
                                 <li><b>Human Power: </b>The founders and Executive Team of Metaway Holdings have vast experience in investing, corporate management, restructuring, and executing cross-border initiatives, which contributes to the company's strength.</li>
-                                <li><b>Ambition: </b>The big vision of Metaway Holdings always closely connects with the big dreams of solving the major challenges of the global and social market with huge user needs.</li>
+                                <li><b>Aspiration: </b>The big vision of Metaway Holdings always closely connects with the big dreams of solving the major challenges of the global and social market with huge user needs.</li>
                             </ul>
                         </div>
                     </div>
@@ -55,14 +56,15 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="videoWrapper">
-                                <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe>
+                                {{-- <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
                             </div>	
                         </div>
                         <div class="col-md-6">
                             <ul>
-                                <li>Metaway was created in 2022, the birth year of Metaverse, which was projected to be the year of intuition, imagination, passion, creativity, and tremendous ambition.</li>
-                                <li>Metaway was given this name, we designed to create stories about the Meta aspirations of Vietnamese individuals who strive to provide excellent values and social impacts to the world through technology. </li>
-                                <li>We do not restrict our creativity while considering our Dreams and Ambitions with the Power of Technology, but we always keep the worthy mission of serving the world in mind and create the appropriate way from the start.</li>
+                                <li>Metaway Holdings  was created in 2022, the birth year of Metaverse, which was projected to be the year of intuition, imagination, passion, creativity, and tremendous ambition.</li>
+                                <li>Metaway Holdings was given this name, we designed to create stories about the Meta aspirations of the worldwide individuals who strive to provide excellent values and social impacts to the world through technology.</li>
+                                <li>We do not restrict our creativity while considering our Dreams and Desires with the Power of Technology, but we always keep the worthy mission of serving the world in mind and create the appropriate way from the start.</li>
                             </ul>
                         </div>
                     </div>
@@ -71,7 +73,8 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="videoWrapper">
-                                <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe>
+                                {{-- <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
                             </div>	
                         </div>
                         <div class="col-md-6">
@@ -88,7 +91,8 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="videoWrapper">
-                                <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe>
+                                {{-- <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
                             </div>	
                         </div>
                         <div class="col-md-6">
@@ -184,7 +188,7 @@
         <div class="container">
             <h2 class="sectionHeading centered text-white">Member</h2>
             <p class="text-center text-white">As a “Holding in Holding” model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.</p>
-            <img src="" alt="">
+            <img src="{{ asset('img/banner-overview-member.png') }}" alt="">
         </div>
     </section>
 
@@ -562,7 +566,7 @@
                     <h5 class="name text-center mt-3">Web 3.0</h5>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-md-6">
-                    <img src="{{ asset('img/overview-technology-5.png') }}">
+                    <img src="{{ asset('img/overview-technology-6.png') }}">
                     <h5 class="name text-center mt-3">Data Mining</h5>
                 </div>
             </div>
