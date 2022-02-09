@@ -146,6 +146,7 @@ class NewsController extends Controller
         if($request->hasFile('thumbnail')){
             $thumbnailFileName = $currentMillis . '.' . $request->file('thumbnail')->extension();
             $news->thumbnail = $request->file('thumbnail')->storeAs('newsThumbnail', $thumbnailFileName, 'public');
+            $news->thumbnail = asset('storage/' . $news->thumbnail);
         }
 
         $news->title = $request->title;
