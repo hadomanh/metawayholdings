@@ -210,7 +210,7 @@
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-technical" role="tabpanel" aria-labelledby="pills-technical-tab">
                     <div class="row d-flex justify-content-center">
-                        <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center flex-column">
+                        <div class="col-xl-2 col-lg-4 col-md-6">
                             <div class="item">
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
@@ -513,6 +513,20 @@
                     </div>
                     <div class="col-md-4 d-flex justify-content-center mt-5">
                         <img src="{{ asset('img/overview-partner-11.jpg') }}" style="max-height: 100px">
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-3 d-flex justify-content-center mt-5">
+                        <img src="{{ asset('img/overview-partner-12.png') }}" style="max-height: 100px">
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center mt-5">
+                        <img src="{{ asset('img/overview-partner-13.png') }}" style="max-height: 100px">
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center mt-5">
+                        <img src="{{ asset('img/overview-partner-14.png') }}" style="max-height: 100px">
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center mt-5">
+                        <img src="{{ asset('img/overview-partner-15.png') }}" style="max-height: 100px">
                     </div>
                 </div>
             </div>
