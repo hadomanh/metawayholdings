@@ -213,32 +213,15 @@
 			<p class="fw-normal fs-6 text-center">We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models.</p>
 		</div>
 		<div class="container">
-			<div class="row">
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-1.png') }}">
+			<div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-4 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-9.png') }}" style="max-height: 100px">
                 </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-2.png') }}">
+                <div class="col-md-4 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-10.png') }}" style="max-height: 100px">
                 </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-3.png') }}">
-                </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-4.png') }}">
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-5.png') }}">
-                </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-6.png') }}">
-                </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-7.png') }}">
-                </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-8.png') }}">
+                <div class="col-md-4 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-11.jpg') }}" style="max-height: 100px">
                 </div>
             </div>
 		</div>

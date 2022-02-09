@@ -181,7 +181,7 @@
     <!-- MEMBER -->
     <section class="bgDark bgArrow">
         <div class="container">
-            <h2 class="sectionHeading centered text-white">Member</h2>
+            <h2 class="sectionHeading centered text-white">MEMBERS</h2>
             <p class="text-center text-white">As a “Holding in Holding” model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.</p>
             <img src="{{ asset('img/banner-overview-member.png') }}" alt="">
         </div>
@@ -191,7 +191,7 @@
     <section class="bgGrey bgArrow newsHighlights">
         <div class="container">
 
-            <h2 class="sectionHeading centered">Our Executive Team</h2>
+            <h2 class="sectionHeading centered">OUR EXECUTIVE TEAM</h2>
             <p class="text-center">We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models. </p>
             <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -210,7 +210,7 @@
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-technical" role="tabpanel" aria-labelledby="pills-technical-tab">
                     <div class="row d-flex justify-content-center">
-                        <div class="col-xl-2 col-lg-4 col-md-6">
+                        <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center flex-column">
                             <div class="item">
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
@@ -503,32 +503,17 @@
         <div class="container">
             <h2 class="sectionHeading centered">OUR PARTNERS</h2>
             <p class="text-center">We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models. </p>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-1.png') }}">
-                </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-2.png') }}">
-                </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-3.png') }}">
-                </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-4.png') }}">
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-5.png') }}">
-                </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-6.png') }}">
-                </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-7.png') }}">
-                </div>
-                <div class="col-md-3">
-                    <img src="{{ asset('img/overview-partner-8.png') }}">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-4 d-flex justify-content-center mt-5">
+                        <img src="{{ asset('img/overview-partner-9.png') }}" style="max-height: 100px">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center mt-5">
+                        <img src="{{ asset('img/overview-partner-10.png') }}" style="max-height: 100px">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center mt-5">
+                        <img src="{{ asset('img/overview-partner-11.jpg') }}" style="max-height: 100px">
+                    </div>
                 </div>
             </div>
         </div>
@@ -540,27 +525,27 @@
             <h2 class="sectionHeading centered">TECHNOLOGY</h2>
             <p class="text-center">Metaway Holdings will fully participate in the research, application, and development of cutting-edge technologies, including the building of infrastructure technology structures, systems integration superstructures, and content layer creation.</p>
             <div class="row">
-                <div class="col-xl-2 col-lg-4 col-md-6">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
                     <img src="{{ asset('img/overview-technology-1.png') }}">
                     <h5 class="name text-center mt-3">Blockchain</h5>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-6">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
                     <img src="{{ asset('img/overview-technology-2.png') }}">
                     <h5 class="name text-center mt-3">Artificial Intelligent (AI)</h5>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-6">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
                     <img src="{{ asset('img/overview-technology-3.png') }}">
                     <h5 class="name text-center mt-3">Augmented Reality (AR)</h5>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-6">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
                     <img src="{{ asset('img/overview-technology-4.png') }}">
                     <h5 class="name text-center mt-3">Virtual Reality (VR)</h5>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-6">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
                     <img src="{{ asset('img/overview-technology-5.png') }}">
                     <h5 class="name text-center mt-3">Web 3.0</h5>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-6">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
                     <img src="{{ asset('img/overview-technology-6.png') }}">
                     <h5 class="name text-center mt-3">Data Mining</h5>
                 </div>
