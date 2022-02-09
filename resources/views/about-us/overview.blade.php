@@ -520,7 +520,7 @@
     </section>
 
     <!-- Technology -->
-    <section class="bgGrey bgArrow newsHighlights">
+    <section class="bgGrey newsHighlights">
         <div class="container">
             <h2 class="sectionHeading centered">TECHNOLOGY</h2>
             <p class="text-center">Metaway Holdings will fully participate in the research, application, and development of cutting-edge technologies, including the building of infrastructure technology structures, systems integration superstructures, and content layer creation.</p>
