@@ -10,16 +10,24 @@
 				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
 				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="3" aria-label="Slide 4"></button>
+				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="4" aria-label="Slide 5"></button>
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active" data-bs-interval="5000">
-					<img src="img/Banner-homepage.png" class="w-100">
+					<img src="img/home-banner-1.png" class="w-100">
 				</div>
 				<div class="carousel-item" data-bs-interval="5000">
-					<img src="img/Banner-homepage.png" class="w-100">
+					<img src="img/home-banner-2.png" class="w-100">
 				</div>
 				<div class="carousel-item" data-bs-interval="5000">
-					<img src="img/Banner-homepage.png" class="w-100">
+					<img src="img/home-banner-3.png" class="w-100">
+				</div>
+				<div class="carousel-item" data-bs-interval="5000">
+					<img src="img/home-banner-4.png" class="w-100">
+				</div>
+				<div class="carousel-item" data-bs-interval="5000">
+					<img src="img/home-banner-5.png" class="w-100">
 				</div>
 			</div>
 		</div>
@@ -32,8 +40,8 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-6">
 					<div class="videoWrapper">
-						<iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500"></iframe>
-						{{-- <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
+						{{-- <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500"></iframe> --}}
+						<iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>					
 				</div>
 				<div class="col-lg-4 col-md-6">
@@ -63,7 +71,7 @@
 						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-reliable.png"></a>
 						<div class="card-body col">
 							<h5 class="card-title titleUnderline"><a href="#">Vision</a></h5>
-							<p class="card-text" style="height: 80px; overflow-y: scroll;">We aim to be the gigantic player in global business for mutual prosperity and plan to be listed on Nasdaq by 2027. </p>
+							<p class="card-text" style="height: 80px; overflow-y: scroll;">We aim to be the gigantic player in global business for mutual prosperity and set a goal IPO target of US$300 billion by 2027. </p>
 
 							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
@@ -126,7 +134,7 @@
 						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-commitment.png"></a>
 						<div class="card-body col">
 							<h5 class="card-title titleUnderline"><a href="#">BaaS</a></h5>
-							<p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Holdings is a worldwide network of the most talented blockchain developers, engineers, and consultants. We have a roadmap is to build our own ecosystem and blockchain-related products and services then help companies and startups with ideas to launch ICOs, write smart contracts, create Dapps, and more.</p>
+							<p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Holdings is a global network of the most talented blockchain developers, engineers and consultants. We have a roadmap for developing our own ecosystem of blockchain related goods and services targeting government regulators, digitized global businesses, and the management of blockchain-driven assets such as securities, real estate, etc.</p>
 							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>

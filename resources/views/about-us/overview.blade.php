@@ -38,8 +38,8 @@
                    <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="videoWrapper">
-                            <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe>
-                            {{-- <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
+                            {{-- <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe> --}}
+                            <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>	
                     </div>
                         <div class="col-md-6">
@@ -56,8 +56,8 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="videoWrapper">
-                                <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe>
-                                {{-- <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
+                                {{-- <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe> --}}
+                                <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>	
                         </div>
                         <div class="col-md-6">
@@ -73,8 +73,8 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="videoWrapper">
-                                <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe>
-                                {{-- <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
+                                {{-- <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe> --}}
+                                <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>	
                         </div>
                         <div class="col-md-6">
@@ -91,8 +91,8 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="videoWrapper">
-                                <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe>
-                                {{-- <iframe width="850" height="500" src="https://www.youtube.com/embed/oQ4TdsvCfAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
+                                {{-- <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe> --}}
+                                <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>	
                         </div>
                         <div class="col-md-6">
@@ -124,9 +124,7 @@
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Globalization</h5>
-                            <p class="card-text text-center">The newly established METAWAY Holdings INC aims to conduct M&A with the
-                                Company that has listed its shares on Nasdaq. Its goal is restructuring in the direction
-                                of financial technology enterprises and holding its member companies.</p>
+                            <p class="card-text text-center">With the leverage of a borderless economy, Metaway Holdings' products, services, and business development are globally oriented with the goal of addressing huge user needs.</p>
                         </div>
                     </div>
                 </div>
@@ -137,9 +135,7 @@
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Human First</h5>
-                            <p class="card-text text-center">We have a team of qualified personnel, advisors, CEOs, CMOs... all of
-                                them have many years experience in restructuring, M&A, Marketing and business management
-                                industries.</p>
+                            <p class="card-text text-center">As a technology company, we put people first, including developing talent in the company and taking care of human issues globally.</p>
                         </div>
                     </div>
                 </div>
@@ -150,8 +146,7 @@
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Technology</h5>
-                            <p class="card-text text-center">The parent company and the Founders have a strong financial foundation
-                                to ensure the operation and growth of the project in 2021 and the following years.</p>
+                            <p class="card-text text-center">Identify technologies for addressing both consumer digital endpoints & social impacts.</p>
                         </div>
                     </div>
                 </div>
