@@ -42,7 +42,7 @@
                             <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>	
                     </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" style="text-align: justify">
                             <ul>
                                 <li><b>Global Based Company: </b>Metaway Holdings is headquartered in the US and has offices in many countries around the world, of which a large part of its personnel is in Vietnam, a country with people who are studious, clever, tech savvy and which is currently recognized for having numerous startups in innovation and high-tech industries.</li>
                                 <li><b>Inspiration: </b>Metaway Holdings was founded on the aim of bringing together a community of competent entrepreneurs in the new era of emerging economies.</li>
@@ -60,7 +60,7 @@
                                 <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>	
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" style="text-align: justify">
                             <ul>
                                 <li>Metaway Holdings  was created in 2022, the birth year of Metaverse, which was projected to be the year of intuition, imagination, passion, creativity, and tremendous ambition.</li>
                                 <li>Metaway Holdings was given this name, we designed to create stories about the Meta aspirations of the worldwide individuals who strive to provide excellent values and social impacts to the world through technology.</li>
@@ -77,7 +77,7 @@
                                 <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>	
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" style="text-align: justify">
                             <ul>
                                 <li>The pioneering and most advanced digital ecosystem in the world.</li>
                                 <li>Set a goal IPO target of US$300 billion by 2027.</li>
@@ -95,7 +95,7 @@
                                 <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>	
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" style="text-align: justify">
                             <ul>
                                 <li>Pioneer develops a worldwide digital ecosystem in the field of asset management.</li>
                                 <li>Pioneering technological innovation and knowledge, and altering the digital economy and economic growth.</li>

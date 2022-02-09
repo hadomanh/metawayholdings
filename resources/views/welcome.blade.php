@@ -44,7 +44,7 @@
 						<iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>					
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-md-6" style="text-align: justify">
 					<h5 class="titleUnderline">METAWAY Holdings INC Overview</h5>
 					<ul class="style-1">
 						<li><b>MOMENT</b>: Metaway Holdings was founded at a time when digital transformation is inevitable, and many emerging technologies, such as blockchain, NFT, Metaverse, Cryptocurrency, and primarily Digital Banking, are on the rise.</li>
@@ -214,16 +214,30 @@
 		</div>
 		<div class="container">
 			<div class="row d-flex justify-content-center align-items-center">
-                <div class="col-md-4 d-flex justify-content-center mt-5">
+				<div class="col-md-4 d-flex justify-content-center mt-5">
 					<img src="{{ asset('img/overview-partner-9.png') }}" style="max-height: 100px">
-                </div>
-                <div class="col-md-4 d-flex justify-content-center mt-5">
+				</div>
+				<div class="col-md-4 d-flex justify-content-center mt-5">
 					<img src="{{ asset('img/overview-partner-10.png') }}" style="max-height: 100px">
-                </div>
-                <div class="col-md-4 d-flex justify-content-center mt-5">
+				</div>
+				<div class="col-md-4 d-flex justify-content-center mt-5">
 					<img src="{{ asset('img/overview-partner-11.jpg') }}" style="max-height: 100px">
-                </div>
-            </div>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="col-md-3 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-12.png') }}" style="max-height: 100px">
+				</div>
+				<div class="col-md-3 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-13.png') }}" style="max-height: 100px">
+				</div>
+				<div class="col-md-3 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-14.png') }}" style="max-height: 100px">
+				</div>
+				<div class="col-md-3 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-15.png') }}" style="max-height: 100px">
+				</div>
+			</div>
 		</div>
 	</section>
 

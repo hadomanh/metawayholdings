@@ -28,7 +28,7 @@
                                     <a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-reliable.png"></a>
                                     <div class="card-body col">
                                         <h5 class="card-title titleUnderline"><a href="#">Consumer Tech</a></h5>
-                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll">With the rapid advancement of technology, essential human desires have grown to include the evolving needs of tech-driven consumption, and Metaway Holdings' commercial growth aim is to improve living standards with powerful technology.</p>
+                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll; text-align: justify">With the rapid advancement of technology, essential human desires have grown to include the evolving needs of tech-driven consumption, and Metaway Holdings' commercial growth aim is to improve living standards with powerful technology.</p>
                                         <div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
                                     </div>
                                 </div>
@@ -38,7 +38,7 @@
                                     <a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-companion.png"></a>
                                     <div class="card-body col">
                                         <h5 class="card-title titleUnderline"><a href="#">Social Tech</a></h5>
-                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll">Our endeavor is to be pioneering and continuously innovating in technology but our ultimate mission is to create human-oriented technology and product development goals towards social impact, creating great value for people.</p>
+                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll; text-align: justify">Our endeavor is to be pioneering and continuously innovating in technology but our ultimate mission is to create human-oriented technology and product development goals towards social impact, creating great value for people.</p>
                                         <div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@
                                     <a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-commitment.png"></a>
                                     <div class="card-body col">
                                         <h5 class="card-title titleUnderline"><a href="#">BaaS</a></h5>
-                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll">
+                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll; text-align: justify">
                                             Metaway Holdings is a global network of the most talented blockchain developers, engineers and consultants. We have a roadmap for developing our own ecosystem of blockchain related goods and services targeting government regulators, digitized global businesses, and the management of blockchain-driven assets such as securities, real estate, etc.</p>
                                         <div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
                                     </div>
@@ -63,7 +63,7 @@
                                     <a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-reliable.png"></a>
                                     <div class="card-body col">
                                         <h5 class="card-title titleUnderline"><a href="#">Real Estate</a></h5>
-                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll">We were formerly a traditional real estate developer, but quick to capitalize on digital transformation, using blockchain technology to convert real estate into digital assets, opening up global investment opportunities in real estate.</p>
+                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll; text-align: justify">We were formerly a traditional real estate developer, but quick to capitalize on digital transformation, using blockchain technology to convert real estate into digital assets, opening up global investment opportunities in real estate.</p>
                                         <div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@
                                     <a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-companion.png"></a>
                                     <div class="card-body col">
                                         <h5 class="card-title titleUnderline"><a href="#">Ecommerce</a></h5>
-                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll">As we journey into 2022, convenience will be the critical driver in Retail and eCommerce. Our business covers the modernizations in technology to meet the consumers' shopping preferences and how it's affecting the customer experience.</p>
+                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll; text-align: justify">As we journey into 2022, convenience will be the critical driver in Retail and eCommerce. Our business covers the modernizations in technology to meet the consumers' shopping preferences and how it's affecting the customer experience.</p>
                                         <div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@
                                     <a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-commitment.png"></a>
                                     <div class="card-body col">
                                         <h5 class="card-title titleUnderline"><a href="#">Fintech</a></h5>
-                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll">Financial institutions have to comply with a wide range of changing global and local regulations - across anti-money laundering (AML), know your customer (KYC), fraud, payments, and lending. The key to being agile enough to deal with the rapid change, we compliance teams step outside our comfort zone to embrace the FinTech/RegTech capabilities that have evolved in recent years to create a strategic foundation for the future. </p>
+                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll; text-align: justify">Financial institutions have to comply with a wide range of changing global and local regulations - across anti-money laundering (AML), know your customer (KYC), fraud, payments, and lending. The key to being agile enough to deal with the rapid change, we compliance teams step outside our comfort zone to embrace the FinTech/RegTech capabilities that have evolved in recent years to create a strategic foundation for the future. </p>
                                         <div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@
                                     <a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-reliable.png"></a>
                                     <div class="card-body col">
                                         <h5 class="card-title titleUnderline"><a href="#">Digital Bank</a></h5>
-                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll">Digital banking is regarded as the next banking system, and our mission is to put future digital users in charge of their financial lives anywhere, at any time, and to get the most benefits from being a member of its ecosystem.</p>
+                                        <p class="card-text" style="max-height: 80px; overflow-y: scroll; text-align: justify">Digital banking is regarded as the next banking system, and our mission is to put future digital users in charge of their financial lives anywhere, at any time, and to get the most benefits from being a member of its ecosystem.</p>
                                         <div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@
                 <div class="col-6">
                     <img src="{{ asset('img/business-model.png') }}" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6" style="text-align: justify">
                     <p>CMC Holdings was founded based on the global business ambition of the Founders who have many years experience in the field of investing, restructuring and developing cross-border projects.
                         CMC was inspired by connecting a community of competent entrepreneurs in the new economic field of the millennium.
                         CMC Holdings attaches great importance to social values and focuses on the vital core areas of this world.
