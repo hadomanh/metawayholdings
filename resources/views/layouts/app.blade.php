@@ -80,7 +80,7 @@
 						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<li><a class="dropdown-item" href="https://hyperaschain.com/" target="_blank">Hyperas Chain</a></li>
-							<li><a class="dropdown-item" href="#">Pindias</a></li>
+							<li><a class="dropdown-item" href="https://www.pindias.com/" target="_blank">Pindias</a></li>
 							<li><a class="dropdown-item" href="https://divega.com/" target="_blank">Divega</a></li>
 							<li><a class="dropdown-item" href="https://www.rapitalbank.com/" target="_blank">Rapital Bank</a></li>
 						</ul>
@@ -160,17 +160,16 @@
 					<div class="row menuFooter">
 						<div class="col-md-4">
 							<ul>
+								<li><a href="{{ route('about-us.overview') }}">About us</a></li>
 								<li class="parent">
-									<span>About Us</span>
+									<span>Projects</span>
 									<ul class="list-unstyled">
-										<li><a href="{{ route('about-us.overview') }}">Overview</a></li>
-										<li><a href="{{ route('about-us.message') }}">Message</a></li>
-										<li><a href="{{ route('about-us.member') }}">Members</a></li>
-										<li><a href="{{ route('about-us.team') }}">Executive Team</a></li>
+										<li><a href="https://hyperaschain.com/" target="_blank">Hyperas Chain</a></li>
+										<li><a href="https://www.pindias.com/" target="_blank">Pindias</a></li>
+										<li><a href="https://divega.com/" target="_blank">Divega</a></li>
+										<li><a href="https://www.rapitalbank.com/" target="_blank">Rapital Bank</a></li>
 									</ul>
 								</li>
-								<li><a href="{{ route('project') }}">Projects</a></li>
-								<li><a href="{{ route('partner') }}">Our Partners</a></li>
 							</ul>
 						</div>
 						<div class="col-md-4">

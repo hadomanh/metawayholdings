@@ -14,12 +14,12 @@
                 @foreach ($news as $item)
                 <div class="col-lg-3 col-md-6 item">
                     <div class="card">
-                        <a href="#" class="imgThumb">
+                        <a href="{{ route('media.news-detail', $item->id) }}" class="imgThumb">
                             <img class="card-img-top" src="{{ $item->thumbnail }}">                             
                         </a>
                         <div class="card-body">
                             <h5 class="card-title titleUnderline">
-                                <a href="#">{{ $item->title }}</a>
+                                <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
                             </h5>
                             <p class="card-text">{{ $item->subtitle }}</p>
                         </div>

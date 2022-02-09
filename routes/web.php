@@ -79,6 +79,11 @@ Route::prefix('media')->group(function () {
         return view('media.news')->with(compact('news'));
     })->name('media.news');
 
+    Route::get('/news/{id}', function ($id) {
+        $news = News::find($id);
+        return view('media.news-detail')->with(compact('news'));
+    })->name('media.news-detail');
+
     Route::get('/press-release', function () {
         return view('media.press');
     })->name('media.press');
