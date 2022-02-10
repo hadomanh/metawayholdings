@@ -457,8 +457,8 @@
                                           </div>
                                         </div>
                                     </div>
-                                    <h5 class="name text-center">Legal Director</h5>
-                                    <h5 class="name text-center">Mr. Le Van Duong</h5>
+                                    <h5 class="name text-center">Brand Director</h5>
+                                    <h5 class="name text-center">Ms.Tracy Vu</h5>
                                 </a>
                             </div>
                         </div>
@@ -487,8 +487,8 @@
                                           </div>
                                         </div>
                                     </div>
-                                    <h5 class="name text-center">Brand Director</h5>
-                                    <h5 class="name text-center">Ms.Tracy Vu</h5>
+                                    <h5 class="name text-center">Legal Director</h5>
+                                    <h5 class="name text-center">Mr. Le Van Duong</h5>
                                 </a>
                             </div>
                         </div>
