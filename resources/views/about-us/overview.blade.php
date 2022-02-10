@@ -539,27 +539,41 @@
             <h2 class="sectionHeading centered">TECHNOLOGY</h2>
             <p class="text-center">Metaway Holdings will fully participate in the research, application, and development of cutting-edge technologies, including the building of infrastructure technology structures, systems integration superstructures, and content layer creation.</p>
             <div class="row">
-                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
+
+                    {{-- <div class="card bgGrey">
+                        <img src="{{ asset('img/overview-technology-1.png') }}">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Blockchain</h5>
+                        </div>
+                    </div> --}}
                     <img src="{{ asset('img/overview-technology-1.png') }}">
                     <h5 class="name text-center mt-3">Blockchain</h5>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
+                    
+                    {{-- <div class="card bgGrey">
+                        <img src="{{ asset('img/overview-technology-2.png') }}">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Artificial Intelligent (AI)</h5>
+                        </div>
+                    </div> --}}
                     <img src="{{ asset('img/overview-technology-2.png') }}">
                     <h5 class="name text-center mt-3">Artificial Intelligent (AI)</h5>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
                     <img src="{{ asset('img/overview-technology-3.png') }}">
                     <h5 class="name text-center mt-3">Augmented Reality (AR)</h5>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
                     <img src="{{ asset('img/overview-technology-4.png') }}">
                     <h5 class="name text-center mt-3">Virtual Reality (VR)</h5>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
                     <img src="{{ asset('img/overview-technology-5.png') }}">
                     <h5 class="name text-center mt-3">Web 3.0</h5>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-center align-items-center flex-column mt-3">
+                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
                     <img src="{{ asset('img/overview-technology-6.png') }}">
                     <h5 class="name text-center mt-3">Data Mining</h5>
                 </div>
