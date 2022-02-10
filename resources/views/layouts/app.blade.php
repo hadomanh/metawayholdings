@@ -60,7 +60,7 @@
 						</ul> --}}
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'about-us') ? 'active' : '' }}" href="#" role="button" aria-expanded="false">
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'about-us') ? 'active' : '' }}" href="{{ route('about-us.overview') }}" role="button" aria-expanded="false">
 							About us
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
