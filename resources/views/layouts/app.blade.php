@@ -60,18 +60,19 @@
 						</ul> --}}
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'about-us') ? 'active' : '' }}" href="{{ route('about-us.overview') }}" role="button" aria-expanded="false">
+						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'about-us') ? 'active' : '' }}" href="#" role="button" aria-expanded="false">
 							About us
 						</a>
-						{{-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="{{ route('about-us.overview') }}">Overview</a></li>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							{{-- <li><a class="dropdown-item" href="{{ route('about-us.overview') }}">Overview</a></li>
 							<li><a class="dropdown-item" href="#">Brand Story</a></li>
-							<li><a class="dropdown-item" href="{{ route('about-us.member') }}">Members (Map Members )</a></li>
+							<li><a class="dropdown-item" href="{{ route('about-us.member') }}">Core values</a></li>
+							<li><a class="dropdown-item" href="{{ route('about-us.member') }}">Members</a></li>
 							<li><a class="dropdown-item" href="{{ route('about-us.team') }}">Our Executive Team</a></li>
-							<li><a class="dropdown-item {{ str_contains(Route::currentRouteName(), 'partner') ? 'active' : '' }}" href="{{ route('partner') }}">Our Partners</a></li>
-							<li><a class="dropdown-item" href="#">Technology</a></li>
+							<li><a class="dropdown-item" href="{{ route('partner') }}">Our Partners</a></li> --}}
+							{{-- <li><a class="dropdown-item" href="#">Technology</a></li> --}}
 							<!-- <li><a class="dropdown-item" href="{{ route('about-us.message') }}">Message</a></li> -->
-						</ul> --}}
+						</ul>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link {{ str_contains(Route::currentRouteName(), 'business') ? 'active' : '' }}" href="{{ route('business') }}" role="button">Business</a>
@@ -160,7 +161,17 @@
 					<div class="row menuFooter">
 						<div class="col-md-4">
 							<ul>
-								<li><a href="{{ route('about-us.overview') }}">About us</a></li>
+								<li class="parent">
+									<span>About us</span>
+									<ul class="list-unstyled">
+										<li><a href="{{ route('about-us.overview') }}">Overview</a></li>
+										<li><a href="{{ route('about-us.overview') }}">Brand Story</a></li>
+										<li><a href="{{ route('about-us.overview') }}">Core Values</a></li>
+										<li><a href="{{ route('about-us.overview') }}">Members</a></li>
+										<li><a href="{{ route('about-us.overview') }}">Our Executive Team</a></li>
+										<li><a href="{{ route('about-us.overview') }}">Our Partner</a></li>
+									</ul>
+								</li>
 								<li class="parent">
 									<span>Projects</span>
 									<ul class="list-unstyled">
