@@ -12,10 +12,10 @@
         
         <p>CMC Holdings will use the funds raised to establish a digital ecosystem across several platforms, fulfilling the requirements of billions of consumers throughout the world.</p>
 
-        <p>Hyperas Chain - a specialized platform for coding assets, Pindias - a transaction management platform for digital asset logs, Divega - an auction e-commerce platform, and Rapital Bank - a digital banking service available anytime, <span style="color: #ce0020">are all part of CMC Holdings' digital ecosystem</span>.</p>
+        <p>Hyperas Chain - a specialized platform for coding assets, Pindias - a transaction management platform for digital asset logs, Divega - an auction e-commerce platform, and Rapital Bank - a digital banking service available anytime, are all part of CMC Holdings' digital ecosystem.</p>
 
         <img src="{{ asset('img/2.png') }}" alt="">
-        <p style="color: #ce0020">CMC Holdings' digital ecosystem is presented by Mr. Chung.</p>
+        <p >CMC Holdings' digital ecosystem is presented by Mr. Chung.</p>
         <p>According to the strategy, CMC Holdings will roll out these major initiatives in 2022 and 2023, with coding assets, auction platforms, and digital banking services.</p>
         <p>CMC Holdings has invested a significant amount of time examining the market and long-term business models.</p>
         
@@ -27,10 +27,10 @@
         <p>Mr. Tran Nam Chung, chairman of CMC Holdings, believes that the expansion of the digital economy is clear when discussing the business plan. </p>
         <p>It affects retail, e-commerce, fintech, AI, VR, AR, blockchain, and more.</p>
 
-        <p style="color: #ce0020">That is, however, merely a required requirement.</p>
+        <p >That is, however, merely a required requirement.</p>
     
         <img src="{{ asset('img/1.jpg') }}" alt="">
-        <p style="color: #ce0020">Mr. Tran Nam Chung - Chairman of CMC Holdings.</p>
+        <p >Mr. Tran Nam Chung - Chairman of CMC Holdings.</p>
 
         <p>
             Mr. Chung believes that having breakthrough ideas, as well as a self-contained and expanding ecosystem to suit the increasing needs of consumers, is a sufficient condition for these opportunities to materialize. CMC Holdings, in particular, must establish and utilize the crucial leverage: finance, branding, and technology, in order to be successful in sustainable growth. 
