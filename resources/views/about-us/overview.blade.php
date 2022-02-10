@@ -120,7 +120,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                            <img class="card-img-top" src="{{ asset('img/overview-globalization.png') }}" style="width: 75%;">
+                            <img class="card-img-top" src="{{ asset('img/overview-core-value-1.png') }}" style="width: 75%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Globalization</h5>
@@ -131,7 +131,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                            <img class="card-img-top" src="{{ asset('img/overview-human.png') }}" style="width: 75%;">
+                            <img class="card-img-top" src="{{ asset('img/overview-core-value-2.png') }}" style="width: 75%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Human First</h5>
@@ -142,7 +142,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                            <img class="card-img-top" src="{{ asset('img/overview-technology.png') }}" style="width: 75%;"> 
+                            <img class="card-img-top" src="{{ asset('img/overview-core-value-3.png') }}" style="width: 75%;"> 
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Technology</h5>
@@ -155,7 +155,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                            <img class="card-img-top" src="{{ asset('img/overview-globalization.png') }}" style="width: 75%;">
+                            <img class="card-img-top" src="{{ asset('img/overview-core-value-4.png') }}" style="width: 75%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Digitalization</h5>
@@ -166,7 +166,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                            <img class="card-img-top" src="{{ asset('img/overview-human.png') }}" style="width: 75%;">
+                            <img class="card-img-top" src="{{ asset('img/overview-core-value-5.png') }}" style="width: 75%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">HI, AI, BI Union</h5>
