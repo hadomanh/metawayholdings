@@ -89,6 +89,10 @@ Route::prefix('media')->group(function () {
     Route::get('/press-release', function () {
         return view('media.press');
     })->name('media.press');
+
+    Route::get('/press-release/1', function () {
+        return view('media.press-detail');
+    })->name('media.press-detail');
 });
 
 Route::get('/contact', function () {

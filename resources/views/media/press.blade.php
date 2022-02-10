@@ -12,181 +12,19 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 item">
                     <div class="card">
-                        <a href="#" class="imgThumb">
+                        <a href="{{ route('media.press-detail') }}" class="imgThumb">
                             <img class="card-img-top" src="{{ asset('img/Media-2-Press-one.png') }}">
                             <div class="datePublished">
-                                <span>Nov</span>
-                                <span>20</span>
-                                <span>2021</span>
+                                <span>Jan</span>
+                                <span>17</span>
+                                <span>2022</span>
                             </div>                              
                         </a>
                         <div class="card-body">
                             <h5 class="card-title titleUnderline">
-                                <a href="#">WHAT IS LOREM IPSUM?</a>
+                                <a href="{{ route('media.press-detail') }}">Startup CMC Holdings successfully raised capital of 1.5 million USD</a>
                             </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley... </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 item">
-                    <div class="card">
-                        <a href="#" class="imgThumb">
-                            <img class="card-img-top" src="{{ asset('img/Media-2-Press-two.png') }}">
-                            <div class="datePublished">
-                                <span>Nov</span>
-                                <span>20</span>
-                                <span>2021</span>
-                            </div>                              
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title titleUnderline">
-                                <a href="#">WHAT IS LOREM IPSUM?</a>
-                            </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley... </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 item">
-                    <div class="card">
-                        <a href="#" class="imgThumb">
-                            <img class="card-img-top" src="{{ asset('img/Media-2-Press-three.png') }}">
-                            <div class="datePublished">
-                                <span>Nov</span>
-                                <span>20</span>
-                                <span>2021</span>
-                            </div>                              
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title titleUnderline">
-                                <a href="#">WHAT IS LOREM IPSUM?</a>
-                            </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley... </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 item">
-                    <div class="card">
-                        <a href="#" class="imgThumb">
-                            <img class="card-img-top" src="{{ asset('img/Media-2-Press-four.png') }}">
-                            <div class="datePublished">
-                                <span>Nov</span>
-                                <span>20</span>
-                                <span>2021</span>
-                            </div>                              
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title titleUnderline">
-                                <a href="#">WHAT IS LOREM IPSUM?</a>
-                            </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley... </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 item">
-                    <div class="card">
-                        <a href="#" class="imgThumb">
-                            <img class="card-img-top" src="{{ asset('img/Media-2-Press-five.png') }}">
-                            <div class="datePublished">
-                                <span>Nov</span>
-                                <span>20</span>
-                                <span>2021</span>
-                            </div>                              
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title titleUnderline">
-                                <a href="#">WHAT IS LOREM IPSUM?</a>
-                            </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley... </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 item">
-                    <div class="card">
-                        <a href="#" class="imgThumb">
-                            <img class="card-img-top" src="{{ asset('img/Media-2-Press-six.png') }}">
-                            <div class="datePublished">
-                                <span>Nov</span>
-                                <span>20</span>
-                                <span>2021</span>
-                            </div>                              
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title titleUnderline">
-                                <a href="#">WHAT IS LOREM IPSUM?</a>
-                            </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley... </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 item">
-                    <div class="card">
-                        <a href="#" class="imgThumb">
-                            <img class="card-img-top" src="{{ asset('img/Media-2-Press-seven.png') }}">
-                            <div class="datePublished">
-                                <span>Nov</span>
-                                <span>20</span>
-                                <span>2021</span>
-                            </div>                              
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title titleUnderline">
-                                <a href="#">WHAT IS LOREM IPSUM?</a>
-                            </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley... </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 item">
-                    <div class="card">
-                        <a href="#" class="imgThumb">
-                            <img class="card-img-top" src="{{ asset('img/Media-2-Press-eight.png') }}">
-                            <div class="datePublished">
-                                <span>Nov</span>
-                                <span>20</span>
-                                <span>2021</span>
-                            </div>                              
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title titleUnderline">
-                                <a href="#">WHAT IS LOREM IPSUM?</a>
-                            </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley... </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 item">
-                    <div class="card">
-                        <a href="#" class="imgThumb">
-                            <img class="card-img-top" src="{{ asset('img/Media-2-Press-nine.png') }}">
-                            <div class="datePublished">
-                                <span>Nov</span>
-                                <span>20</span>
-                                <span>2021</span>
-                            </div>                              
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title titleUnderline">
-                                <a href="#">WHAT IS LOREM IPSUM?</a>
-                            </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley... </p>
+                            <p class="card-text">After a one-hour call, a startup establishing the digital economy successfully secured $1.5 million in a Co-founder round to develop the digital economy ecosystem.</p>
                         </div>
                     </div>
                 </div>
