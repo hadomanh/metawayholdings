@@ -51,10 +51,6 @@ Route::get('/our-partners', function () {
 })->name('partner');
 
 Route::prefix('investor')->group(function () {
-    Route::get('/investor-news', function () {
-        $news = News::where('active', true)->get();
-        return view('investor.news')->with(compact('news'));
-    })->name('investor.news');
     Route::get('/internal-reports', function () {
         return view('investor.report');
     })->name('investor.report');
@@ -79,6 +75,11 @@ Route::prefix('media')->group(function () {
         $news = News::where('active', true)->get();
         return view('media.news')->with(compact('news'));
     })->name('media.news');
+
+    Route::get('/investor-news', function () {
+        $news = News::where('active', true)->get();
+        return view('media.investor-news')->with(compact('news'));
+    })->name('media.invest-news');
 
     Route::get('/news/{id}', function ($id) {
         $news = News::find($id);

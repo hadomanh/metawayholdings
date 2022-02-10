@@ -89,7 +89,6 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'investor') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Investors</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="{{ route('investor.news') }}">Investor News</a></li>
 							<li><a class="dropdown-item" href="{{ route('investor.report') }}">Internal reports</a></li>
 							<li><a class="dropdown-item" href="{{ route('investor.annual') }}">Annual Finance Reports</a></li>
 							<li><a class="dropdown-item" href="#">Sec Filing</a></li>
@@ -99,6 +98,7 @@
 						<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'media') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<li><a class="dropdown-item" href="{{ route('media.news') }}">News</a></li>
+							<li><a class="dropdown-item" href="{{ route('media.invest-news') }}">Investor News</a></li>
 							<li><a class="dropdown-item" href="{{ route('media.press') }}">Press release</a></li>
 						</ul>
 					</li>

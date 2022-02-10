@@ -8,7 +8,7 @@
     <!-- INTERNAL REPORTS -->
     <section class="bgWhite">
         <div class="container">
-            <h2 class="sectionHeading centered">ANUAL FINANCE REPORTS</h2>
+            <h2 class="sectionHeading centered">ANNUAL FINANCE REPORTS</h2>
             <div class="row listFile">
                 <div class="col-md-3 col-6">
                     <div class="item">
