@@ -127,13 +127,16 @@
                     <img src="{{ asset('img/business-model.png') }}" alt="">
                 </div>
                 <div class="col-6" style="text-align: justify">
-                    <p>CMC Holdings was founded based on the global business ambition of the Founders who have many years experience in the field of investing, restructuring and developing cross-border projects.
-                        CMC was inspired by connecting a community of competent entrepreneurs in the new economic field of the millennium.
-                        CMC Holdings attaches great importance to social values and focuses on the vital core areas of this world.
-                        The Founders team are from all over the world for a lasting business goal.
-                        CMC Holdings defines a bold direction for a successful business community in the 21st century.</p>
+                    <p>
+                        The business model of Metaway Holdings focuses on business activities in the digital environment and digital economy, taking advantage of the ultimate power of technology and utilizing the  prevalent treasure of human knowledge. 
+                        The core value of business models in Metaway Holdings' ecosystem, however, is the establishment, enhancement, and optimization of values in order to bring wealth and prosperity to many individuals, the whole society, and the entire globe.
+                        Metaway Holdings accomplishes this through the use of three major mechanisms: the power of the capitalization model, the power of technology with light assets, huge cash flows, scalability, and demand in small and large volumes.
+                        Our approach, in particular, is to engage in the markets and demands that have been defined, innovate by developing new solutions to speed up and create a better society.
+                        Metaway Holdings, in particular, specializes in sharing and integrating values, particularly unifying all types of intelligence such as artificial intelligence, human intelligence, and business intelligence to establish a sustainable association to assist firms to survive, develop and prosper.
+                        With the Divega project, Metaway Holdings is also a pioneer in building and applying business models that create social impact (SIB), contribute, and bring significant values ​​for people, organizations, society, and globally.
+                    </p>
 
-                        <div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
+                    <div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
                 </div>
             </div>
 

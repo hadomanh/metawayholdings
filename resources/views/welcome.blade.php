@@ -111,7 +111,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="card">
-						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-reliable.png"></a>
+						<a href="#" class="col-auto"><img class="card-img-top" src="{{ asset('img/home-category-1.png') }}"></a>
 						<div class="card-body col">
 							<h5 class="card-title titleUnderline"><a href="#">Consumer Tech</a></h5>
 							<p class="card-text" style="height: 100px; overflow-y: scroll;">With the rapid advancement of technology, essential human desires have grown to include the evolving needs of tech-driven consumption, and Metaway Holdings' commercial growth aim is to improve living standards with powerful technology.</p>
@@ -121,7 +121,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="card">
-						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-companion.png"></a>
+						<a href="#" class="col-auto"><img class="card-img-top" src="{{ asset('img/home-category-2.png') }}"></a>
 						<div class="card-body col">
 							<h5 class="card-title titleUnderline"><a href="#">Social Tech</a></h5>
 							<p class="card-text" style="height: 100px; overflow-y: scroll;">Our endeavor is to be pioneering and continuously innovating in technology but our ultimate mission is to create human-oriented technology and product development goals towards social impact, creating great value for people.</p>
@@ -131,7 +131,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="card">
-						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-commitment.png"></a>
+						<a href="#" class="col-auto"><img class="card-img-top" src="{{ asset('img/home-category-3.png') }}"></a>
 						<div class="card-body col">
 							<h5 class="card-title titleUnderline"><a href="#">BaaS</a></h5>
 							<p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Holdings is a global network of the most talented blockchain developers, engineers and consultants. We have a roadmap for developing our own ecosystem of blockchain related goods and services targeting government regulators, digitized global businesses, and the management of blockchain-driven assets such as securities, real estate, etc.</p>
