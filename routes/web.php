@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\PressController;
 use App\Models\News;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -103,7 +104,12 @@ Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->group(function () {
     Route::get('/', 'HomeController@index')->name('admin.index');
+
     Route::get('/news/toggle/{news}', [NewsController::class, 'toggle'])->name('news.toggle');
     Route::post('/news/image', [NewsController::class, 'imageUpload'])->name('news.image.upload');
     Route::resource('/news', 'NewsController');
+
+    Route::get('/press/toggle/{press}', [PressController::class, 'toggle'])->name('press.toggle');
+    Route::post('/press/image', [PressController::class, 'imageUpload'])->name('press.image.upload');
+    Route::resource('/press', 'PressController');
 });
