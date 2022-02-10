@@ -128,6 +128,7 @@
                 </div>
                 <div class="col-6" style="text-align: justify">
                     <p>
+                        The business model of Metaway Holdings is developed in a digital environment by utilizing technology and financial mechanisms, as well as intellectual capabilities, to innovate and generate new ideas and solutions in existing markets.
                         The business model of Metaway Holdings focuses on business activities in the digital environment and digital economy, taking advantage of the ultimate power of technology and utilizing the  prevalent treasure of human knowledge. 
                         The core value of business models in Metaway Holdings' ecosystem, however, is the establishment, enhancement, and optimization of values in order to bring wealth and prosperity to many individuals, the whole society, and the entire globe.
                         Metaway Holdings accomplishes this through the use of three major mechanisms: the power of the capitalization model, the power of technology with light assets, huge cash flows, scalability, and demand in small and large volumes.
