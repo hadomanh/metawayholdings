@@ -295,7 +295,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                           <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-1.jpg') }})"></div>
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-1.png') }})"></div>
                                           </div>
                                         </div>
                                     </div>
@@ -453,7 +453,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                           <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/ct-2.jpg') }})"></div>
+                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/ct-2.png') }})"></div>
                                           </div>
                                         </div>
                                     </div>
