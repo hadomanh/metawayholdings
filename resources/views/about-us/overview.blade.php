@@ -236,7 +236,7 @@
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Vice President CMC, Chairman & CEO Phi Group</h5>
-                                    <h5 class="name text-center">Mr.Henry D. Fahman</h5>
+                                    <h5 class="name text-center">Mr. Henry D. Fahman</h5>
                                 </a>
                             </div>
                         </div>
@@ -251,7 +251,7 @@
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Member of BOM</h5>
-                                    <h5 class="name text-center">Mr.Dau Minh Nhat</h5>
+                                    <h5 class="name text-center">Mr. Dau Minh Nhat</h5>
                                 </a>
                             </div>
                         </div>
@@ -281,7 +281,7 @@
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Member of BOM</h5>
-                                    <h5 class="name text-center">Ms.Vu Thi Tuyet Thanh</h5>
+                                    <h5 class="name text-center">Ms. Vu Thi Tuyet Thanh</h5>
                                 </a>
                             </div>
                         </div>
@@ -360,7 +360,7 @@
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Chief Operating Officer PHI Group Operation Advisor</h5>
-                                    <h5 class="name text-center">Mr.Tam T. Bui</h5>
+                                    <h5 class="name text-center">Mr. Tam T. Bui</h5>
                                 </a>
                             </div>
                         </div>
@@ -458,7 +458,7 @@
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Brand Director</h5>
-                                    <h5 class="name text-center">Ms.Tracy Vu</h5>
+                                    <h5 class="name text-center">Ms. Tracy Vu</h5>
                                 </a>
                             </div>
                         </div>
@@ -473,7 +473,7 @@
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Business & Partnership Director</h5>
-                                    <h5 class="name text-center">Ms.Anna Nguyen</h5>
+                                    <h5 class="name text-center">Ms. Anna Nguyen</h5>
                                 </a>
                             </div>
                         </div>
