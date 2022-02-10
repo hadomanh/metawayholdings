@@ -94,7 +94,7 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="card">
-                                    <a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-reliable.png"></a>
+                                    <a href="#" class="col-auto"><img class="card-img-top" src="img/home-category-7.jpg"></a>
                                     <div class="card-body col">
                                         <h5 class="card-title titleUnderline"><a href="#">Digital Bank</a></h5>
                                         <p class="card-text" style="max-height: 80px; overflow-y: scroll; text-align: justify">Digital banking is regarded as the next banking system, and our mission is to put future digital users in charge of their financial lives anywhere, at any time, and to get the most benefits from being a member of its ecosystem.</p>
