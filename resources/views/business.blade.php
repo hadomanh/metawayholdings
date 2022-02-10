@@ -158,7 +158,7 @@
             <p class="text-center">Metaway Holdings' goods and services revolve around answering the essential needs of global consumers on digital platforms, thanks to a self-contained digital ecosystem.</p>
             
             <div class="row d-flex justify-content-center">
-                <div class="col-2">
+                <div class="col-md-2 col">
                     <div class="card bgGrey">
                         <img src="{{ asset('img/business-product-1.png') }}" alt="">
                         <div class="card-body col">
@@ -174,7 +174,7 @@
                 </div> --}}
 
 
-                <div class="col-2">
+                <div class="col-md-2 col">
                     <div class="card bgGrey">
                         <img src="{{ asset('img/business-product-4.png') }}" alt="">
                         <div class="card-body col">
@@ -182,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col">
                     <div class="card bgGrey">
                         <img src="{{ asset('img/business-product-5.png') }}" alt="">
                         <div class="card-body col">
@@ -190,7 +190,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col">
                     <div class="card bgGrey">
                         <img src="{{ asset('img/business-product-6.png') }}" alt="">
                         <div class="card-body col">
