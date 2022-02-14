@@ -6,29 +6,19 @@
 	<!-- Banner -->
 	<section class="banner p-0">
 		<div id="carouselBanner" class="carousel slide pt-0" data-bs-ride="carousel">
+
 			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
-				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>
-				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="3" aria-label="Slide 4"></button>
-				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="4" aria-label="Slide 5"></button>
+				@foreach ($banner as $item)
+				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="{{ $loop->index }}" class="{{ $loop->index == 0 ? 'active' : '' }}" aria-current="true" aria-label="{{ 'Slide ' . $loop->index }}"></button>
+				@endforeach
 			</div>
+
 			<div class="carousel-inner">
-				<div class="carousel-item active" data-bs-interval="5000">
-					<img src="img/home-banner-1.png" class="w-100">
+				@foreach ($banner as $item)
+				<div class="carousel-item {{ $loop->index == 0 ? 'active' : '' }}" data-bs-interval="5000">
+					<img src="{{ $item->url }}" class="w-100">
 				</div>
-				<div class="carousel-item" data-bs-interval="5000">
-					<img src="img/home-banner-2.png" class="w-100">
-				</div>
-				<div class="carousel-item" data-bs-interval="5000">
-					<img src="img/home-banner-3.png" class="w-100">
-				</div>
-				<div class="carousel-item" data-bs-interval="5000">
-					<img src="img/home-banner-4.png" class="w-100">
-				</div>
-				<div class="carousel-item" data-bs-interval="5000">
-					<img src="img/home-banner-5.png" class="w-100">
-				</div>
+				@endforeach
 			</div>
 		</div>
 	</section>

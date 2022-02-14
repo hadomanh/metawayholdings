@@ -3,6 +3,7 @@
 use App\Http\Controllers\ImageController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PressController;
+use App\Models\Image;
 use App\Models\News;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -19,7 +20,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $banner = Image::where('position', 'homeBanner')->get();
+    return view('welcome')->with(compact('banner'));
 })->name('home');
 
 Route::prefix('about-us')->group(function () {
