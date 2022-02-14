@@ -5,6 +5,7 @@ use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PressController;
 use App\Models\Image;
 use App\Models\News;
+use App\Models\Press;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -91,11 +92,12 @@ Route::prefix('media')->group(function () {
     })->name('media.news-detail');
 
     Route::get('/press-release', function () {
-        return view('media.press');
+        $press = Press::where('active', true)->get();
+        return view('media.press')->with(compact('press'));
     })->name('media.press');
 
-    Route::get('/press-release/1', function () {
-        return view('media.press-detail');
+    Route::get('/press-release/{press}', function (Press $press) {
+        return view('media.press-detail')->with(compact('press'));
     })->name('media.press-detail');
 });
 

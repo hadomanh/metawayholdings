@@ -10,24 +10,27 @@
         <div class="container">
             <h2 class="sectionHeading">PRESS RELEASE <span>METAWAY HOLDINGS</span></h2>
             <div class="row">
+                @foreach ($press as $item)
                 <div class="col-lg-4 col-md-6 item">
                     <div class="card">
-                        <a href="{{ route('media.press-detail') }}" class="imgThumb">
-                            <img class="card-img-top" src="{{ asset('img/Media-2-Press-one.png') }}">
-                            <div class="datePublished">
+                        <a href="{{ route('media.press-detail', $item->id) }}" class="imgThumb">
+                            <img class="card-img-top" src="{{ $item->thumbnail }}">
+                            {{-- <div class="datePublished">
                                 <span>Jan</span>
                                 <span>17</span>
                                 <span>2022</span>
-                            </div>                              
+                            </div>                               --}}
                         </a>
                         <div class="card-body">
                             <h5 class="card-title titleUnderline">
-                                <a href="{{ route('media.press-detail') }}">Startup CMC Holdings successfully raised capital of 1.5 million USD</a>
+                                <a href="{{ route('media.press-detail', $item->id) }}">{{ $item->title }}</a>
                             </h5>
-                            <p class="card-text">After a one-hour call, a startup establishing the digital economy successfully secured $1.5 million in a Co-founder round to develop the digital economy ecosystem.</p>
+                            <p class="card-text">{{ $item->subtitle }}</p>
                         </div>
                     </div>
                 </div>
+                @endforeach
+                
             </div>
         </div>
     </section>
