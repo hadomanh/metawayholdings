@@ -266,7 +266,7 @@
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Member of BOM</h5>
-                                    <h5 class="name text-center">Mr.Hoang Quoc Tuan</h5>
+                                    <h5 class="name text-center">Mr. Hoang Quoc Tuan</h5>
                                 </a>
                             </div>
                         </div>
