@@ -409,7 +409,7 @@
                                         </div>
                                     </div>
                                     <h5 class="name text-center">CTO</h5>
-                                    <h5 class="name text-center">Mr. Francesco Dell'Agata</h5>
+                                    <h5 class="name text-center">Mr. Francesco D</h5>
                                 </a>
                             </div>
                         </div>
