@@ -98,7 +98,6 @@ class PressController extends Controller
     {
         $currentMillis = round(microtime(true) * 1000);
         if($request->hasFile('upload')){
-            dd('xxx');
             $uploadFileName = $currentMillis . '.' . $request->file('upload')->extension();
             $location = 'storage/' . $request->file('upload')->storeAs('pressImage', $uploadFileName, 'public');
             $url = asset($location);
