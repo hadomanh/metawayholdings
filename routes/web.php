@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ImageController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PressController;
 use App\Models\News;
@@ -112,4 +113,8 @@ Route::middleware('auth')->prefix('admin')->group(function () {
     Route::get('/press/toggle/{press}', [PressController::class, 'toggle'])->name('press.toggle');
     Route::post('/press/image', [PressController::class, 'imageUpload'])->name('press.image.upload');
     Route::resource('/press', 'PressController');
+
+    Route::get('/index', [ImageController::class, 'index'])->name('image.index');
+    Route::get('/create', [ImageController::class, 'create'])->name('image.create');
+    Route::resource('/image', 'ImageController');
 });

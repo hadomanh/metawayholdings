@@ -136,6 +136,29 @@
               </li>
             </ul>
           </li>
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link">
+              <i class="far fa-newspaper"></i>
+              <p>
+                Image
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{ route('image.create', ['position' => 'homeBanner']) }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Create</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('image.index', ['position' => 'homeBanner']) }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Manage</p>
+                </a>
+              </li>
+            </ul>
+          </li>
 
         </ul>
       </nav>
