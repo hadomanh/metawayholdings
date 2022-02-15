@@ -179,7 +179,7 @@
 
                 <div class="col-md-2 col">
                     <div class="card bgGrey">
-                        <img src="{{ asset('img/business-product-4.png') }}" alt="">
+                        <img src="{{ asset('img/business-product-2.png') }}" alt="">
                         <div class="card-body">
                             <h5 class="card-title text-center">Digital Banking</h5>
                         </div>
@@ -187,7 +187,7 @@
                 </div>
                 <div class="col-md-2 col">
                     <div class="card bgGrey">
-                        <img src="{{ asset('img/business-product-5.png') }}" alt="">
+                        <img src="{{ asset('img/business-product-3.png') }}" alt="">
                         <div class="card-body">
                             <h5 class="card-title text-center">E-commerce reverse auction</h5>
                         </div>
@@ -195,7 +195,7 @@
                 </div>
                 <div class="col-md-2 col">
                     <div class="card bgGrey">
-                        <img src="{{ asset('img/business-product-6.png') }}" alt="">
+                        <img src="{{ asset('img/business-product-4.png') }}" alt="">
                         <div class="card-body">
                             <h5 class="card-title text-center">Digital asset transaction management system</h5>
                         </div>
