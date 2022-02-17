@@ -168,7 +168,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-xs-12 d-flex justify-content-center">
-                <img src="{{ asset('img/pindias-solution.png') }}" alt="PINDIAS-solution">
+                <img src="{{ asset('img/Pindias-Solution.png') }}" alt="PINDIAS-solution">
             </div>
         </div>
     </div>
