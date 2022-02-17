@@ -56,8 +56,8 @@
                 <img src="{{ asset('img/divega-overview.png') }}" alt="divega overview">
             </div>
             <div class="col-md-4">
-                <h2 class="titleUnderline textWhite">BRAND STORY</h2>
-                <div class="text-justify textWhite">
+                <h2 class="titleUnderline text-light">BRAND STORY</h2>
+                <div class="text-justify text-light">
                     <p>The term "Divega" is a mashup of the phrases Digital Universe Gate.</p>
                     <p>The tagline “Blockchain Platform for Reverse Auction” confirms the world's first launch of a distinctive auction model.</p>
                     <p>Divega brings the aspiration for a real universe in the digital world, especially through addressing the issue of transparency in charity works.</p>

@@ -64,8 +64,8 @@
                 <img src="{{ asset('img/hyperas-brandstory.png') }}" alt="HYPERAS CHAIN overview">
             </div>
             <div class="col-md-6">
-                <h2 class="titleUnderline textWhite">BRAND STORY</h2>
-                <div class="text-justify textWhite">
+                <h2 class="titleUnderline text-light">BRAND STORY</h2>
+                <div class="text-justify text-light">
                     <p>The name “Hyperas” is a combination of the words including Hyper and Asset.</p>
                     <p>The tagline “Hyper Asset Digitization on the Chain” affirms efforts to digitize high-value assets.</p>
                     <p>The Hyperas Chain logo represents stable structures, non-stop flows, non-stop motions, and decentralization, all while ensuring dependability and transparency.</p>

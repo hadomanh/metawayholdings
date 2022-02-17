@@ -8,7 +8,7 @@
             <h1 class="text-center">PINDIAS</h1>
             <p class="text-center">ASSETS DIGITALIZATION PLATFORMS</p>
         </div> -->
-        <img src="{{ asset('img/banner-pindias.png') }}" alt="banner PINDIAS">
+        <img src="{{ asset('img/banner-Pindias.png') }}" alt="banner PINDIAS">
     </div>
 </section>
 
@@ -64,8 +64,8 @@
                 <img src="{{ asset('img/pindias-brand-story.png') }}" alt="PINDIAS overview">
             </div>
             <div class="col-md-4">
-                <h2 class="titleUnderline textWhite">BRAND STORY</h2>
-                <div class="textWhite text-justify">
+                <h2 class="titleUnderline text-light">BRAND STORY</h2>
+                <div class="text-light text-justify">
                     <p>The term "Pindias" is a mashup of the phrases "Pinned Asset Digitization Platform."</p>
                     <p>The tagline "Blockchain Platform for Asset Digitization" conveys a straightforward message about the Blockchain platform's solution for digitizing assets.</p>
                     <p>The mission of Pindias is to become a leading platform and a top-of-mind brand or pinned app for digital asset management.</p>

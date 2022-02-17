@@ -63,8 +63,8 @@
                 <img src="{{ asset('img/RapitalBank-BrandStory.png') }}" alt="RAPITAL BANK overview">
             </div>
             <div class="col-md-4">
-                <h2 class="titleUnderline textWhite">BRAND STORY</h2>
-                <div class="text-justify textWhite">
+                <h2 class="titleUnderline text-light">BRAND STORY</h2>
+                <div class="text-justify text-light">
                     <p>The name Rapital Bank has many meanings, it can be Digital Payment Platform, a "Rapper" style digital bank or more simply Reliable Bank.</p>
                     <p>The tagline “Digital Bank in Your Hands with Hyper Security” highlights security as well as the fastest and most convenient banking transactions.</p>
                     <p>The mission of Rapital is to deliver a different message and raise new awareness about financial management.</p>
