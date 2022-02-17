@@ -8,7 +8,7 @@
             <h1 class="text-center">PINDIAS</h1>
             <p class="text-center">ASSETS DIGITALIZATION PLATFORMS</p>
         </div> -->
-        <img src="{{ asset('img/banner-pindias.png') }}" alt="banner PINDIAS">
+        <img src="{{ asset('img/banner-Pindias.png') }}" alt="banner PINDIAS">
     </div>
 </section>
 
@@ -168,7 +168,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-xs-12 d-flex justify-content-center">
-                <img src="{{ asset('img/pindias-solution.png') }}" alt="PINDIAS-solution">
+                <img src="{{ asset('img/Pindias-Solution.png') }}" alt="PINDIAS-solution">
             </div>
         </div>
     </div>

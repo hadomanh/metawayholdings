@@ -171,7 +171,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-xs-12 d-flex justify-content-center">
-                <img src="{{ asset('/img/divega-solution.png')}}" alt="divega-solution">
+                <img src="{{ asset('/img/Divega-Solution.png')}}" alt="divega-solution">
             </div>
         </div>
     </div>
