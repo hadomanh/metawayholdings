@@ -27,7 +27,7 @@
                     <p>It establishes the standard for digital transformation, as well as the skills required for remarkable omnichannel experiences and the technology required to fully embrace open banking.</p>
                     <p>It may be performed on-premises or on any public or private cloud.</p>
                 </div>
-                <div class="text-center"><a target="_blank" href="http://localhost:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
+                <div class="text-center"><a target="_blank" href="https://www.rapitalbank.com/" class="btn btnWhite">READ MORE</a></div>
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
                     <li>Decentralized finance</li>
                     <li>Super security technology (Blockchain)</li>
                 </ul>
-                <div class="text-center"><a target="_blank" href="http://localhost:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
+                <div class="text-center"><a target="_blank" href="https://www.rapitalbank.com/" class="btn btnWhite">READ MORE</a></div>
             </div>
             <div class="col-md-8">
                 <img src="{{ asset('img/RapitalBank-Inspritation.png') }}" alt="banner RAPITAL BANK">
@@ -70,7 +70,7 @@
                     <p>The mission of Rapital is to deliver a different message and raise new awareness about financial management.</p>
                     <p>Rapital's services every day bring small but endless joys and have a style and personality that not only assures safety and reliability, but also commits to bringing prosperity and a sustainable source of joy.</p>
                 </div>
-                <div class="text-center"><a target="_blank" href="http://localhost:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
+                <div class="text-center"><a target="_blank" href="https://www.rapitalbank.com/" class="btn btnWhite">READ MORE</a></div>
             </div>
         </div>
     </div>
