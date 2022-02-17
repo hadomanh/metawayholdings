@@ -80,10 +80,10 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="https://hyperaschain.com/" target="_blank">Hyperas Chain</a></li>
-							<li><a class="dropdown-item" href="https://www.pindias.com/" target="_blank">Pindias</a></li>
-							<li><a class="dropdown-item" href="https://divega.com/" target="_blank">Divega</a></li>
-							<li><a class="dropdown-item" href="https://www.rapitalbank.com/" target="_blank">Rapital Bank</a></li>
+							<li><a class="dropdown-item" href="{{ route('project.hyperas') }}">Hyperas Chain</a></li>
+							<li><a class="dropdown-item" href="{{ route('project.pindias') }}">Pindias</a></li>
+							<li><a class="dropdown-item" href="{{ route('project.divega') }}">Divega</a></li>
+							<li><a class="dropdown-item" href="{{ route('project.rapital') }}">Rapital Bank</a></li>
 						</ul>
 					</li>
 					<li class="nav-item dropdown">
