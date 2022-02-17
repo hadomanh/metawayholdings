@@ -51,6 +51,21 @@ Route::get('/project', function () {
     return view('project');
 })->name('project');
 
+Route::prefix('project')->group(function () {
+    Route::get('/hyperas-chain', function () {
+        return view('project.hyperas');
+    })->name('project.hyperas');
+    Route::get('/pindias', function () {
+        return view('project.pindias');
+    })->name('project.pindias');
+    Route::get('/divega', function () {
+        return view('project.divega');
+    })->name('project.divega');
+    Route::get('/rapital-bank', function () {
+        return view('project.rapital');
+    })->name('project.rapital');
+});
+
 Route::get('/our-partners', function () {
     return view('partner');
 })->name('partner');

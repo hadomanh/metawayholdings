@@ -406,6 +406,40 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	background: url(../img/metal-circle.png) no-repeat center center / cover;
 }
 
+/* divega   rapital-bank   pindias   hyperas-chain  */
+.imgWrap {
+	position: relative;
+}
+.imgWrap .text {
+	position: absolute;
+    width: 100%;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+}
+.text > p {
+	font-size: 2.5rem;
+}
+.imgWrap .text-rb{
+	padding: 20%;
+	position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+}
+.text-rb > p {
+	font-size: 2.5rem;
+}
+.textWhite {
+	color: #fff;
+}
+.text-justify {
+	text-align: justify;
+}
+
+
 /**
  * Circle Styles
  */
