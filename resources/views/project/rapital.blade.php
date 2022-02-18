@@ -84,7 +84,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset ('/img/metal-circle.png')}}" class="card-img-top" alt="rapitalbank-USP1" style="width: 75%;">
+                        <img src="{{ asset ('/img/01-Send.png')}}" class="card-img-top" alt="rapitalbank-send" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">USP1</h5>
@@ -95,7 +95,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset ('/img/metal-circle.png')}}" class="card-img-top" alt="rapitalbank-USP2" style="width: 75%;">
+                        <img src="{{ asset ('/img/02-Recieve.png')}}" class="card-img-top" alt="rapitalbank-recieve" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">USP2</h5>
@@ -106,7 +106,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset ('/img/metal-circle.png')}}" class="card-img-top" alt="rapitalbank-USP3" style="width: 75%;">
+                        <img src="{{ asset ('/img/03-Spend.png')}}" class="card-img-top" alt="rapitalbank-spend" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">USP3</h5>
@@ -117,7 +117,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset ('/img/metal-circle.png')}}" class="card-img-top" alt="rapitalbank-USP4" style="width: 75%;">
+                        <img src="{{ asset ('/img/04-Track.png')}}" class="card-img-top" alt="rapitalbank-track" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">USP4</h5>
