@@ -36,12 +36,12 @@
     </div>
 </section>
 
-<!-- Inspritation -->
+<!-- Inspiration -->
 <section class="bgGrey bgArrow">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h2 class="titleUnderline">INSPRITATION</h2>
+                <h2 class="titleUnderline">INSPIRATION</h2>
                 <div class="text-justufy">
                     <p>Hyperas was created to help address users' tremendous dissatisfaction and expectations.</p>
                     <p>Response KYC - Most existing blockchain platforms in the crypto industry leverage anonymous user information.</p>
@@ -88,7 +88,7 @@
                         <img src="{{ asset('img/hyperas-usp1.png') }}" class="card-img-top" alt="hyperas-chain-USP1" style="width: 75%;">
                     </a>
                     <div class="card-body col">
-                        <h5 class="card-title text-center">USP1</h5>
+                        <h5 class="card-title text-center">Tokenization</h5>
                         <p class="card-text text-justify">Development of a different Blockchain platform Hyperaschain, the application of tokenizing real-world assets such as stocks, real estate, and other types of assets.</p>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                         <img src="{{ asset('img/hyperas-usp2.png') }}" class="card-img-top" alt="hyperas-chain-USP2" style="width: 75%;">
                     </a>
                     <div class="card-body col">
-                        <h5 class="card-title text-center">USP2</h5>
+                        <h5 class="card-title text-center">Diversified Assets</h5>
                         <p class="card-text text-justify">Hyperaschain supports a wide range of existing and new financial assets such as equity and publicly traded bonds, real estate, artwork, and more as the project expands.</p>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                         <img src="{{ asset('img/hyperas-usp3.png') }}" class="card-img-top" alt="hyperas-chain-USP3" style="width: 75%;">
                     </a>
                     <div class="card-body col">
-                        <h5 class="card-title text-center">USP3</h5>
+                        <h5 class="card-title text-center">Consensus Algorithm</h5>
                         <p class="card-text text-justify">Apply Proof of Authority (PoA) consensus algorithm, as well as ST20, SAP2022 protocol to its own Blockchain platform.</p>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                         <img src="{{ asset('img/hyperas-usp4.png') }}" class="card-img-top" alt="hyperas-chain-USP4" style="width: 75%;">
                     </a>
                     <div class="card-body col">
-                        <h5 class="card-title text-center">USP4</h5>
+                        <h5 class="card-title text-center">KYC</h5>
                         <p class="card-text text-justify">Know-your-customer (KYC) practices are enforced to ensure security and trust remain at the heart of Hyperaschain.</p>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
                                 <img src="{{ asset('img/ecosystem-hyperasinvest.png') }}" alt="ecosystem hyperasinvest">
                             </div>
                             <h3 class="sectionHeading centered mt-3">Hyperas Invest</h3>
-                            <p class="text-justify">News Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.. </p>
+                            <p class="text-justify">Hyperas Invest is a marketplace to offer Hyra Coin in ICO rounds and a place for investors to pay for transactions when investing in digital real estate on Pindias platform.</p>
                         </div>
                     </div>
                 </div>

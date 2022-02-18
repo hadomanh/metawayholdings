@@ -29,12 +29,12 @@
     </div>
 </section>
 
-<!-- Inspritation -->
+<!-- Inspiration -->
 <section class="bgGrey bgArrow">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <h2 class="titleUnderline">INSPRITATION</h2>
+                <h2 class="titleUnderline">INSPIRATION</h2>
                 <div class="text-justify">
                 <p>Divega fulfills the desire for a real universe in the digital world and environment, especially solving the problem of transparency in charity activities.</p>
                 <p>Social impact is no longer only an activity; it may even be used to develop a new business model.</p>
@@ -81,7 +81,7 @@
                         <img src="{{ asset('img/divega-USP1.png') }}" class="card-img-top" alt="hyperas-chain-USP1" style="width: 75%;">
                     </a>
                     <div class="card-body col">
-                        <h5 class="card-title text-center">USP1</h5>
+                        <h5 class="card-title text-center">Business Model </h5>
                         <p class="card-text text-center">Pioneering AI technology in management, appraisal, and transaction of stocks and real-estate assets.</p>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                         <img src="{{ asset('img/divega-USP2.png') }}" class="card-img-top" alt="hyperas-chain-USP2" style="width: 75%;">
                     </a>
                     <div class="card-body col">
-                        <h5 class="card-title text-center">USP2</h5>
+                        <h5 class="card-title text-center">Technology  Combination </h5>
                         <p class="card-text text-center">Divega is a SIB (Social Impact Business).</p>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                         <img src="{{ asset('img/divega-USP3.png') }}" class="card-img-top" alt="hyperas-chain-USP3" style="width: 75%;">
                     </a>
                     <div class="card-body col">
-                        <h5 class="card-title text-center">USP3</h5>
+                        <h5 class="card-title text-center">Non-profit Social Firm</h5>
                         <p class="card-text text-center">A non-profit social firm undertakes actual charitable work by giving all operational profits to charity.</p>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                         <img src="{{ asset('img/divega-USP4.png') }}" class="card-img-top" alt="hyperas-chain-USP4" style="width: 75%;">
                     </a>
                     <div class="card-body col">
-                        <h5 class="card-title text-center">USP4</h5>
+                        <h5 class="card-title text-center">Reverse Auction </h5>
                         <p class="card-text text-center">A blockchain auction platform for the first time in the world applies the reverse auction mechanism.</p>
                     </div>
                 </div>
@@ -131,42 +131,20 @@
             <div class="col-lg-6 col-xs-12">
                 <div class="row">
                     <div class="col-lg-6 col-xs-12">
-                        <h4 class="titleUnderline">Electronic & Computer</h4>
+                        <h4 class="titleUnderline">Transparency</h4>
                         <p class="text-justify">Using Blockchain technology to make all product auctions transparent</p>
                     </div>
                     <div class="col-lg-6 col-xs-12">
-                        <h4 class="titleUnderline">Cars & more</h4>
+                        <h4 class="titleUnderline">Payment</h4>
                         <p class="text-justify">Crypto App for Payment (Bill of Auction)</p>
                     </div>
                     <div class="col-lg-6 col-xs-12">
-                        <h4 class="titleUnderline">Real estate</h4>
+                        <h4 class="titleUnderline">Reverse Auction </h4>
                         <p class="text-justify">The winning auction product's price is the lowest and most exclusive fee.</p>
                     </div>
                     <div class="col-lg-6 col-xs-12">
-                        <h4 class="titleUnderline">Houseware</h4>
+                        <h4 class="titleUnderline">Categories</h4>
                         <p class="text-justify">Items and services conduct a variety of auctions of authentic products and market providers in many product areas.</p>
-                    </div>
-                    <div class="col-lg-6 col-xs-12">
-                        <h4 class="titleUnderline">Luxury brand</h4>
-                        <p class="text-justify">News Lorem Ipsum is simply
-                            dummy text of the printing and
-                            typesetting industry Lorem
-                            Ipsum has been the industry's
-                            standard dummy text ever since
-                            the 1500s, when an unknown
-                            printer took a galley of type and
-                            scrambled it to make a type...</p>
-                    </div>
-                    <div class="col-lg-6 col-xs-12">
-                        <h4 class="titleUnderline">Other assets</h4>
-                        <p class="text-justify">News Lorem Ipsum is simply
-                            dummy text of the printing and
-                            typesetting industry Lorem
-                            Ipsum has been the industry's
-                            standard dummy text ever since
-                            the 1500s, when an unknown
-                            printer took a galley of type and
-                            scrambled it to make a type...</p>
                     </div>
                 </div>
             </div>
