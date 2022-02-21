@@ -36,12 +36,12 @@
     </div>
 </section>
 
-<!-- Inspritation -->
+<!-- Inspiration -->
 <section class="bgGrey bgArrow">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <h2 class="titleUnderline">INSPRITATION</h2>
+                <h2 class="titleUnderline">INSPIRATION</h2>
                 <p>Address the market's pain points:</p>
                 <ul>
                     <li>Remove geographical barriers as well as time-consuming legal procedures.</li>
