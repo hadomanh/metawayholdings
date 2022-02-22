@@ -142,7 +142,7 @@
                             <div class="row d-flex align-items-center">
                                 <img src="{{ asset('img/ecosystem-hyperasscan.png') }}" alt="ecosystem hyperasscan">
                             </div>
-                            <h3 class="sectionHeading centered mt-3">Hyperas Scan</h3>
+                            <h3 class="sectionHeading centered mt-3">Hyra Scan</h3>
                             <p class="text-justify">The blockchain ledger of Hyperas Chain, where to keep track of transactions in and out of smart contracts, cryptocurrency transactions, cryptographic assets (NFT).</p>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                             <div class="row d-flex align-items-center">
                                 <img src="{{ asset('img/ecosystem-hyperaswallet.png') }}" alt="ecosystem hyperaswallet">
                             </div>
-                            <h3 class="sectionHeading centered mt-3">Hyperas Wallet</h3>
+                            <h3 class="sectionHeading centered mt-3">Hyra Wallet</h3>
                             <p class="text-justify">A digital asset storage wallet and gateway to blockchain applications, capable of communicating with various blockchain networks: Buy, store, send and swap digital assets, Explore blockchain applications, Own your data.</p>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                             <div class="row d-flex align-items-center">
                                 <img src="{{ asset('img/ecosystem-hyperasdex.png') }}" alt="ecosystem hyperasdex">
                             </div>
-                            <h3 class="sectionHeading centered mt-3">Hyperas Dex</h3>
+                            <h3 class="sectionHeading centered mt-3">Hyra Dex</h3>
                             <p class="text-justify">A decentralized exchange where cryptocurrencies and other digital assets (NFTs) are listed. </p>
                             <p class="text-justify">Hyradex is considered a great step forward in the mission of currency liberalization, decentralized crypto-assets of the Hyperas Chain ecosystem...</p>
                         </div>
@@ -177,7 +177,7 @@
                             <div class="row d-flex align-items-center">
                                 <img src="{{ asset('img/ecosystem-hyperasinvest.png') }}" alt="ecosystem hyperasinvest">
                             </div>
-                            <h3 class="sectionHeading centered mt-3">Hyperas Invest</h3>
+                            <h3 class="sectionHeading centered mt-3">Hyra Invest</h3>
                             <p class="text-justify">Hyperas Invest is a marketplace to offer Hyra Coin in ICO rounds and a place for investors to pay for transactions when investing in digital real estate on Pindias platform.</p>
                         </div>
                     </div>
