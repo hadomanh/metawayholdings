@@ -32,7 +32,7 @@
 					<div class="videoWrapper">
 						{{-- <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500"></iframe> --}}
 						<iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>					
+					</div>
 				</div>
 				<div class="col-lg-4 col-md-6" style="text-align: justify">
 					<h5 class="titleUnderline">METAWAY Holdings INC Overview</h5>
@@ -96,7 +96,7 @@
 			<h2 class="sectionHeading centered">BUSINESS CATEGORY</h2>
 			<div class="text-center">
 				<p class="mb-2">The business of Metaway Holdings focuses on technology-related categories, especially financial technology, and blockchain-driven.</p>
-				
+
 			</div>
 			<div class="row">
 				<div class="col-md-4">
@@ -140,7 +140,7 @@
 			<div class="text-center text-white">
 				<p class="">Metaways Holdings focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products & services related to Consumer Tech, Social Tech, Financial Tech, Crypto Real Estate, and development needs others. Each of our projects responds to and serves the key aspects and trends of the times.</p>
 			</div>
-			
+
 			<div class="row">
 				<div class="col-md-3">
 					<div class="card">
@@ -205,27 +205,27 @@
 		<div class="container">
 			<div class="row d-flex justify-content-center align-items-center">
 				<div class="col-md-4 d-flex justify-content-center mt-5">
-					<img src="{{ asset('img/overview-partner-9.png') }}" style="max-height: 100px">
+					<img src="{{ asset('img/overview-partner-9.png') }}" style="max-height: 100px" class="grey-image">
 				</div>
 				<div class="col-md-4 d-flex justify-content-center mt-5">
-					<img src="{{ asset('img/overview-partner-10.png') }}" style="max-height: 100px">
+					<img src="{{ asset('img/overview-partner-10.png') }}" style="max-height: 100px" class="grey-image">
 				</div>
 				<div class="col-md-4 d-flex justify-content-center mt-5">
-					<img src="{{ asset('img/overview-partner-11.jpg') }}" style="max-height: 100px">
+					<img src="{{ asset('img/overview-partner-11.jpg') }}" style="max-height: 100px" class="grey-image">
 				</div>
 			</div>
 			<div class="row d-flex justify-content-center align-items-center">
 				<div class="col-md-3 d-flex justify-content-center mt-5">
-					<img src="{{ asset('img/overview-partner-12.png') }}" style="max-height: 100px">
+					<img src="{{ asset('img/overview-partner-12.png') }}" style="max-height: 100px" class="grey-image">
 				</div>
 				<div class="col-md-3 d-flex justify-content-center mt-5">
-					<img src="{{ asset('img/overview-partner-13.png') }}" style="max-height: 100px">
+					<img src="{{ asset('img/overview-partner-13.png') }}" style="max-height: 100px" class="grey-image">
 				</div>
 				<div class="col-md-3 d-flex justify-content-center mt-5">
-					<img src="{{ asset('img/overview-partner-14.png') }}" style="max-height: 100px">
+					<img src="{{ asset('img/overview-partner-14.png') }}" style="max-height: 100px" class="grey-image">
 				</div>
 				<div class="col-md-3 d-flex justify-content-center mt-5">
-					<img src="{{ asset('img/overview-partner-15.png') }}" style="max-height: 100px">
+					<img src="{{ asset('img/overview-partner-15.png') }}" style="max-height: 100px" class="grey-image">
 				</div>
 			</div>
 		</div>

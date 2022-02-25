@@ -87,7 +87,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/pindias-USP1.png') }}" class="card-img-top" alt="hyperas-chain-USP1" style="width: 75%;">
+                        <img src="{{ asset('img/pindias-USP1.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP1" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">AI Pioneer</h5>
@@ -98,7 +98,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/pindias-USP2.png') }}" class="card-img-top" alt="hyperas-chain-USP2" style="width: 75%;">
+                        <img src="{{ asset('img/pindias-USP2.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP2" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Blockchain Pioneer</h5>
@@ -109,7 +109,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/pindias-USP3.png') }}" class="card-img-top" alt="hyperas-chain-USP3" style="width: 75%;">
+                        <img src="{{ asset('img/pindias-USP3.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP3" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Leveraging 3D technology (AR, VR) </h5>
@@ -120,7 +120,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/pindias-USP4.png') }}" class="card-img-top" alt="hyperas-chain-USP4" style="width: 75%;">
+                        <img src="{{ asset('img/pindias-USP4.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP4" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Hyper-connected platform</h5>

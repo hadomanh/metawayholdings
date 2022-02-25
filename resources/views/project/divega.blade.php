@@ -78,7 +78,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/divega-USP1.png') }}" class="card-img-top" alt="hyperas-chain-USP1" style="width: 75%;">
+                        <img src="{{ asset('img/divega-USP1.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP1" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Business Model </h5>
@@ -89,7 +89,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/divega-USP2.png') }}" class="card-img-top" alt="hyperas-chain-USP2" style="width: 75%;">
+                        <img src="{{ asset('img/divega-USP2.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP2" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Technology  Combination </h5>
@@ -100,7 +100,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/divega-USP3.png') }}" class="card-img-top" alt="hyperas-chain-USP3" style="width: 75%;">
+                        <img src="{{ asset('img/divega-USP3.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP3" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Non-profit Social Firm</h5>
@@ -111,7 +111,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/divega-USP4.png') }}" class="card-img-top" alt="hyperas-chain-USP4" style="width: 75%;">
+                        <img src="{{ asset('img/divega-USP4.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP4" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Reverse Auction </h5>

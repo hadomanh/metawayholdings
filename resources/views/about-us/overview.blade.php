@@ -13,35 +13,27 @@
             <h2 class="sectionHeading centered">ABOUT US</h2>
             <ul class="nav nav-pills nav-fill" id="pills-tab-1" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-technical-tab-1" data-bs-toggle="pill"
-                        data-bs-target="#pills-technical-1" type="button" role="tab" aria-controls="pills-technical-1"
-                        aria-selected="true">Overview</button>
+                    <button class="nav-link active" id="pills-technical-tab-1" data-bs-toggle="pill" data-bs-target="#pills-technical-1" type="button" role="tab" aria-controls="pills-technical-1" aria-selected="true">Overview</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-governing-tab-1" data-bs-toggle="pill"
-                        data-bs-target="#pills-governing-1" type="button" role="tab" aria-controls="pills-governing-1"
-                        aria-selected="false">Brand Story</button>
+                    <button class="nav-link" id="pills-governing-tab-1" data-bs-toggle="pill" data-bs-target="#pills-governing-1" type="button" role="tab" aria-controls="pills-governing-1" aria-selected="false">Brand Story</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-staff-tab-1" data-bs-toggle="pill"
-                        data-bs-target="#pills-staff-1" type="button" role="tab" aria-controls="pills-staff-1"
-                        aria-selected="false">Vision</button>
+                    <button class="nav-link" id="pills-staff-tab-1" data-bs-toggle="pill" data-bs-target="#pills-staff-1" type="button" role="tab" aria-controls="pills-staff-1" aria-selected="false">Vision</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-asia-tab-1" data-bs-toggle="pill"
-                        data-bs-target="#pills-asia-1" type="button" role="tab" aria-controls="pills-asia-1"
-                        aria-selected="false">Mission</button>
+                    <button class="nav-link" id="pills-asia-tab-1" data-bs-toggle="pill" data-bs-target="#pills-asia-1" type="button" role="tab" aria-controls="pills-asia-1" aria-selected="false">Mission</button>
                 </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-technical-1" role="tabpanel" aria-labelledby="pills-technical-tab-1">
-                   <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="videoWrapper">
-                            {{-- <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe> --}}
-                            <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>	
-                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="videoWrapper">
+                                {{-- <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe> --}}
+                                <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
                         <div class="col-md-6" style="text-align: justify">
                             <ul>
                                 <li><b>Global Based Company: </b>Metaway Holdings is headquartered in the US and has offices in many countries around the world, of which a large part of its personnel is in Vietnam, a country with people who are studious, clever, tech savvy and which is currently recognized for having numerous startups in innovation and high-tech industries.</li>
@@ -58,11 +50,11 @@
                             <div class="videoWrapper">
                                 {{-- <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe> --}}
                                 <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>	
+                            </div>
                         </div>
                         <div class="col-md-6" style="text-align: justify">
                             <ul>
-                                <li>Metaway Holdings  was created in 2022, the birth year of Metaverse, which was projected to be the year of intuition, imagination, passion, creativity, and tremendous ambition.</li>
+                                <li>Metaway Holdings was created in 2022, the birth year of Metaverse, which was projected to be the year of intuition, imagination, passion, creativity, and tremendous ambition.</li>
                                 <li>Metaway Holdings was given this name, we designed to create stories about the Meta aspirations of the worldwide individuals who strive to provide excellent values and social impacts to the world through technology.</li>
                                 <li>We do not restrict our creativity while considering our Dreams and Desires with the Power of Technology, but we always keep the worthy mission of serving the world in mind and create the appropriate way from the start.</li>
                             </ul>
@@ -75,7 +67,7 @@
                             <div class="videoWrapper">
                                 {{-- <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe> --}}
                                 <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>	
+                            </div>
                         </div>
                         <div class="col-md-6" style="text-align: justify">
                             <ul>
@@ -93,7 +85,7 @@
                             <div class="videoWrapper">
                                 {{-- <iframe src="https://drive.google.com/file/d/1Uet3rd_qlluSj7nE1_TnP8riv9dYXsfk/preview" width="850" height="500" allow="autoplay"></iframe> --}}
                                 <iframe width="850" height="500" src="https://www.youtube.com/embed/IpgNWxK8eIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>	
+                            </div>
                         </div>
                         <div class="col-md-6" style="text-align: justify">
                             <ul>
@@ -106,7 +98,7 @@
                             </ul>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -120,7 +112,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                            <img class="card-img-top" src="{{ asset('img/overview-core-value-1.png') }}" style="width: 75%;">
+                            <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-1.png') }}" style="width: 60%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Globalization</h5>
@@ -131,7 +123,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                            <img class="card-img-top" src="{{ asset('img/overview-core-value-2.png') }}" style="width: 75%;">
+                        <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-2.png') }}" style="width: 60%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Human First</h5>
@@ -142,7 +134,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                            <img class="card-img-top" src="{{ asset('img/overview-core-value-3.png') }}" style="width: 75%;"> 
+                        <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-3.png') }}" style="width: 60%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Technology</h5>
@@ -155,7 +147,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                            <img class="card-img-top" src="{{ asset('img/overview-core-value-4.png') }}" style="width: 75%;">
+                        <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-4.png') }}" style="width: 60%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Digitalization</h5>
@@ -166,7 +158,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                            <img class="card-img-top" src="{{ asset('img/overview-core-value-5.png') }}" style="width: 75%;">
+                        <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-5.png') }}" style="width: 60%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">HI, AI, BI Union</h5>
@@ -215,9 +207,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/bom-1.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/bom-1.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Chairman</h5>
@@ -230,9 +222,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/bom-2.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/bom-2.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Vice President CMC, Chairman & CEO Phi Group</h5>
@@ -245,9 +237,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/bom-3.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/bom-3.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Member of BOM</h5>
@@ -260,9 +252,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/bom-4.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/bom-4.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Member of BOM</h5>
@@ -275,9 +267,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/bom-5.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/bom-5.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Member of BOM</h5>
@@ -294,9 +286,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-1.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-1.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Strategy Advisor</h5>
@@ -309,9 +301,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-2.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-2.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Managing Director PHI Group Advisor</h5>
@@ -324,9 +316,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-3.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-3.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Finance Advisor</h5>
@@ -339,9 +331,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-4.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-4.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Investment Partnership Advisor</h5>
@@ -354,9 +346,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-5.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-5.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Chief Operating Officer PHI Group Operation Advisor</h5>
@@ -369,9 +361,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-6.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-6.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Technology Advisor</h5>
@@ -388,9 +380,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/tsc-1.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/tsc-1.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">CTO Blockchain</h5>
@@ -403,9 +395,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/tsc-2.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/tsc-2.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">CTO</h5>
@@ -418,9 +410,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/advisor-6.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-6.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Technology Advisor</h5>
@@ -437,9 +429,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/ct-1.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/ct-1.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">CMO</h5>
@@ -452,9 +444,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/ct-2.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/ct-2.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Brand Director</h5>
@@ -467,9 +459,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/ct-3.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/ct-3.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Business & Partnership Director</h5>
@@ -482,9 +474,9 @@
                                 <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                                     <div class="circle">
                                         <div class="circle__inner">
-                                          <div class="circle__wrapper">
-                                            <div class="circle__content" style="background-size: cover; background-image: url({{ asset('img/ct-4.png') }})"></div>
-                                          </div>
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/ct-4.png') }})"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Legal Director</h5>
@@ -506,27 +498,27 @@
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-md-4 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-9.png') }}" style="max-height: 100px">
+                        <img src="{{ asset('img/overview-partner-9.png') }}" style="max-height: 100px" class="grey-image">
                     </div>
                     <div class="col-md-4 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-10.png') }}" style="max-height: 100px">
+                        <img src="{{ asset('img/overview-partner-10.png') }}" style="max-height: 100px" class="grey-image">
                     </div>
                     <div class="col-md-4 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-11.jpg') }}" style="max-height: 100px">
+                        <img src="{{ asset('img/overview-partner-11.jpg') }}" style="max-height: 100px" class="grey-image">
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-md-3 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-12.png') }}" style="max-height: 100px">
+                        <img src="{{ asset('img/overview-partner-12.png') }}" style="max-height: 100px" class="grey-image">
                     </div>
                     <div class="col-md-3 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-13.png') }}" style="max-height: 100px">
+                        <img src="{{ asset('img/overview-partner-13.png') }}" style="max-height: 100px" class="grey-image">
                     </div>
                     <div class="col-md-3 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-14.png') }}" style="max-height: 100px">
+                        <img src="{{ asset('img/overview-partner-14.png') }}" style="max-height: 100px" class="grey-image">
                     </div>
                     <div class="col-md-3 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-15.png') }}" style="max-height: 100px">
+                        <img src="{{ asset('img/overview-partner-15.png') }}" style="max-height: 100px" class="grey-image">
                     </div>
                 </div>
             </div>
@@ -542,44 +534,44 @@
                 <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
 
                     {{-- <div class="card bgGrey">
-                        <img src="{{ asset('img/overview-technology-1.png') }}">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Blockchain</h5>
-                        </div>
-                    </div> --}}
-                    <img src="{{ asset('img/overview-technology-1.png') }}">
-                    <h5 class="name text-center mt-3">Blockchain</h5>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
-                    
-                    {{-- <div class="card bgGrey">
-                        <img src="{{ asset('img/overview-technology-2.png') }}">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Artificial Intelligent (AI)</h5>
-                        </div>
-                    </div> --}}
-                    <img src="{{ asset('img/overview-technology-2.png') }}">
-                    <h5 class="name text-center mt-3">Artificial Intelligent (AI)</h5>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
-                    <img src="{{ asset('img/overview-technology-3.png') }}">
-                    <h5 class="name text-center mt-3">Augmented Reality (AR)</h5>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
-                    <img src="{{ asset('img/overview-technology-4.png') }}">
-                    <h5 class="name text-center mt-3">Virtual Reality (VR)</h5>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
-                    <img src="{{ asset('img/overview-technology-5.png') }}">
-                    <h5 class="name text-center mt-3">Web 3.0</h5>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
-                    <img src="{{ asset('img/overview-technology-6.png') }}">
-                    <h5 class="name text-center mt-3">Data Mining</h5>
-                </div>
+                        <img src="{{ asset('img/overview-technology-1.png') }}" >
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Blockchain</h5>
+                    </div>
+                </div> --}}
+                <img src="{{ asset('img/overview-technology-1.png') }}" class="grey-image">
+                <h5 class="name text-center mt-3">Blockchain</h5>
             </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
+
+                {{-- <div class="card bgGrey">
+                        <img src="{{ asset('img/overview-technology-2.png') }}" >
+                <div class="card-body">
+                    <h5 class="card-title text-center">Artificial Intelligent (AI)</h5>
+                </div>
+            </div> --}}
+            <img src="{{ asset('img/overview-technology-2.png') }}" class="grey-image">
+            <h5 class="name text-center mt-3">Artificial Intelligent (AI)</h5>
         </div>
-    </section>
+        <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
+            <img src="{{ asset('img/overview-technology-3.png') }}" class="grey-image">
+            <h5 class="name text-center mt-3">Augmented Reality (AR)</h5>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
+            <img src="{{ asset('img/overview-technology-4.png') }}" class="grey-image">
+            <h5 class="name text-center mt-3">Virtual Reality (VR)</h5>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
+            <img src="{{ asset('img/overview-technology-5.png') }}" class="grey-image">
+            <h5 class="name text-center mt-3">Web 3.0</h5>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 d-flex justify-content-start align-items-center flex-column mt-3">
+            <img src="{{ asset('img/overview-technology-6.png') }}" class="grey-image">
+            <h5 class="name text-center mt-3">Data Mining</h5>
+        </div>
+</div>
+</div>
+</section>
 
 
 

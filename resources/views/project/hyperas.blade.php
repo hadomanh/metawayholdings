@@ -85,7 +85,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/hyperas-usp1.png') }}" class="card-img-top" alt="hyperas-chain-USP1" style="width: 75%;">
+                        <img src="{{ asset('img/hyperas-usp1.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP1" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Tokenization</h5>
@@ -96,7 +96,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/hyperas-usp2.png') }}" class="card-img-top" alt="hyperas-chain-USP2" style="width: 75%;">
+                        <img src="{{ asset('img/hyperas-usp2.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP2" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Diversified Assets</h5>
@@ -107,7 +107,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/hyperas-usp3.png') }}" class="card-img-top" alt="hyperas-chain-USP3" style="width: 75%;">
+                        <img src="{{ asset('img/hyperas-usp3.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP3" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Consensus Algorithm</h5>
@@ -118,7 +118,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset('img/hyperas-usp4.png') }}" class="card-img-top" alt="hyperas-chain-USP4" style="width: 75%;">
+                        <img src="{{ asset('img/hyperas-usp4.png') }}" class="card-img-top grey-image" alt="hyperas-chain-USP4" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">KYC</h5>

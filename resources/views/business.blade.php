@@ -163,14 +163,14 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-md-2 col">
                     <div class="card bgGrey">
-                        <img src="{{ asset('img/business-product-1.png') }}" alt="">
+                        <img src="{{ asset('img/business-product-1.png') }}" alt="" class="grey-image">
                         <div class="card-body">
                             <h5 class="card-title text-center">Asset tokenization platform</h5>
                         </div>
                     </div>
                 </div>
                 {{-- <div class="col-2">
-                    <img src="{{ asset('img/business-product-2.png') }}" alt="">
+                    <img src="{{ asset('img/business-product-2.png') }}" alt="" class="grey-image">
                 </div>
                 <div class="col-2">
                     <img src="{{ asset('img/business-product-3.png') }}" alt="">
@@ -179,7 +179,7 @@
 
                 <div class="col-md-2 col">
                     <div class="card bgGrey">
-                        <img src="{{ asset('img/business-product-2.png') }}" alt="">
+                        <img src="{{ asset('img/business-product-2.png') }}" alt="" class="grey-image">
                         <div class="card-body">
                             <h5 class="card-title text-center">Digital Banking</h5>
                         </div>
@@ -187,7 +187,7 @@
                 </div>
                 <div class="col-md-2 col">
                     <div class="card bgGrey">
-                        <img src="{{ asset('img/business-product-3.png') }}" alt="">
+                        <img src="{{ asset('img/business-product-3.png') }}" alt="" class="grey-image">
                         <div class="card-body">
                             <h5 class="card-title text-center">E-commerce reverse auction</h5>
                         </div>
@@ -195,7 +195,7 @@
                 </div>
                 <div class="col-md-2 col">
                     <div class="card bgGrey">
-                        <img src="{{ asset('img/business-product-4.png') }}" alt="">
+                        <img src="{{ asset('img/business-product-4.png') }}" alt="" class="grey-image">
                         <div class="card-body">
                             <h5 class="card-title text-center">Digital asset transaction management system</h5>
                         </div>
