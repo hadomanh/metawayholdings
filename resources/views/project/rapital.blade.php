@@ -84,7 +84,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset ('/img/01-Send.png')}}" class="card-img-top" alt="rapitalbank-send" style="width: 75%;">
+                        <img src="{{ asset ('/img/01-Send.png')}}" class="card-img-top grey-image" alt="rapitalbank-send" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Hyper Transparency & Security</h5>
@@ -95,7 +95,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset ('/img/02-Recieve.png')}}" class="card-img-top" alt="rapitalbank-recieve" style="width: 75%;">
+                        <img src="{{ asset ('/img/02-Recieve.png')}}" class="card-img-top grey-image" alt="rapitalbank-recieve" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Decentralized Finance</h5>
@@ -106,7 +106,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset ('/img/03-Spend.png')}}" class="card-img-top" alt="rapitalbank-spend" style="width: 75%;">
+                        <img src="{{ asset ('/img/03-Spend.png')}}" class="card-img-top grey-image" alt="rapitalbank-spend" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Borderless Connecting</h5>
@@ -117,7 +117,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <a href="#" class="col-auto text-center">
-                        <img src="{{ asset ('/img/04-Track.png')}}" class="card-img-top" alt="rapitalbank-track" style="width: 75%;">
+                        <img src="{{ asset ('/img/04-Track.png')}}" class="card-img-top grey-image" alt="rapitalbank-track" style="width: 75%;">
                     </a>
                     <div class="card-body col">
                         <h5 class="card-title text-center">Lowest Fee</h5>
