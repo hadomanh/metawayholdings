@@ -178,7 +178,7 @@
                                 <img src="{{ asset('img/ecosystem-hyperasinvest.png') }}" alt="ecosystem hyperasinvest">
                             </div>
                             <h3 class="sectionHeading centered mt-3">Hyra Invest</h3>
-                            <p class="text-justify">Hyperas Invest is a marketplace to offer Hyra Coin in ICO rounds and a place for investors to pay for transactions when investing in digital real estate on Pindias platform.</p>
+                            <p class="text-justify">Hyra Invest is a marketplace to offer Hyra Coin in ICO rounds and a place for investors to pay for transactions when investing in digital real estate on Pindias platform.</p>
                         </div>
                     </div>
                 </div>
