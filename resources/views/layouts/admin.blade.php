@@ -8,6 +8,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+
   <title>METAWAYCHAIN Admin</title>
 
   <!-- Google Font: Source Sans Pro -->
@@ -104,6 +107,52 @@
               </li>
               <li class="nav-item">
                 <a href="{{ route('news.index') }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Manage</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link">
+              <i class="far fa-newspaper"></i>
+              <p>
+                Press
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{ route('press.create') }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Create</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('press.index') }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Manage</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link">
+              <i class="far fa-newspaper"></i>
+              <p>
+                Image
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{ route('image.create', ['position' => 'homeBanner']) }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Create</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('image.index', ['position' => 'homeBanner']) }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Manage</p>
                 </a>

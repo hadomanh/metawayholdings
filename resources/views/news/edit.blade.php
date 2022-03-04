@@ -39,7 +39,7 @@
     <div id="uploadWrapper">
         <label class="upload-trigger" for="js--upload">
             <div class="uploader">
-                <img src="{{ asset('storage/' . $news->thumbnail) }}"  
+                <img src="{{ $news->thumbnail }}"  
                     data-target="#js--upload" 
                     class="img-fluid upload-preview" 
                     data-content="uploadPreview">
