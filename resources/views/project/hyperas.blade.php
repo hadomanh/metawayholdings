@@ -16,7 +16,7 @@
 
 <!-- Overview -->
 <section class="bgWhite bgArrow">
-    <div class="container">
+    <div class="container" id="overviewAnimate">
         <div class="row">
             <div class="col-md-6">
                 <img src="{{ asset('img/project-overview.png') }}" alt="HYPERAS CHAIN overview">
