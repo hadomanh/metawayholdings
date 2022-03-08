@@ -23,7 +23,7 @@
             </div>
             <div class="col-md-6">
                 <h2 class="titleUnderline">OVERVIEW</h2>
-                <div class="text-justufy" >
+                <div class="text-justufy">
                     <p>Hyperas Chain (Hyra coin) is created by HYPERAS TECHNOLOGIES INC. </p>
                     <p>Hyperas chain is a blockchain infrastructure that helps connect other blockchains.</p>
                     <p>With our non-invasive cross-chain technology Hyperas chain operates as a data conduit, allowing cross-chain communications between public and private protocols. </p>
