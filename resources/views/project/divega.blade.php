@@ -24,7 +24,7 @@
                     <h2 class="titleUnderline">OVERVIEW</h2>
                     <p class="text-justify">E-Auction is an effective eCommerce system that allows bidders and sellers to interact through online platforms with the world's first reverse auction method.</p>
                     <p class="text-justify">Blockchain and smart contracts, as a revolutionary technology, have attracted the interest of different industries including the designing of e-auction systems.</p>
-                    <div class="text-center"><a target="_blank" href="https://divega.com/" class="btn btnWhite">READ MORE</a></div>
+                    <div class="text-center"><a target="_blank" href="https://divega.com/" class="btn btnBlue">READ MORE</a></div>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
                         <p>Social impact is no longer only an activity; it may even be used to develop a new business model.</p>
                         <p>While traditional auctions provide a chance to win for individuals with a lot of money, Divega allows people all over the world with the opportunity and dream of owning the property.</p>
                     </div>
-                    <div class="text-center mb-4"><a target="_blank" href="https://divega.com/" class="btn btnWhite">READ MORE</a></div>
+                    <div class="text-center mb-4"><a target="_blank" href="https://divega.com/" class="btn btnBlue">READ MORE</a></div>
                 </div>
                 <div class="col-md-8">
                     <img src="{{ asset('img/divega-inspritation.png') }}" alt="banner divega">
@@ -66,7 +66,7 @@
                         <p>Divega provides a wide array of worldwide networking opportunities.</p>
                         <p>It is the exclusive portal for some, the marvelous entrance for many others, and the ultimate gate for others through which they might reach and actively pursue the global social impact.</p>
                     </div>
-                    <div class="text-center"><a target="_blank" href="https://divega.com/" class="btn btnWhite">READ MORE</a></div>
+                    <div class="text-center"><a target="_blank" href="https://divega.com/" class="btn btnBlue">READ MORE</a></div>
                 </div>
             </div>
         </div>

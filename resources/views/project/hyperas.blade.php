@@ -31,7 +31,7 @@
                         <p>Our unified infrastructure helps solutions run on multiple platforms by enabling interoperability among them and making the implementation as straightforward as possible from the developer's perspective.</p>
                         <p>The founders of Hyperas Chain seek to cooperate with strategic partners, product developers, venture capital funds, investors, and global users, who lend their hands in developing this platform to bring real values to the global community fans that love blockchain technology and digital assets.</p>
                     </div>
-                    <div class="text-center"><a target="_blank" href="https://hyperaschain.com/" class="btn btnWhite">READ MORE</a></div>
+                    <div class="text-center"><a target="_blank" href="https://hyperaschain.com/" class="btn btnPurple">READ MORE</a></div>
 
                 </div>
         </div>
@@ -49,7 +49,7 @@
                         <p>Multiple blockchains compatible: EVM with trading pairs with ETH /BSC/MATIC/ FANTOM/TRON/ETC/POA/ XDAI </p>
                         <p>LOWEST gas fee in the market: 0.00001 $</p>
                     </div>
-                    <div class="text-center mb-3"><a target="_blank" href="https://hyperaschain.com/" class="btn btnWhite">READ MORE</a></div>
+                    <div class="text-center mb-3"><a target="_blank" href="https://hyperaschain.com/" class="btn btnPurple">READ MORE</a></div>
                 </div>
                 <div class="col-md-6">
                     <img src="{{ asset('img/project-inspriration.png') }}" alt="banner HYPERAS CHAIN">
@@ -73,7 +73,7 @@
                         <p>The Hyperas Chain logo represents stable structures, non-stop flows, non-stop motions, and decentralization, all while ensuring dependability and transparency.</p>
                         <p>Hyperas Chain built by Metaway Holdings is the "superior" of the digital ecosystem, demonstrating its capacity and stature as well as its commitment to achieving the corporation's goal of tokenizing real-world assets.</p>
                     </div>
-                    <div class="text-center"><a target="_blank" href="https://hyperaschain.com/" class="btn btnWhite">READ MORE</a></div>
+                    <div class="text-center"><a target="_blank" href="https://hyperaschain.com/" class="btn btnPurple">READ MORE</a></div>
 
                 </div>
             </div>

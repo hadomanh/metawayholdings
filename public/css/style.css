@@ -607,6 +607,42 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 }
 
 
+/* btnProject*/
+
+.btnPurple {
+    */ background: #fff;
+    border: 1px solid #464646;
+    color: #464646;
+}
+
+.btnPurple:hover {
+    border-color: #6A027D;
+    color: #6A027D;
+}
+
+.btnBlue {
+    */ background: #fff;
+    border: 1px solid #464646;
+    color: #464646;
+}
+
+.btnBlue:hover {
+    border-color: #35198A;
+    color: #35198A;
+}
+
+.btnPink {
+    */ background: #fff;
+    border: 1px solid #464646;
+    color: #464646;
+}
+
+.btnPink:hover {
+    border-color: #B81C78;
+    color: #B81C78;
+}
+
+
 /**
  * Circle Styles
  */
