@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('content')
 
-<div id="overviewPage">
+<div class="anypage" id="overviewPage">
 
     <!-- Banner -->
     <section class="p-0"><img src="{{ asset('img/overview-banner.png') }}" class="w-100"></section>
 
     <!-- ABOUT US -->
     <section class="bgWhite bgArrow">
-        <div class="container">
+        <div class="container" id="about-usAnimate">
 
             <h2 class="sectionHeading centered">ABOUT US</h2>
             <ul class="nav nav-pills nav-fill" id="pills-tab-1" role="tablist">
@@ -106,7 +106,7 @@
 
     <!-- CORE VALUES -->
     <section class="bgGrey bgArrow newsHighlights">
-        <div class="container">
+        <div class="container" id="core-valueAnimate">
             <h2 class="sectionHeading centered">CORE VALUES</h2>
             <div class="row">
                 <div class="col-md-4">
@@ -123,7 +123,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                        <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-2.png') }}" style="width: 60%;">
+                            <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-2.png') }}" style="width: 60%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Human First</h5>
@@ -134,7 +134,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                        <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-3.png') }}" style="width: 60%;">
+                            <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-3.png') }}" style="width: 60%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Technology</h5>
@@ -147,7 +147,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                        <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-4.png') }}" style="width: 60%;">
+                            <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-4.png') }}" style="width: 60%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">Digitalization</h5>
@@ -158,7 +158,7 @@
                 <div class="col-md-4">
                     <div class="card bgGrey">
                         <a href="#" class="col-auto text-center">
-                        <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-5.png') }}" style="width: 60%;">
+                            <img class="card-img-top grey-image" src="{{ asset('img/overview-core-value-5.png') }}" style="width: 60%;">
                         </a>
                         <div class="card-body col">
                             <h5 class="card-title text-center">HI, AI, BI Union</h5>
@@ -172,7 +172,7 @@
 
     <!-- MEMBER -->
     <section class="bgDark bgArrow">
-        <div class="container">
+        <div class="container" id="memberAnimate">
             <h2 class="sectionHeading centered text-white">MEMBERS</h2>
             <p class="text-center text-white">As a “Holding in Holding” model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.</p>
             <img src="{{ asset('img/banner-overview-member.jpg') }}" alt="">
@@ -181,7 +181,7 @@
 
     <!-- Our Executive Team -->
     <section class="bgGrey bgArrow newsHighlights">
-        <div class="container">
+        <div class="container" id="executiveAnimate">
 
             <h2 class="sectionHeading centered">OUR EXECUTIVE TEAM</h2>
             <p class="text-center">We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models. </p>
@@ -491,43 +491,42 @@
     </section>
 
     <!-- Our Partners -->
-    <section class="bgWhite bgArrow newsHighlights">
-        <div class="container">
-            <h2 class="sectionHeading centered">OUR PARTNERS</h2>
-            <p class="text-center">We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models. </p>
-            <div class="container">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-md-4 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-9.png') }}" style="max-height: 100px" class="grey-image">
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-10.png') }}" style="max-height: 100px" class="grey-image">
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-11.jpg') }}" style="max-height: 100px" class="grey-image">
-                    </div>
-                </div>
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-md-3 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-12.png') }}" style="max-height: 100px" class="grey-image">
-                    </div>
-                    <div class="col-md-3 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-13.png') }}" style="max-height: 100px" class="grey-image">
-                    </div>
-                    <div class="col-md-3 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-14.png') }}" style="max-height: 100px" class="grey-image">
-                    </div>
-                    <div class="col-md-3 d-flex justify-content-center mt-5">
-                        <img src="{{ asset('img/overview-partner-15.png') }}" style="max-height: 100px" class="grey-image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="partners bgWhite bgArrow">
+		<div class="container" id="partnerAnimate">
+			<h2 class="sectionHeading centered">OUR PARTNERS</h2>
+			<p class="fw-normal fs-6 text-center">We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models.</p>
+
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="col-md-4 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-9.png') }}" style="max-height: 100px" class="grey-image">
+				</div>
+				<div class="col-md-4 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-10.png') }}" style="max-height: 100px" class="grey-image">
+				</div>
+				<div class="col-md-4 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-11.jpg') }}" style="max-height: 100px" class="grey-image">
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="col-md-3 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-12.png') }}" style="max-height: 100px" class="grey-image">
+				</div>
+				<div class="col-md-3 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-13.png') }}" style="max-height: 100px" class="grey-image">
+				</div>
+				<div class="col-md-3 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-14.png') }}" style="max-height: 100px" class="grey-image">
+				</div>
+				<div class="col-md-3 d-flex justify-content-center mt-5">
+					<img src="{{ asset('img/overview-partner-15.png') }}" style="max-height: 100px" class="grey-image">
+				</div>
+			</div>
+		</div>
+	</section>
 
     <!-- Technology -->
     <section class="bgGrey newsHighlights">
-        <div class="container">
+        <div class="container" id="technologyAnimate">
             <h2 class="sectionHeading centered">TECHNOLOGY</h2>
             <p class="text-center">Metaway Holdings will fully participate in the research, application, and development of cutting-edge technologies, including the building of infrastructure technology structures, systems integration superstructures, and content layer creation.</p>
             <div class="row">
@@ -577,3 +576,37 @@
 
 </div>
 @endsection
+
+
+@push('script')
+
+<script>
+    window.addEventListener('scroll', () => {
+        if (isScrolledIntoView('#about-usAnimate')) {
+            document.querySelector('#about-usAnimate').classList.add('contact-animation')
+        }
+        if (isScrolledIntoView('#core-valueAnimate')) {
+            document.querySelector('#core-valueAnimate').classList.add('contact-animation')
+        }
+        if (isScrolledIntoView('#memberAnimate')) {
+            document.querySelector('#memberAnimate').classList.add('contact-animation')
+        }
+        if (isScrolledIntoView('#executiveAnimate')) {
+            document.querySelector('#executiveAnimate').classList.add('contact-animation')
+        }
+        if (isScrolledIntoView('#partnerAnimate')) {
+            document.querySelector('#partnerAnimate').classList.add('contact-animation')
+        }
+        if (isScrolledIntoView('#technologyAnimate')) {
+            document.querySelector('#technologyAnimate').classList.add('contact-animation')
+        }
+    })
+
+
+    function isScrolledIntoView(selector) {
+        const element = document.querySelector(selector)
+        return element.getBoundingClientRect().top < window.innerHeight
+    }
+</script>
+
+@endpush

@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="contactPage">
+<div class="anypage" id="contactPage">
     <!-- Banner -->
     <section class="p-0"><img src="{{ asset('img/banner-contact.jpg') }}" class="w-100"></section>
 
     <section class="contactForm">
-        <div class="container">
+        <div class="container" id="contactAnimate">
             <h2 class="sectionHeading"> CONTACT <span>METAWAY HOLDINGS</span></h2>
             <h5>How can we help you?</h5>
             <form action="">
@@ -45,3 +45,21 @@
     </section>
 </div>
 @endsection
+
+@push('script')
+
+<script>
+    window.addEventListener('scroll', () => {
+        if (isScrolledIntoView('#contactAnimate')) {
+            document.querySelector('#contactAnimate').classList.add('contact-animation')
+        }
+    })
+
+
+    function isScrolledIntoView(selector) {
+        const element = document.querySelector(selector)
+        return element.getBoundingClientRect().top < window.innerHeight
+    }
+</script>
+
+@endpush

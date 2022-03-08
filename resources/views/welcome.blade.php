@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div id="homepage">
 
 	<!-- Banner -->
@@ -25,7 +26,7 @@
 
 	<!-- ABOUT -->
 	<section class="about bgWhite bgArrow">
-		<div class="container">
+		<div class="container about-animation" id="aboutAnimate">
 			<h2 class="sectionHeading centered">ABOUT <span>METAWAY HOLDINGS</span></h2>
 			<div class="row">
 				<div class="col-lg-8 col-md-6">
@@ -49,7 +50,7 @@
 
 	<!-- Business Highlights -->
 	<section class="newsHighlights bgGrey bgArrow">
-		<div class="container">
+		<div class="container" id="businessAnimate">
 			<h2 class="sectionHeading centered">BUSINESS HIGHLIGHTS</h2>
 			<div class="text-center">
 				<p class="mb-2">Metaway Holdings specializes in Global Digitalization Investment and Large Needs Search, addressing consumer concerns as well as social impacts.</p>
@@ -92,7 +93,7 @@
 	</section>
 
 	<section class="newsHighlights bgWhite bgArrow">
-		<div class="container">
+		<div class="container" id="categoryAnimate">
 			<h2 class="sectionHeading centered">BUSINESS CATEGORY</h2>
 			<div class="text-center">
 				<p class="mb-2">The business of Metaway Holdings focuses on technology-related categories, especially financial technology, and blockchain-driven.</p>
@@ -135,7 +136,7 @@
 
 	<!-- PROJECTS -->
 	<section class="projects bgDark bgArrow">
-		<div class="container">
+		<div class="container" id="projectAnimate">
 			<h2 class="sectionHeading centered text-white">OUR PROJECTS</h2>
 			<div class="text-center text-white">
 				<p class="">Metaways Holdings focuses on market research, updating the latest trends. Leveraging a solid industry and financial background to develop and put into practice products & services related to Consumer Tech, Social Tech, Financial Tech, Crypto Real Estate, and development needs others. Each of our projects responds to and serves the key aspects and trends of the times.</p>
@@ -198,11 +199,10 @@
 
 	<!-- PARTNERS -->
 	<section class="partners bgWhite">
-		<div class="container">
+		<div class="container" id="partnerAnimate">
 			<h2 class="sectionHeading centered">OUR PARTNERS</h2>
 			<p class="fw-normal fs-6 text-center">We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models.</p>
-		</div>
-		<div class="container">
+
 			<div class="row d-flex justify-content-center align-items-center">
 				<div class="col-md-4 d-flex justify-content-center mt-5">
 					<img src="{{ asset('img/overview-partner-9.png') }}" style="max-height: 100px" class="grey-image">
@@ -231,40 +231,91 @@
 		</div>
 	</section>
 
-	<!-- Insider news -->
-	{{-- <section class="newsHighlights bgGray">
-		<div class="container">
-			<h2 class="sectionHeading">INSIDER NEWS</h2>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="card">
-						<a href="#" class="col-auto"><img class="card-img-top" src="img/Insider_news-one.png"></a>
-						<div class="card-body col">
-							<h5 class="card-title titleUnderline"><a href="#">News Lorem ipsum dolor amet</a></h5>
-							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="card">
-						<a href="#" class="col-auto"><img class="card-img-top" src="img/Insidernews-two.png"></a>
-						<div class="card-body col">
-							<h5 class="card-title titleUnderline"><a href="#">News Lorem ipsum dolor amet</a></h5>
-							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="card">
-						<a href="#" class="col-auto"><img class="card-img-top" src="img/Insidernews-three.png"></a>
-						<div class="card-body col">
-							<h5 class="card-title titleUnderline"><a href="#">News Lorem ipsum dolor amet</a></h5>
-							<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> --}}
 </div>
+
+
+
 @endsection
+
+@push('script')
+
+<!-- <script>
+	function handleAnimation(selector, target) {
+
+		let element = document.querySelector('#' + selector)
+		if (element) {
+			let {
+				scrollTop,
+				clientHeight,
+				scrollHeight
+			} = element
+			let {
+				top,
+				bottom
+			} = element.getBoundingClientRect()
+
+			let viewportHeight = window.innerHeight
+
+			let targetElement = document.querySelector('#' + target)
+
+			// Check if scrolled to bottom
+			if (scrollTop + clientHeight >= scrollHeight) {
+
+
+				targetElement.classList.remove('d-none')
+				targetElement.classList.add('contact-animation')
+			}
+
+			if (top >= 0 && bottom <= viewportHeight) {
+				targetElement.classList.remove('d-none')
+				targetElement.classList.add('contact-animation')
+			} else if (top < viewportHeight && bottom >= 0) {
+				targetElement.classList.remove('d-none')
+				targetElement.classList.add('contact-animation')
+			} else if (scrollTop + clientHeight >= scrollHeight) {
+				targetElement.classList.remove('d-none')
+				targetElement.classList.add('contact-animation')
+			}
+		}
+	}
+</script> -->
+
+<!-- <script>
+	window.addEventListener('scroll', function() {
+
+		handleAnimation('bannerAnimate', 'aboutAnimate')
+		handleAnimation('aboutAnimate', 'businessAnimate')
+		handleAnimation('businessAnimate', 'categoryAnimate')
+		handleAnimation('categoryAnimate', 'projectAnimate')
+		handleAnimation('projectAnimate', 'partnerAnimate')
+		// handleAnimation('partnerAnimate')
+
+	})
+</script> -->
+
+<script>
+	window.addEventListener('scroll', () => {
+		if (isScrolledIntoView('#aboutAnimate')) {
+			document.querySelector('#aboutAnimate').classList.add('contact-animation')
+		}
+		if (isScrolledIntoView('#businessAnimate')) {
+			document.querySelector('#businessAnimate').classList.add('contact-animation')
+		}
+		if (isScrolledIntoView('#categoryAnimate')) {
+			document.querySelector('#categoryAnimate').classList.add('contact-animation')
+		}
+		if (isScrolledIntoView('#projectAnimate')) {
+			document.querySelector('#projectAnimate').classList.add('contact-animation')
+		}
+		if (isScrolledIntoView('#partnerAnimate')) {
+			document.querySelector('#partnerAnimate').classList.add('contact-animation')
+		}
+	})
+
+
+	function isScrolledIntoView(selector) {
+		const element = document.querySelector(selector)
+		return element.getBoundingClientRect().top < window.innerHeight
+	}
+</script>
+@endpush
