@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('content')
 
-<div id="overviewPage">
+<div class="anypage" id="overviewPage">
 
     <!-- Banner -->
     <section class="p-0"><img src="{{ asset('img/business-banner.png') }}" class="w-100"></section>
 
     <!-- BUSINESS CATEGORY -->
     <section class="newsHighlights bgWhite bgArrow">
-		<div class="container">
+		<div class="container" id="businessAnimate">
 			<h2 class="sectionHeading centered">BUSINESS CATEGORY</h2>
 			<div class="text-center">
 				<p class="mb-2">The business of Metaway Holdings focuses on technology-related categories, especially financial technology and blockchain driven.</p>
@@ -116,7 +116,7 @@
 
     <!-- CORE VALUES -->
     <section class="bgGrey bgArrow newsHighlights">
-        <div class="container">
+        <div class="container" id="core-valueAnimate">
             <h2 class="sectionHeading centered">BUSINESS MODEL</h2>
             <div class="text-center">
                 <p>The business model of Metaway Holdings is developed in a digital environment by utilizing technology and financial mechanisms, as well as intellectual capabilities, to innovate and generate new ideas and solutions in existing markets.</p>
@@ -145,7 +145,7 @@
 
     <!-- ECOSYSTEM -->
     <section class="bgDark bgArrow">
-        <div class="container">
+        <div class="container" id="ecosystemAnimate">
             <h2 class="sectionHeading centered text-white">ECOSYSTEM</h2>
             <p class="text-center text-white">Metayway Holdings has built the pioneering and the most advanced digital ecosystem. We develop self-contained and growing ecosystems to fulfill the ever-increasing demands of our global consumers.</p>
             <p class="text-center text-white">The digital ecosystem of Metaway Holdings will feature Hyperas Chain, a specialized platform for coding assets, Pindias, a transaction management platform for digital asset logs, Divega, an auction e-commerce platform, and Rapital Bank, a digital banking service available at any time.</p>
@@ -155,7 +155,7 @@
 
     <!-- PRODUCT / SERVICE -->
     <section class="bgGrey newsHighlights pb-5">
-        <div class="container">
+        <div class="container" id="productAnimate">
 
             <h2 class="sectionHeading centered">PRODUCTS / SERVICES</h2>
             <p class="text-center">Metaway Holdings' goods and services revolve around answering the essential needs of global consumers on digital platforms, thanks to a self-contained digital ecosystem.</p>
@@ -211,3 +211,30 @@
 
 </div>
 @endsection
+
+@push('script')
+
+<script>
+    window.addEventListener('scroll', () => {
+        if (isScrolledIntoView('#businessAnimate')) {
+            document.querySelector('#businessAnimate').classList.add('contact-animation')
+        }
+        if (isScrolledIntoView('#core-valueAnimate')) {
+            document.querySelector('#core-valueAnimate').classList.add('contact-animation')
+        }
+        if (isScrolledIntoView('#ecosystemAnimate')) {
+            document.querySelector('#ecosystemAnimate').classList.add('contact-animation')
+        }
+        if (isScrolledIntoView('#productAnimate')) {
+            document.querySelector('#productAnimate').classList.add('contact-animation')
+        }
+    })
+
+
+    function isScrolledIntoView(selector) {
+        const element = document.querySelector(selector)
+        return element.getBoundingClientRect().top < window.innerHeight
+    }
+</script>
+
+@endpush

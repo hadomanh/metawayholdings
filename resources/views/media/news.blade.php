@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="mediaPage">
+<div class="anypage" id="mediaPage">
     <!-- Banner -->
     <section class="p-0"><img src="{{ asset('img/media-news-banner.png') }}" class="w-100"></section>
 
     <!-- PRESS RELEASE METAWAY HOLDINGS -->
     <section class="bgGrey newsHighlights">
-        <div class="container">
+        <div class="container" id="pressAnimate">
             <h2 class="sectionHeading centered">MEDIA NEWS</span></h2>
             <div class="row">
 
@@ -32,3 +32,21 @@
     </section>
 </div>
 @endsection
+
+@push('script')
+
+<script>
+    window.addEventListener('scroll', () => {
+        if (isScrolledIntoView('#pressAnimate')) {
+            document.querySelector('#pressAnimate').classList.add('contact-animation')
+        }
+    })
+
+
+    function isScrolledIntoView(selector) {
+        const element = document.querySelector(selector)
+        return element.getBoundingClientRect().top < window.innerHeight
+    }
+</script>
+
+@endpush
