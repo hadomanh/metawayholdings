@@ -55,6 +55,7 @@
                     <img src="{{ asset('img/pindias-inspritation.png') }}" alt="banner PINDIAS">
                 </div>
             </div>
+
     </section>
 
     <!-- Brand Story -->
@@ -63,6 +64,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <img src="{{ asset('img/pindias-brand-story.png') }}" alt="PINDIAS overview">
+
                 </div>
                 <div class="col-md-4">
                     <h2 class="titleUnderline textWhite">BRAND STORY</h2>

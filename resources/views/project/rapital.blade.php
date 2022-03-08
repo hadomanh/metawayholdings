@@ -56,6 +56,7 @@
             </div>
     </section>
 
+
     <!-- Brand Story -->
     <section class="bgDark bgArrow">
         <div class="container" id="brandAnimate">
@@ -72,6 +73,7 @@
                         <p>Rapital's services every day bring small but endless joys and have a style and personality that not only assures safety and reliability, but also commits to bringing prosperity and a sustainable source of joy.</p>
                     </div>
                     <div class="text-center"><a target="_blank" href="https://www.rapitalbank.com/" class="btn btnWhite">READ MORE</a></div>
+
                 </div>
             </div>
         </div>

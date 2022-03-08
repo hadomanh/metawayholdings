@@ -13,12 +13,24 @@
         </div>
     </section>
 
-    <!-- Overview -->
-    <section class="bgWhite bgArrow">
-        <div class="container" id="overviewAnimate">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="{{ asset('img/project-overview.png') }}" alt="HYPERAS CHAIN overview">
+
+<!-- Overview -->
+<section class="bgWhite bgArrow">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{{ asset('img/project-overview.png') }}" alt="HYPERAS CHAIN overview">
+            </div>
+            <div class="col-md-6">
+                <h2 class="titleUnderline">OVERVIEW</h2>
+                <div class="text-justufy">
+                    <p>Hyperas Chain (Hyra coin) is created by HYPERAS TECHNOLOGIES INC. </p>
+                    <p>Hyperas chain is a blockchain infrastructure that helps connect other blockchains.</p>
+                    <p>With our non-invasive cross-chain technology Hyperas chain operates as a data conduit, allowing cross-chain communications between public and private protocols. </p>
+                    <p>Hyperas chain can transfer both assets and data without requiring any change on participating blockchains.</p>
+                    <p>Our unified infrastructure helps solutions run on multiple platforms by enabling interoperability among them and making the implementation as straightforward as possible from the developer's perspective.</p>
+                    <p>The founders of Hyperas Chain seek to cooperate with strategic partners, product developers, venture capital funds, investors, and global users, who lend their hands in developing this platform to bring real values to the global community fans that love blockchain technology and digital assets.</p>
+
                 </div>
                 <div class="col-md-6">
                     <h2 class="titleUnderline">OVERVIEW</h2>
@@ -57,6 +69,7 @@
             </div>
     </section>
 
+
     <!-- Brand Story -->
     <section class="bgDark bgArrow">
         <div class="container" id="brandAnimate">
@@ -73,6 +86,7 @@
                         <p>Hyperas Chain built by Metaway Holdings is the "superior" of the digital ecosystem, demonstrating its capacity and stature as well as its commitment to achieving the corporation's goal of tokenizing real-world assets.</p>
                     </div>
                     <div class="text-center"><a target="_blank" href="https://hyperaschain.com/" class="btn btnWhite">READ MORE</a></div>
+
                 </div>
             </div>
         </div>

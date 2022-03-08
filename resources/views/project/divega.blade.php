@@ -47,6 +47,7 @@
                     <img src="{{ asset('img/divega-inspritation.png') }}" alt="banner divega">
                 </div>
             </div>
+
     </section>
 
     <!-- Brand Story -->
