@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="mediaPage">
+<div class="anypage" id="mediaPage">
     <!-- Banner -->
     <section class="p-0"><img src="{{ asset('img/investor-anual-banner.png') }}" class="w-100"></section>
 
     <!-- INTERNAL REPORTS -->
     <section class="bgWhite">
-        <div class="container">
+        <div class="container" id="internalAnimate">
             <h2 class="sectionHeading centered">ANNUAL FINANCE REPORTS</h2>
             <div class="row listFile">
                 <div class="col-md-3 col-6">
@@ -87,3 +87,21 @@
     </section>
 </div>
 @endsection
+
+@push('script')
+
+<script>
+    window.addEventListener('scroll', () => {
+        if (isScrolledIntoView('#internalAnimate')) {
+            document.querySelector('#internalAnimate').classList.add('contact-animation')
+        }
+    })
+
+
+    function isScrolledIntoView(selector) {
+        const element = document.querySelector(selector)
+        return element.getBoundingClientRect().top < window.innerHeight
+    }
+</script>
+
+@endpush
