@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div id="homepage">
+<div class="anypage" id="homepage">
 
 	<!-- Banner -->
 	<section class="banner p-0">
