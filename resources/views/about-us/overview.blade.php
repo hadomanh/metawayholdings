@@ -445,21 +445,6 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/ct-2.png') }})"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="name text-center">Brand Director</h5>
-                                    <h5 class="name text-center">Ms. Tracy Vu</h5>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-4 col-md-6">
-                            <div class="item">
-                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
-                                    <div class="circle">
-                                        <div class="circle__inner">
-                                            <div class="circle__wrapper">
                                                 <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/ct-3.png') }})"></div>
                                             </div>
                                         </div>
