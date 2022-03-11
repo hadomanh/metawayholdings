@@ -193,9 +193,6 @@
                     <button class="nav-link" id="pills-governing-tab" data-bs-toggle="pill" data-bs-target="#pills-governing" type="button" role="tab" aria-controls="pills-governing" aria-selected="false">Advisors</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-staff-tab" data-bs-toggle="pill" data-bs-target="#pills-staff" type="button" role="tab" aria-controls="pills-staff" aria-selected="false">Techical steering commitee</button>
-                </li>
-                <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-asia-tab" data-bs-toggle="pill" data-bs-target="#pills-asia" type="button" role="tab" aria-controls="pills-asia" aria-selected="false">Core team</button>
                 </li>
             </ul>
@@ -208,7 +205,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/bom-1.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/TranNamChung-Chairman.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -223,7 +220,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/bom-2.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/Henry-ViceChairman.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -238,22 +235,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/bom-3.png') }})"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="name text-center">Member of BOM</h5>
-                                    <h5 class="name text-center">Mr. Dau Minh Nhat</h5>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-4 col-md-6">
-                            <div class="item">
-                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
-                                    <div class="circle">
-                                        <div class="circle__inner">
-                                            <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/bom-4.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/HoangQuocTuan-MemberofBOM.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -268,12 +250,42 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/bom-5.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/VuThiTuyetThanh-MemberofBOM.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Member of BOM</h5>
                                     <h5 class="name text-center">Ms. Vu Thi Tuyet Thanh</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/NguyenThanhLong-MemberofBOMCEO.png') }})"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Member of BOM,CEO</h5>
+                                    <h5 class="name text-center">Nguyen Thanh Long</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/TranQuangTrung-MemberofBOM.png') }})"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Member of BOM</h5>
+                                    <h5 class="name text-center">Tran Quang Trung</h5>
                                 </a>
                             </div>
                         </div>
@@ -353,55 +365,6 @@
                                     </div>
                                     <h5 class="name text-center">Chief Operating Officer PHI Group Operation Advisor</h5>
                                     <h5 class="name text-center">Mr. Tam T. Bui</h5>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-4 col-md-6">
-                            <div class="item">
-                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
-                                    <div class="circle">
-                                        <div class="circle__inner">
-                                            <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-6.png') }})"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="name text-center">Technology Advisor</h5>
-                                    <h5 class="name text-center">Mr. Guido K</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-staff" role="tabpanel" aria-labelledby="pills-staff-tab">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-xl-2 col-lg-4 col-md-6">
-                            <div class="item">
-                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
-                                    <div class="circle">
-                                        <div class="circle__inner">
-                                            <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/tsc-1.png') }})"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="name text-center">CTO Blockchain</h5>
-                                    <h5 class="name text-center">Mr. Bui Dinh Ngoc</h5>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-4 col-md-6">
-                            <div class="item">
-                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
-                                    <div class="circle">
-                                        <div class="circle__inner">
-                                            <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/tsc-2.png') }})"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="name text-center">CTO</h5>
-                                    <h5 class="name text-center">Mr. Francesco D</h5>
                                 </a>
                             </div>
                         </div>
