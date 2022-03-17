@@ -103,9 +103,9 @@
 				<div class="col-md-4">
 					<div class="card">
 						<a href="#" class="col-auto"><img class="card-img-top" src="{{ asset('img/home-category-1.png') }}"></a>
-						<div class="card-body col">
+						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline"><a href="#">Consumer Tech</a></h5>
-							<p class="card-text" style="height: 100px; overflow-y: scroll;">With the rapid advancement of technology, essential human desires have grown to include the evolving needs of tech-driven consumption, and Metaway Holdings' commercial growth aim is to improve living standards with powerful technology.</p>
+							<p class="card-text flex-grow-1">With the rapid advancement of technology, essential human desires have grown to include the evolving needs of tech-driven consumption, and Metaway Holdings' commercial growth aim is to improve living standards with powerful technology.</p>
 							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
@@ -113,9 +113,9 @@
 				<div class="col-md-4">
 					<div class="card">
 						<a href="#" class="col-auto"><img class="card-img-top" src="{{ asset('img/home-category-2.png') }}"></a>
-						<div class="card-body col">
+						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline"><a href="#">Social Tech</a></h5>
-							<p class="card-text" style="height: 100px; overflow-y: scroll;">Our endeavor is to be pioneering and continuously innovating in technology but our ultimate mission is to create human-oriented technology and product development goals towards social impact, creating great value for people.</p>
+							<p class="card-text flex-grow-1">Our endeavor is to be pioneering and continuously innovating in technology but our ultimate mission is to create human-oriented technology and product development goals towards social impact, creating great value for people.</p>
 							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
@@ -123,9 +123,9 @@
 				<div class="col-md-4">
 					<div class="card">
 						<a href="#" class="col-auto"><img class="card-img-top" src="{{ asset('img/home-category-3.png') }}"></a>
-						<div class="card-body col">
+						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline"><a href="#">BaaS</a></h5>
-							<p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Holdings is a global network of the most talented blockchain developers, engineers and consultants. We have a roadmap for developing our own ecosystem of blockchain related goods and services targeting government regulators, digitized global businesses, and the management of blockchain-driven assets such as securities, real estate, etc.</p>
+							<p class="card-text flex-grow-1">Metaway Holdings is a global network of the most talented blockchain developers, engineers and consultants. We have a roadmap for developing our own ecosystem of blockchain related goods and services targeting government regulators, digitized global businesses, and the management of blockchain-driven assets such as securities, real estate, etc.</p>
 							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
@@ -135,7 +135,7 @@
 	</section>
 
 	<!-- PROJECTS -->
-	<section class="projects bgDark bgArrow">
+	<section class="newsHighlights projects bgDark bgArrow">
 		<div class="container" id="projectAnimate">
 			<h2 class="sectionHeading centered text-white">OUR PROJECTS</h2>
 			<div class="text-center text-white">
@@ -146,9 +146,9 @@
 				<div class="col-md-3">
 					<div class="card">
 						<a href="#"><img class="card-img-top" src="img/project-1.png"></a>
-						<div class="card-body">
+						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline">Hyperas Chain</h5>
-							<p class="card-text" style="height: 120px; overflow-y: scroll;">Hyperas Chain is a blockchain infrastructure that connects other blockchains with the noble mission of providing super security, super privacy, and super efficiency.</p>
+							<p class="card-text flex-grow-1">Hyperas Chain is a blockchain infrastructure that connects other blockchains with the noble mission of providing super security, super privacy, and super efficiency.</p>
 							<div class="text-center"><a target="_blank" href="https://hyperaschain.com/" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
@@ -156,9 +156,9 @@
 				<div class="col-md-3">
 					<div class="card">
 						<img class="card-img-top" src="img/project-3.png">
-						<div class="card-body">
+						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline">Divega</h5>
-							<p class="card-text" style="height: 120px; overflow-y: scroll;">E-Auction is an effective ecommerce system that allows bidders and sellers to interact through online platforms with the world's first reverse auction method.</p>
+							<p class="card-text flex-grow-1">E-Auction is an effective ecommerce system that allows bidders and sellers to interact through online platforms with the world's first reverse auction method.</p>
 							<div class="text-center"><a target="_blank" href="https://divega.com/" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
@@ -166,9 +166,9 @@
 				<div class="col-md-3">
 					<div class="card">
 						<img class="card-img-top" src="img/project-2.png">
-						<div class="card-body">
+						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline">Pindias</h5>
-							<p class="card-text" style="height: 120px; overflow-y: scroll;">Pindias' goal is to become a leading platform, top of mind brand for digital asset management.</p>
+							<p class="card-text flex-grow-1">Pindias' goal is to become a leading platform, top of mind brand for digital asset management.</p>
 							<div class="text-center"><a target="_blank" href="https://www.pindias.com/" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
@@ -176,9 +176,9 @@
 				<div class="col-md-3">
 					<div class="card">
 						<img class="card-img-top" src="img/project-4.png">
-						<div class="card-body">
+						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline">Rapital Bank</h5>
-							<p class="card-text" style="height: 120px; overflow-y: scroll;"> It provides the foundation for digital transformation, the capabilities for exceptional omni-channel experiences, and the technology to leverage open banking at its best. </p>
+							<p class="card-text flex-grow-1"> It provides the foundation for digital transformation, the capabilities for exceptional omni-channel experiences, and the technology to leverage open banking at its best. </p>
 							<div class="text-center"><a target="_blank" href="https://www.rapitalbank.com/" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
@@ -194,6 +194,10 @@
 					</div>
 				</div> --}}
 			</div>
+			
+			
+			
+
 		</div>
 	</section>
 
