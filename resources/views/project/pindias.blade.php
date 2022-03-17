@@ -31,7 +31,7 @@
                         <li>Tokenize decentralized assets using digital NFTs.</li>
                         <li>Discover and experience properties from all around the world in one site.</li>
                     </ul>
-                    <div class="text-center"><a target="_blank" href="https://www.pindias.com/" class="btn btnWhite">READ MORE</a></div>
+                    <div class="text-center"><a target="_blank" href="https://www.pindias.com/" class="btn btnPurple">READ MORE</a></div>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                         <li>Ensure transaction transparency.</li>
                         <li>Meet and assure a huge need for decentralized asset ownership.</li>
                     </ul>
-                    <div class="text-center mb-4"><a target="_blank" href="https://www.pindias.com/" class="btn btnWhite">READ MORE</a></div>
+                    <div class="text-center mb-4"><a target="_blank" href="https://www.pindias.com/" class="btn btnPurple">READ MORE</a></div>
                 </div>
                 <div class="col-lg-8">
                     <img src="{{ asset('img/pindias-inspritation.png') }}" alt="banner PINDIAS">
@@ -76,7 +76,7 @@
                             Pindias is dedicated not only to assisting users in finding any type of property anywhere, but also to following each user in every “moment” so that every life is worthy of making history.</p>
                     </div>
 
-                    <div class="text-center"><a target="_blank" href="https://www.pindias.com/" class="btn btnWhite">READ MORE</a></div>
+                    <div class="text-center"><a target="_blank" href="https://www.pindias.com/" class="btn btnPurple">READ MORE</a></div>
                 </div>
             </div>
         </div>
