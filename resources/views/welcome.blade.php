@@ -60,9 +60,9 @@
 				<div class="col-md-4">
 					<div class="card">
 						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-reliable.png"></a>
-						<div class="card-body col">
+						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline"><a href="#">Vision</a></h5>
-							<p class="card-text" style="height: 80px; overflow-y: scroll;">We aim to be the gigantic player in global business for mutual prosperity and set a goal IPO target of US$300 billion by 2027. </p>
+							<p class="card-text flex-grow-1">We aim to be the gigantic player in global business for mutual prosperity and set a goal IPO target of US$300 billion by 2027. </p>
 
 							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
@@ -71,9 +71,9 @@
 				<div class="col-md-4">
 					<div class="card">
 						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-companion.png"></a>
-						<div class="card-body col">
+						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline"><a href="#">Mission</a></h5>
-							<p class="card-text" style="height: 80px; overflow-y: scroll;">Pioneering technological innovation and knowledge, our goal is to make use of technology for delivering significant values and positive impacts on society and the globe.</p>
+							<p class="card-text flex-grow-1">Pioneering technological innovation and knowledge, our goal is to make use of technology for delivering significant values and positive impacts on society and the globe.</p>
 							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
@@ -81,9 +81,9 @@
 				<div class="col-md-4">
 					<div class="card">
 						<a href="#" class="col-auto"><img class="card-img-top" src="img/homepage-commitment.png"></a>
-						<div class="card-body col">
+						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline"><a href="#">Core Values</a></h5>
-							<p class="card-text" style="height: 80px; overflow-y: scroll;">Our positioning is global, digital, but our core values are centered on people and the unifying of intelligence including human intelligence, artificial intelligence, and business intelligence.</p>
+							<p class="card-text flex-grow-1">Our positioning is global, digital, but our core values are centered on people and the unifying of intelligence including human intelligence, artificial intelligence, and business intelligence.</p>
 							<div class="text-center"><a target="_blank" href="{{ route('about-us.overview') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
