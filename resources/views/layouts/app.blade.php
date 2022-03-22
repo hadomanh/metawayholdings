@@ -2,16 +2,6 @@
 <html lang="en">
 
 <head>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KMYZR7Z5G3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-KMYZR7Z5G3');
-    </script>
 	
 	<meta charset="utf-8">
 	<!-- Main Tag -->
@@ -49,6 +39,17 @@
 
 	<!-- Header -->
 	<header>
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KMYZR7Z5G3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-KMYZR7Z5G3');
+        </script>
+    
 		<div class="top">METAWAY Holdings Roadmap 2022-2027 IPO $300 billion</div>
 		<nav class="navbar navbar-expand-lg bg-light">
 			<a href="{{ route('home') }}" class="navbar-brand">
