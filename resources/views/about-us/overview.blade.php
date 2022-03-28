@@ -299,7 +299,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-1.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/TranQuangTrung-MemberofBOM.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -314,7 +314,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-2.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/SteveTruong-Advisor.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -329,7 +329,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-3.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/FrankNHawkinAdvisor.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -344,7 +344,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-4.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/MichaelBennetAdvisor.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -359,7 +359,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-5.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/TamT.BuiAdvisor.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -374,7 +374,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/advisor-6.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/GuikoKAdvisor.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -393,7 +393,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/ct-1.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/AndyVu-CMO.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -408,7 +408,7 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/ct-3.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/AnnaNguyen-BusinessPartnershipDirector.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -423,12 +423,87 @@
                                     <div class="circle">
                                         <div class="circle__inner">
                                             <div class="circle__wrapper">
-                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/ct-4.png') }})"></div>
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/BuiDinhNgocCTO.png') }})"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">CTO</h5>
+                                    <h5 class="name text-center">Bui Dinh Ngoc</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/FrancescoCTO.png') }})"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">CTO</h5>
+                                    <h5 class="name text-center">Francesco</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/GuikoKAdvisor.png') }})"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Technology Advisor</h5>
+                                    <h5 class="name text-center">GuikoK</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/LeVanDuong-LegalDirector.png') }})"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <h5 class="name text-center">Legal Director</h5>
                                     <h5 class="name text-center">Mr. Le Van Duong</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/NguyenNgocHoa-CHRO.png') }})"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">CHRO</h5>
+                                    <h5 class="name text-center">Nguyen Ngoc Hoa</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="item">
+                                <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
+                                    <div class="circle">
+                                        <div class="circle__inner">
+                                            <div class="circle__wrapper">
+                                                <div class="circle__content grey-image" style="background-size: cover; background-image: url({{ asset('img/NguyenThanhLong-MemberofBOMCEO.png') }})"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="name text-center">Member of BOM,CEO</h5>
+                                    <h5 class="name text-center">NguyenThanhLong</h5>
                                 </a>
                             </div>
                         </div>
